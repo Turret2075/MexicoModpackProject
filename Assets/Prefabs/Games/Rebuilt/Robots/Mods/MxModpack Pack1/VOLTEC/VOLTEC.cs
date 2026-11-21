@@ -3,73 +3,473 @@ using Games.Rebuilt.Robots;
 using MoSimLib;
 using RobotFramework.Components;
 using RobotFramework.Controllers.PidSystems;
+using RobotFramework.Enums;
 using UnityEngine;
 
 public class VOLTEC : RebuiltRobotBase
 {
-    // Joints and rollers: add serialized GenericJoint / RollerGroup references here.
+    [Header("Joints")]
+    [SerializeField] private GenericJoint hopperJoint;
+    [SerializeField] private GenericJoint intakePivot;
+    [SerializeField] private GenericJoint hoodPivot;
 
-    // PIDs: add serialized PidConstants here.
+    [Header("Rollers")]
+    [Tooltip("Single roller.")]
+    [SerializeField] private RollerGroup shooterRollers;
+    [Tooltip("Single roller. Spins opposite to the shooter (set 'flipped' in the prefab).")]
+    [SerializeField] private RollerGroup hoodRollers;
+    [Tooltip("Group of rollers.")]
+    [SerializeField] private RollerGroup floorRollers;
+    [Tooltip("Single roller (transfer). Fuel rests on colliders above it.")]
+    [SerializeField] private RollerGroup uptakeRollers;
+    [Tooltip("Two rollers spinning in the same direction.")]
+    [SerializeField] private RollerGroup intakeRollers;
 
-    // Interpolations: add serialized RebuiltInterpolation references here.
+    [Header("PIDS")]
+    [SerializeField] private PidConstants hopperPidConstants;
+    [SerializeField] private PidConstants intakePidConstants;
+    [SerializeField] private PidConstants intakeBringupPid;
+    [SerializeField] private PidConstants hoodPidConstants;
+    [SerializeField] private PidConstants hoodShootingPidConstants;
 
-    // Mechanism values: add serialized angles, distances, and speeds here.
+    [Header("Alliance Zone Interpolation (same assets as ReBlitz)")]
+    [SerializeField] private RebuiltInterpolation allianceZoneFlywheelInterpolation;
+    [SerializeField] private RebuiltInterpolation allianceZoneHoodInterpolation;
 
-    // Runtime state: add target positions, toggles, and the auto-aim controller here.
+    [Header("Pass Zone Interpolation (same assets as ReBlitz)")]
+    [SerializeField] private RebuiltInterpolation passZoneFlywheelInterpolation;
+    [SerializeField] private RebuiltInterpolation passZoneHoodInterpolation;
+
+    [Header("Hopper Values (Jack-style: extends once and never returns)")]
+    [SerializeField] private JointAxis hopperAxis = JointAxis.Z;
+    [SerializeField] private float hopperExtendedInches = -12f;
+    [SerializeField] private float hopperLockPositionMeters = -0.299f;
+
+    [Header("Intake Values")]
+    [Tooltip("Intake pivot X angle when deployed. X = 0 is down.")]
+    [SerializeField] private float intakeDeployedAngle = 0f;
+    [Tooltip("Intake pivot X angle when retracted. Tune on the prefab.")]
+    [SerializeField] private float intakeStowAngle = 90f;
+    [SerializeField] private float intakeRpm = 2000f;
+
+    [Header("Intake Bringup (pivots while shooting)")]
+    [SerializeField] private float intakeBringupAngle = -40f;
+    [SerializeField, Min(0f)] private float intakeBringupDelay = 0.15f;
+
+    [Header("Shooter Values")]
+    [SerializeField] private float uptakeRpm = 2000f;
+    [SerializeField] private float floorRpm = 2000f;
+    [Tooltip("Maximum auto-aim yaw error in degrees before feed rollers are allowed to run.")]
+    [SerializeField] private float aimTolerance = 2f;
+    [Tooltip("Maximum hood pivot angle error in degrees before feed rollers are allowed to run.")]
+    [SerializeField, Min(0f)] private float hoodAngleTolerance = 0.5f;
+    [SerializeField, Min(0f)] private float hoodAngleLockTolerance = 0.1f;
+    [Tooltip("How long all shot readiness checks must remain true before feeding.")]
+    [SerializeField, Min(0f)] private float feedReadyDebounceTime = 0.06f;
+    [Tooltip("Hood only travels from 0 to 40 degrees.")]
+    [SerializeField] private Vector2 hoodAngleLimits = new(0f, 40f);
+    [SerializeField] private float manualShotRpm = 2000f;
+    [SerializeField] private float manualHoodAngle = 25f;
+    [SerializeField, Min(0.01f)] private float hoodRpmReduction = 1.5f;
+
+    [Header("Feed Cadence (slower than Citrus)")]
+    [Tooltip("Seconds between the start of each feed pulse while aligned.")]
+    [SerializeField, Min(0.01f)] private float shotInterval = 0.5f;
+    [Tooltip("Seconds the uptake and floor run in each pulse.")]
+    [SerializeField, Min(0.01f)] private float feedPulseTime = 0.15f;
+
+    [Header("Trench Avoidance")]
+    [SerializeField] private Transform[] shooterCorners;
+
+    [Header("Shoot On The Move")]
+    [SerializeField] private SOTMSettings sotmSettings;
+
+    [Header("Debug")]
+    [SerializeField] private float aimErrorDebug;
+    [SerializeField] private bool alignedToShootDebug;
+
+    private float targetIntakeAngle;
+    private float targetHoodAngle;
+    private bool intakeDeployed;
+    private float intakeBringupDelayTimer;
+    private bool shooterReadyLatched;
+    private float feedReadyTimer;
+    private float feedCadenceTimer;
+    private bool _hopperLocked;
+    private bool _wantsShooting;
+    private RebuiltAutoAimController aim;
+    private Rigidbody robotRigidbody;
 
     protected override void Init()
     {
-        // TODO: Set initial PIDs, targets, and toggles; initialize interpolation maps.
+        hopperJoint.SetPid(hopperPidConstants);
+        intakePivot.SetPid(intakePidConstants);
+        hoodPivot.SetPid(hoodPidConstants);
 
-        Scheduler.AddSubsystems(Intake, Hopper, Shooter, HandleAutoAim, Climber);
-        Scheduler.AddProtectedSystem(UpdateJoints);
+        allianceZoneFlywheelInterpolation.Initialize(this);
+        allianceZoneHoodInterpolation.Initialize(this);
+        passZoneFlywheelInterpolation.Initialize(this);
+        passZoneHoodInterpolation.Initialize(this);
+
+        targetIntakeAngle = intakeStowAngle;
+        targetHoodAngle = 0f;
+        intakeDeployed = false;
+        _hopperLocked = false;
+        _wantsShooting = false;
+
+        if (!TryGetComponent(out aim))
+        {
+            Debug.LogError($"{nameof(VOLTEC)} requires a {nameof(RebuiltAutoAimController)}.", this);
+        }
+
+        robotRigidbody = GetComponent<Rigidbody>();
+
+        Scheduler.AddSubsystems(HandleAutoAim, Shooter, Intake);
+        Scheduler.AddProtectedSystem(UpdateJoints, UpdateDriveSpeed, Hopper);
         Scheduler.AddLateRecursive(UpdatePids);
     }
 
     private void UpdatePids()
     {
-        // TODO: Update each joint's PID constants for live tuning.
+        intakePivot.UpdatePid(IsIntakeBringupActive() ? intakeBringupPid : intakePidConstants);
+        hoodPivot.UpdatePid(WantsToShoot() && HoodAtAngle() ? hoodShootingPidConstants : hoodPidConstants);
+        hopperJoint.UpdatePid(hopperPidConstants);
     }
 
-    private void Climber()
-    {
-        // TODO: Read ClimbAction and choose the climber target.
-    }
-
+    // Special 1: manual intake retract. Special 2: outtake (reverses uptake, floor and intake rollers).
     private void Intake()
     {
-        // TODO: Read IntakeAction / StowAction and control deployment and rollers.
-        // Call WobbleIntake() here if the mechanism supports it.
+        if (RobotSpecial)
+        {
+            intakeDeployed = false;
+        }
+        else if (IntakeAction)
+        {
+            intakeDeployed = true;
+        }
+
+        if (!intakeDeployed)
+        {
+            ResetBringup();
+            targetIntakeAngle = intakeStowAngle;
+            intakeRollers.SetRpm(0f);
+        }
+        else if (WantsToShoot())
+        {
+            UpdateShotBringup();
+            intakeRollers.SetRpm(intakeRpm);
+        }
+        else
+        {
+            ResetBringup();
+            targetIntakeAngle = intakeDeployedAngle;
+            intakeRollers.SetRpm(IntakeAction ? intakeRpm : intakeRpm / 5f);
+        }
+
+        if (RobotSpecial2)
+        {
+            intakeRollers.SetRpm(-intakeRpm);
+        }
     }
 
+    private void UpdateShotBringup()
+    {
+        if (shooterRollers.AtSpeed() && (ManualShoot || hoodRollers.AtSpeed()))
+        {
+            shooterReadyLatched = true;
+        }
+
+        if (shooterReadyLatched && !IntakeAction)
+        {
+            intakeBringupDelayTimer += Time.fixedDeltaTime;
+        }
+        else if (IntakeAction)
+        {
+            intakeBringupDelayTimer = 0f;
+        }
+
+        targetIntakeAngle = intakeBringupDelayTimer >= intakeBringupDelay
+            ? intakeBringupAngle
+            : intakeDeployedAngle;
+    }
+
+    private void ResetBringup()
+    {
+        intakeBringupDelayTimer = 0f;
+        shooterReadyLatched = false;
+    }
+
+    private bool IsIntakeBringupActive()
+    {
+        return WantsToShoot() && intakeDeployed && intakeBringupDelayTimer >= intakeBringupDelay;
+    }
+
+    // Jack-style hopper: extends once the intake is deployed and locks there permanently.
     private void Hopper()
     {
-        // TODO: Choose the hopper target and indexer behavior.
+        if (_hopperLocked || !intakeDeployed)
+        {
+            return;
+        }
+
+        hopperJoint.SetLinearTarget(hopperExtendedInches).withAxis(hopperAxis);
+
+        if (hopperJoint.GetAxisLocation(hopperAxis) < hopperLockPositionMeters)
+        {
+            hopperJoint.lockAllAxis();
+            _hopperLocked = true;
+        }
     }
 
     private void HandleAutoAim()
     {
-        // TODO: Select hub / pass targeting and request auto-aim.
+        if (aim == null)
+        {
+            return;
+        }
+
+        if (OuttakeAction && InAllianceZone())
+        {
+            aim.SetDefaultMap(DefaultMap.Hub);
+            aim.SetCustomTarget(GetTimeOfFlightTarget(aim.GetCurrentTarget()));
+            aim.Aim();
+        }
+        else if (IsPassShot())
+        {
+            aim.SetPassMapClosest();
+            aim.SetCustomTarget(GetTimeOfFlightTarget(aim.GetCurrentTarget()));
+            aim.Aim();
+        }
+        else
+        {
+            aim.SetDefaultMap(DefaultMap.Hub);
+            aim.SetCustomTarget(GetTimeOfFlightTarget(aim.GetCurrentTarget()));
+            allianceZoneFlywheelInterpolation.SetDefaultMap(DefaultMap.Hub);
+            allianceZoneHoodInterpolation.SetDefaultMap(DefaultMap.Hub);
+            ApplyTimeOfFlightToInterpolation(
+                allianceZoneFlywheelInterpolation,
+                allianceZoneHoodInterpolation);
+        }
     }
 
     private void Shooter()
     {
-        // TODO: Gate feeding on shooting inputs and alignment; set flywheel / hood targets.
-        // Call SetInterpMap() when selecting the shot's interpolation maps.
+        if (!WantsToShoot())
+        {
+            StopShooter();
+            targetHoodAngle = 0f;
+            return;
+        }
+
+        float shooterSpeed;
+
+        if (ManualShoot)
+        {
+            shooterSpeed = manualShotRpm;
+            targetHoodAngle = manualHoodAngle;
+        }
+        else
+        {
+            SetInterpolationTarget();
+            shooterSpeed = GetActiveFlywheelInterpolation().Interpolate();
+            targetHoodAngle = GetActiveHoodInterpolation().Interpolate();
+        }
+
+        targetHoodAngle = Mathf.Clamp(targetHoodAngle, hoodAngleLimits.x, hoodAngleLimits.y);
+
+        shooterRollers.SetRpm(shooterSpeed);
+        hoodRollers.SetRpm(GetHoodRpm(shooterSpeed));
+
+        SetFeedRollers(FeedPulseActive());
     }
 
-    private void SetInterpMap()
+    // Returns true only during the feed portion of each shot interval, once the shot is ready.
+    private bool FeedPulseActive()
     {
-        // TODO: Select the hub / pass maps for the flywheel and hood.
+        if (!CanRunFeed())
+        {
+            feedReadyTimer = 0f;
+            feedCadenceTimer = 0f;
+            return false;
+        }
+
+        feedReadyTimer = Mathf.Min(feedReadyTimer + Time.fixedDeltaTime, feedReadyDebounceTime);
+        if (feedReadyTimer < feedReadyDebounceTime)
+        {
+            return false;
+        }
+
+        feedCadenceTimer += Time.fixedDeltaTime;
+        if (feedCadenceTimer >= shotInterval)
+        {
+            feedCadenceTimer -= shotInterval;
+        }
+
+        return feedCadenceTimer < feedPulseTime;
+    }
+
+    private void SetFeedRollers(bool feeding)
+    {
+        if (RobotSpecial2)
+        {
+            uptakeRollers.SetRpm(-uptakeRpm);
+            floorRollers.SetRpm(-floorRpm);
+        }
+        else if (feeding)
+        {
+            uptakeRollers.SetRpm(uptakeRpm);
+            floorRollers.SetRpm(floorRpm);
+        }
+        else
+        {
+            uptakeRollers.SetRpm(0f);
+            floorRollers.SetRpm(0f);
+        }
+    }
+
+    private void StopShooter()
+    {
+        feedReadyTimer = 0f;
+        feedCadenceTimer = 0f;
+        shooterRollers.SetRpm(0f);
+        hoodRollers.SetRpm(0f);
+        SetFeedRollers(false);
+    }
+
+    private bool CanRunFeed()
+    {
+        return ShooterAligned() && shooterRollers.AtSpeed() && hoodRollers.AtSpeed() && HoodAtAngle();
+    }
+
+    public bool ShooterAligned()
+    {
+        if (ManualShoot)
+        {
+            alignedToShootDebug = true;
+            aimErrorDebug = 0f;
+            return true;
+        }
+
+        if (aim == null)
+        {
+            alignedToShootDebug = false;
+            aimErrorDebug = 0f;
+            return false;
+        }
+
+        aimErrorDebug = Mathf.Abs(aim.GetRotationError());
+        alignedToShootDebug = aimErrorDebug <= aimTolerance;
+        return alignedToShootDebug;
+    }
+
+    private void SetInterpolationTarget()
+    {
+        if (IsPassShot())
+        {
+            passZoneFlywheelInterpolation.SetPassMapClosest();
+            passZoneHoodInterpolation.SetPassMapClosest();
+            ApplyTimeOfFlightToInterpolation(
+                passZoneFlywheelInterpolation,
+                passZoneHoodInterpolation);
+            return;
+        }
+
+        allianceZoneFlywheelInterpolation.SetDefaultMap(DefaultMap.Hub);
+        allianceZoneHoodInterpolation.SetDefaultMap(DefaultMap.Hub);
+        ApplyTimeOfFlightToInterpolation(
+            allianceZoneFlywheelInterpolation,
+            allianceZoneHoodInterpolation);
+    }
+
+    private RebuiltInterpolation GetActiveFlywheelInterpolation()
+    {
+        return IsPassShot() ? passZoneFlywheelInterpolation : allianceZoneFlywheelInterpolation;
+    }
+
+    private RebuiltInterpolation GetActiveHoodInterpolation()
+    {
+        return IsPassShot() ? passZoneHoodInterpolation : allianceZoneHoodInterpolation;
+    }
+
+    private Vector3 GetTimeOfFlightTarget(Vector3 target)
+    {
+        if (robotRigidbody == null)
+        {
+            return target;
+        }
+
+        Vector3 fieldVelocity = robotRigidbody.velocity;
+        fieldVelocity.y = 0f;
+        return target - fieldVelocity * sotmSettings.timeOfFlight;
+    }
+
+    private void ApplyTimeOfFlightToInterpolation(
+        RebuiltInterpolation flywheelInterpolation,
+        RebuiltInterpolation hoodInterpolation)
+    {
+        Vector3 compensatedTarget = GetTimeOfFlightTarget(flywheelInterpolation.GetCurrentTarget());
+        flywheelInterpolation.SetCustomTarget(compensatedTarget);
+        hoodInterpolation.SetCustomTarget(compensatedTarget);
     }
 
     private void UpdateJoints()
     {
-        // TODO: Apply the target positions chosen by the subsystems to the joints.
+        intakePivot.SetTargetAngle(targetIntakeAngle).withAxis(JointAxis.X).useCustomStartingOffset(0);
+        hoodPivot.SetTargetAngle(targetHoodAngle).withAxis(JointAxis.X);
+
+        if (HoodAtLockAngle())
+        {
+            hoodPivot.lockAllAxis();
+        }
+        else
+        {
+            hoodPivot.freeAngularAxis(JointAxis.X);
+        }
     }
 
-    private void WobbleIntake()
+    private void UpdateDriveSpeed()
     {
-        // TODO: Adjust the intake target to clear a jam or agitate fuel.
+        if (DriveController == null)
+        {
+            return;
+        }
+
+        DriveController.SetDriveMp(WantsToShoot() ? sotmSettings.shootingDriveMultiplier : 1f);
+    }
+
+    private bool WantsToShoot()
+    {
+        if (!(OuttakeAction || AutoPass || ManualShoot)) _wantsShooting = false;
+        else if (!ShooterUnderTrench()) _wantsShooting = true;
+        return _wantsShooting && intakeDeployed;
+    }
+
+    private bool IsPassShot()
+    {
+        return AutoPass || (OuttakeAction && !InAllianceZone());
+    }
+
+    private bool HoodAtAngle()
+    {
+        return Mathf.Abs(Mathf.DeltaAngle(hoodPivot.GetAngle(), targetHoodAngle)) <= hoodAngleTolerance;
+    }
+
+    private bool HoodAtLockAngle()
+    {
+        return Mathf.Abs(Mathf.DeltaAngle(hoodPivot.GetAngle(), targetHoodAngle)) <= hoodAngleLockTolerance;
+    }
+
+    private float GetHoodRpm(float shooterRpm)
+    {
+        return shooterRpm / hoodRpmReduction;
+    }
+
+    private bool ShooterUnderTrench()
+    {
+        foreach (var corner in shooterCorners)
+        {
+            if (UnderTrench(corner)) return true;
+        }
+        return false;
     }
 }
