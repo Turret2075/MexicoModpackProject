@@ -72,11 +72,6 @@ public class VOLTEC : RebuiltRobotBase
     [SerializeField] private float manualHoodAngle = 25f;
     [SerializeField, Min(0.01f)] private float hoodRpmReduction = 1.5f;
 
-    [Header("Feed Cadence (slower than Citrus)")]
-    [Tooltip("Seconds between the start of each feed pulse while aligned.")]
-    [SerializeField, Min(0.01f)] private float shotInterval = 0.5f;
-    [Tooltip("Seconds the uptake and floor run in each pulse.")]
-    [SerializeField, Min(0.01f)] private float feedPulseTime = 0.15f;
 
     [Header("Trench Avoidance")]
     [SerializeField] private Transform[] shooterCorners;
@@ -94,7 +89,6 @@ public class VOLTEC : RebuiltRobotBase
     private float intakeBringupDelayTimer;
     private bool shooterReadyLatched;
     private float feedReadyTimer;
-    private float feedCadenceTimer;
     private bool _hopperLocked;
     private bool _wantsShooting;
     private RebuiltAutoAimController aim;
@@ -280,32 +274,20 @@ public class VOLTEC : RebuiltRobotBase
         shooterRollers.SetRpm(shooterSpeed);
         hoodRollers.SetRpm(GetHoodRpm(shooterSpeed));
 
-        SetFeedRollers(FeedPulseActive());
+        SetFeedRollers(FeedReady());
     }
 
-    // Returns true only during the feed portion of each shot interval, once the shot is ready.
-    private bool FeedPulseActive()
+    // Feed runs continuously once the shot is ready (aligned, at speed, hood at angle) past the debounce.
+    private bool FeedReady()
     {
         if (!CanRunFeed())
         {
             feedReadyTimer = 0f;
-            feedCadenceTimer = 0f;
             return false;
         }
 
         feedReadyTimer = Mathf.Min(feedReadyTimer + Time.fixedDeltaTime, feedReadyDebounceTime);
-        if (feedReadyTimer < feedReadyDebounceTime)
-        {
-            return false;
-        }
-
-        feedCadenceTimer += Time.fixedDeltaTime;
-        if (feedCadenceTimer >= shotInterval)
-        {
-            feedCadenceTimer -= shotInterval;
-        }
-
-        return feedCadenceTimer < feedPulseTime;
+        return feedReadyTimer >= feedReadyDebounceTime;
     }
 
     private void SetFeedRollers(bool feeding)
@@ -330,7 +312,6 @@ public class VOLTEC : RebuiltRobotBase
     private void StopShooter()
     {
         feedReadyTimer = 0f;
-        feedCadenceTimer = 0f;
         shooterRollers.SetRpm(0f);
         hoodRollers.SetRpm(0f);
         SetFeedRollers(false);
