@@ -9,7 +9,6 @@ using UnityEngine;
 public class VOLTEC : RebuiltRobotBase
 {
     [Header("Joints")]
-    [SerializeField] private GenericJoint hopperJoint;
     [SerializeField] private GenericJoint intakePivot;
     [SerializeField] private GenericJoint hoodPivot;
 
@@ -26,7 +25,6 @@ public class VOLTEC : RebuiltRobotBase
     [SerializeField] private RollerGroup intakeRollers;
 
     [Header("PIDS")]
-    [SerializeField] private PidConstants hopperPidConstants;
     [SerializeField] private PidConstants intakePidConstants;
     [SerializeField] private PidConstants intakeBringupPid;
     [SerializeField] private PidConstants hoodPidConstants;
@@ -39,11 +37,6 @@ public class VOLTEC : RebuiltRobotBase
     [Header("Pass Zone Interpolation (same assets as ReBlitz)")]
     [SerializeField] private RebuiltInterpolation passZoneFlywheelInterpolation;
     [SerializeField] private RebuiltInterpolation passZoneHoodInterpolation;
-
-    [Header("Hopper Values (Jack-style: extends once and never returns)")]
-    [SerializeField] private JointAxis hopperAxis = JointAxis.Z;
-    [SerializeField] private float hopperExtendedInches = -12f;
-    [SerializeField] private float hopperLockPositionMeters = -0.299f;
 
     [Header("Intake Values")]
     [Tooltip("Intake pivot X angle when deployed. X = 0 is down.")]
@@ -94,14 +87,12 @@ public class VOLTEC : RebuiltRobotBase
     private bool shooterReadyLatched;
     private float feedReadyTimer;
     private bool feedLatched;
-    private bool _hopperLocked;
     private bool _wantsShooting;
     private RebuiltAutoAimController aim;
     private Rigidbody robotRigidbody;
 
     protected override void Init()
     {
-        hopperJoint.SetPid(hopperPidConstants);
         intakePivot.SetPid(intakePidConstants);
         hoodPivot.SetPid(hoodPidConstants);
 
@@ -113,7 +104,6 @@ public class VOLTEC : RebuiltRobotBase
         targetIntakeAngle = intakeStowAngle;
         targetHoodAngle = 0f;
         intakeDeployed = false;
-        _hopperLocked = false;
         _wantsShooting = false;
 
         if (!TryGetComponent(out aim))
@@ -124,7 +114,7 @@ public class VOLTEC : RebuiltRobotBase
         robotRigidbody = GetComponent<Rigidbody>();
 
         Scheduler.AddSubsystems(HandleAutoAim, Shooter, Intake);
-        Scheduler.AddProtectedSystem(UpdateJoints, UpdateDriveSpeed, Hopper);
+        Scheduler.AddProtectedSystem(UpdateJoints, UpdateDriveSpeed);
         Scheduler.AddLateRecursive(UpdatePids);
     }
 
@@ -132,17 +122,12 @@ public class VOLTEC : RebuiltRobotBase
     {
         intakePivot.UpdatePid(IsIntakeBringupActive() ? intakeBringupPid : intakePidConstants);
         hoodPivot.UpdatePid(WantsToShoot() && HoodAtAngle() ? hoodShootingPidConstants : hoodPidConstants);
-        hopperJoint.UpdatePid(hopperPidConstants);
     }
 
-    // Special 1: manual intake retract. Special 2: outtake (reverses uptake, floor and intake rollers).
+    // Special 2: outtake (reverses uptake, floor and intake rollers).
     private void Intake()
     {
-        if (RobotSpecial)
-        {
-            intakeDeployed = false;
-        }
-        else if (IntakeAction)
+        if (IntakeAction)
         {
             intakeDeployed = true;
         }
@@ -201,23 +186,6 @@ public class VOLTEC : RebuiltRobotBase
     private bool IsIntakeBringupActive()
     {
         return WantsToShoot() && intakeDeployed && intakeBringupDelayTimer >= intakeBringupDelay;
-    }
-
-    // Jack-style hopper: extends once the intake is deployed and locks there permanently.
-    private void Hopper()
-    {
-        if (_hopperLocked || !intakeDeployed)
-        {
-            return;
-        }
-
-        hopperJoint.SetLinearTarget(hopperExtendedInches).withAxis(hopperAxis);
-
-        if (hopperJoint.GetAxisLocation(hopperAxis) < hopperLockPositionMeters)
-        {
-            hopperJoint.lockAllAxis();
-            _hopperLocked = true;
-        }
     }
 
     private void HandleAutoAim()

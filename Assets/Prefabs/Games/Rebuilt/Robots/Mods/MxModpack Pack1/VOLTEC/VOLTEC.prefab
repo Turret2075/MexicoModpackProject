@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5753631316791302447}
   - component: {fileID: 8463292826357001397}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,7 +64,7 @@ GameObject:
   - component: {fileID: 5588690120426383711}
   - component: {fileID: 7839387921012460135}
   - component: {fileID: 7825124017396435992}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shaft tubes.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +147,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5252534550058023471}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DynamicPhysics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 9113548395741434729}
   - component: {fileID: 594176820728605345}
   - component: {fileID: 5813883765535211025}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.434" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 8383942874740685324}
   - component: {fileID: 493933632504377779}
   - component: {fileID: 857256482399427637}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.129" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -351,7 +351,7 @@ GameObject:
   - component: {fileID: 6964145058747301552}
   - component: {fileID: 8092561447792252063}
   - component: {fileID: 3203456401302266696}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SDS MK5 L Plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -436,7 +436,7 @@ GameObject:
   - component: {fileID: 8388487292993030290}
   - component: {fileID: 287813394736443633}
   - component: {fileID: 4913121706493873422}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -522,7 +522,7 @@ GameObject:
   - component: {fileID: 3117519515827646855}
   - component: {fileID: 2704503309070881545}
   - component: {fileID: 6089539837142452295}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 20T HTD Pulley.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -606,7 +606,7 @@ GameObject:
   m_Component:
   - component: {fileID: 763856597892739506}
   - component: {fileID: 3817662701012984430}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -660,7 +660,7 @@ GameObject:
   - component: {fileID: 2954774985542975746}
   - component: {fileID: 5136394528931974976}
   - component: {fileID: 7430855682193113187}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -746,7 +746,7 @@ GameObject:
   - component: {fileID: 6129817142636990785}
   - component: {fileID: 839734485987344296}
   - component: {fileID: 5320225049770444335}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 36T HTD Pulley
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -864,7 +864,7 @@ GameObject:
   - component: {fileID: 9140651085070808205}
   - component: {fileID: 3214931769149276629}
   - component: {fileID: 5087481174052186930}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.335" ID Custom Spacer (0.5" OD,0.17" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -949,7 +949,7 @@ GameObject:
   - component: {fileID: 2950692815738969585}
   - component: {fileID: 517370943041936335}
   - component: {fileID: 4730700494916436699}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MAXSpline Grommet (REV-21-3640).007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1034,7 +1034,7 @@ GameObject:
   - component: {fileID: 2442793170268955931}
   - component: {fileID: 2005261861395920964}
   - component: {fileID: 2525579932992395588}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1119,7 +1119,7 @@ GameObject:
   - component: {fileID: 113129751950426874}
   - component: {fileID: 5767176862835187548}
   - component: {fileID: 6063893143470957895}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 15.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1204,7 +1204,7 @@ GameObject:
   - component: {fileID: 1935844562347515084}
   - component: {fileID: 5346580522577511395}
   - component: {fileID: 5822882027252063302}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).057
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1290,7 +1290,7 @@ GameObject:
   - component: {fileID: 1306734256667848852}
   - component: {fileID: 3536972840893282731}
   - component: {fileID: 4913460224723816042}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesh20257_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1378,7 +1378,7 @@ GameObject:
   - component: {fileID: 5779718267964244952}
   - component: {fileID: 2656840475387426797}
   - component: {fileID: 8646391144090303615}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tube 2"x1"x2.5"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1463,7 +1463,7 @@ GameObject:
   - component: {fileID: 5181354505524787882}
   - component: {fileID: 6965580112877326688}
   - component: {fileID: 2908479749331674233}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).042
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1549,7 +1549,7 @@ GameObject:
   - component: {fileID: 6795453274898793709}
   - component: {fileID: 1807989159035607706}
   - component: {fileID: 3510145775161564732}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.032
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1634,7 +1634,7 @@ GameObject:
   - component: {fileID: 5130458125456921508}
   - component: {fileID: 3309056584997989735}
   - component: {fileID: 4276680662362265035}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shaft tubes.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1719,7 +1719,7 @@ GameObject:
   - component: {fileID: 5874586650183817988}
   - component: {fileID: 7355867923479175537}
   - component: {fileID: 4224474777000895771}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1805,7 +1805,7 @@ GameObject:
   - component: {fileID: 7431077680310789825}
   - component: {fileID: 8870853914703715848}
   - component: {fileID: 7053503945084169194}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SDS MK5 Molded Wheel.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1890,7 +1890,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9121497253027609244}
   - component: {fileID: 3187297282677710638}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1945,7 +1945,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5888315666014727712}
   - component: {fileID: 280181761539183363}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1999,7 +1999,7 @@ GameObject:
   - component: {fileID: 4230158254279395090}
   - component: {fileID: 5008740447631087753}
   - component: {fileID: 2351576061960909997}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.09 in. Hex Spacer.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2083,7 +2083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4078997988081716543}
   - component: {fileID: 4929560904946797230}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Roller (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2167,7 +2167,7 @@ GameObject:
   - component: {fileID: 529293534523525}
   - component: {fileID: 7674529138823289130}
   - component: {fileID: 2386159424732828121}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kraken X60 Brushless Motor.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2261,7 +2261,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7425868991127589604}
   - component: {fileID: 6435453340060117640}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2315,7 +2315,7 @@ GameObject:
   - component: {fileID: 2848723325411697315}
   - component: {fileID: 5031942560750115586}
   - component: {fileID: 1993056937538658824}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: '#10 Aluminum Spacer (2" L, 0.375" OD).002'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2400,7 +2400,7 @@ GameObject:
   - component: {fileID: 4502548751984404250}
   - component: {fileID: 2467916104423088000}
   - component: {fileID: 2353083345472675198}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.09 in. Hex Spacer.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2485,7 +2485,7 @@ GameObject:
   - component: {fileID: 258363664448100887}
   - component: {fileID: 3774480364009741969}
   - component: {fileID: 5331440785366948153}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 26T HTD Pulley
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2570,7 +2570,7 @@ GameObject:
   - component: {fileID: 7108008918570626577}
   - component: {fileID: 5503665102302581004}
   - component: {fileID: 7254839427900961628}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 8.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2655,7 +2655,7 @@ GameObject:
   - component: {fileID: 4746348113307113810}
   - component: {fileID: 3698142401759346949}
   - component: {fileID: 4526204121665757555}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).051
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2741,7 +2741,7 @@ GameObject:
   - component: {fileID: 3158906646984130839}
   - component: {fileID: 4859665679007841577}
   - component: {fileID: 3970571610241414570}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.372" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2826,7 +2826,7 @@ GameObject:
   - component: {fileID: 8263880414091968061}
   - component: {fileID: 5035404935896462255}
   - component: {fileID: 7255951869058758832}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 24T HTD Pulley.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2911,7 +2911,7 @@ GameObject:
   - component: {fileID: 6498426418210544992}
   - component: {fileID: 8225681825142398955}
   - component: {fileID: 5570760786358924703}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.062" L).005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2997,7 +2997,7 @@ GameObject:
   - component: {fileID: 9091755492813045183}
   - component: {fileID: 4496733025348184906}
   - component: {fileID: 6171524328775251864}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 18t Aluminum Pulley (HTD 5mm, 9mm Wide, 1/2" Hex Bore)-Mirrored.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3082,7 +3082,7 @@ GameObject:
   - component: {fileID: 7489333934987059508}
   - component: {fileID: 8096002161461573759}
   - component: {fileID: 776190194516751011}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SDS MK5 Turret Assembly.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3171,7 +3171,7 @@ GameObject:
   - component: {fileID: 3232282257080446099}
   - component: {fileID: 2949056178669041554}
   - component: {fileID: 385291820497633200}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.69" L).003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3255,7 +3255,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7612084568375713051}
   - component: {fileID: 6246242969778814439}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Roller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3338,7 +3338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8668305828146755677}
   - component: {fileID: 263703217043199090}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3393,7 +3393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4933430383064111141}
   - component: {fileID: 207702992552424391}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3447,7 +3447,7 @@ GameObject:
   - component: {fileID: 2790141449741672218}
   - component: {fileID: 4449152538078427567}
   - component: {fileID: 4570330788139560802}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3531,7 +3531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4537100047345870201}
   - component: {fileID: 5445262107862232235}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3587,7 +3587,7 @@ GameObject:
   - component: {fileID: 533448827803784873}
   - component: {fileID: 1444036647615726820}
   - component: {fileID: 5750497917602284066}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 47T HTD Pulley
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3672,7 +3672,7 @@ GameObject:
   - component: {fileID: 4066225581281846240}
   - component: {fileID: 141096227425515095}
   - component: {fileID: 1735169676529385204}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kraken X60 Brushless Motor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3766,7 +3766,7 @@ GameObject:
   - component: {fileID: 4411583831991688451}
   - component: {fileID: 7631695973161788530}
   - component: {fileID: 544293968114691598}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WCP-0247-004 Rev1.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3850,7 +3850,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6322106744659410744}
   - component: {fileID: 7344356826234804229}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3906,7 +3906,7 @@ GameObject:
   - component: {fileID: 2389387090750119709}
   - component: {fileID: 6271924753458713677}
   - component: {fileID: 6624630662541660689}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SDS MK5 L Plate.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3991,7 +3991,7 @@ GameObject:
   - component: {fileID: 4560137282224230380}
   - component: {fileID: 9129927605038212681}
   - component: {fileID: 8968062158052932654}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4077,7 +4077,7 @@ GameObject:
   - component: {fileID: 8237895663345105300}
   - component: {fileID: 5886583476867836692}
   - component: {fileID: 8052329099138662008}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4162,7 +4162,7 @@ GameObject:
   - component: {fileID: 3569035624530814241}
   - component: {fileID: 725725778266432424}
   - component: {fileID: 4486064041218734366}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 10t Steel Spur Gear (10 DP, 1/2" Hex Bore)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4247,7 +4247,7 @@ GameObject:
   - component: {fileID: 2413931235739600194}
   - component: {fileID: 1507162762329403878}
   - component: {fileID: 3061291602160202982}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 2.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4331,7 +4331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6354646732401805737}
   - component: {fileID: 208107910292115587}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4385,7 +4385,7 @@ GameObject:
   - component: {fileID: 3637475656741770435}
   - component: {fileID: 6259659390268399138}
   - component: {fileID: 2847056298499578159}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 48t Aluminum Sprocket (#25, SplineXL Bore)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4470,7 +4470,7 @@ GameObject:
   - component: {fileID: 8208793708026331563}
   - component: {fileID: 8097493096517028896}
   - component: {fileID: 5103732645829604531}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4555,7 +4555,7 @@ GameObject:
   - component: {fileID: 5404735492724696619}
   - component: {fileID: 2933490177337709051}
   - component: {fileID: 6906120799251826404}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 2.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4640,7 +4640,7 @@ GameObject:
   - component: {fileID: 7028136258387929399}
   - component: {fileID: 8631935563560623983}
   - component: {fileID: 7869977784749654249}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.69" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4725,7 +4725,7 @@ GameObject:
   - component: {fileID: 7135408775999172740}
   - component: {fileID: 8796444955507283169}
   - component: {fileID: 471943235319388291}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Minimal.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4817,7 +4817,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2693512505180138978}
   - component: {fileID: 8822781180315288985}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Roller (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4900,7 +4900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8846622576581680652}
   - component: {fileID: 18352704090232877}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4954,7 +4954,7 @@ GameObject:
   - component: {fileID: 6531063710035028139}
   - component: {fileID: 4291522436311507636}
   - component: {fileID: 6738556914521544551}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5037,7 +5037,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 419587983575972350}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5191,7 +5191,7 @@ GameObject:
   - component: {fileID: 6047837730867874158}
   - component: {fileID: 7068412751504714212}
   - component: {fileID: 3585227864030521134}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.388" L).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5276,7 +5276,7 @@ GameObject:
   - component: {fileID: 4311524221297026490}
   - component: {fileID: 6358027494198958006}
   - component: {fileID: 9013858545434813308}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 40t Aluminum Spur Gear (20 DP, 1/2" Hex Bore)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5360,7 +5360,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4182543098783260365}
   - component: {fileID: 6664633220075439741}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5414,7 +5414,7 @@ GameObject:
   - component: {fileID: 4133648636848100305}
   - component: {fileID: 1199994469130840029}
   - component: {fileID: 9044230722702324774}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Churro (26" L, 6061 Aluminum)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5498,7 +5498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2647811787802004194}
   - component: {fileID: 2331412752977314953}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Roller (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5582,7 +5582,7 @@ GameObject:
   - component: {fileID: 4706449755244542784}
   - component: {fileID: 1243017584841617875}
   - component: {fileID: 1136703078163803356}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.192" ID x 0.5" OD x 0.375" Spacer.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5666,7 +5666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 161933857538339299}
   - component: {fileID: 6848015587888680191}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5720,7 +5720,7 @@ GameObject:
   - component: {fileID: 5354330245516498604}
   - component: {fileID: 7845011440806789576}
   - component: {fileID: 3001519945800095599}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 4" Brass Flywheel (1/2" Triangle Bore)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5805,7 +5805,7 @@ GameObject:
   - component: {fileID: 5367077345855954707}
   - component: {fileID: 5978880182246390001}
   - component: {fileID: 875162098442893655}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3/8" Rounded Hex (24.75" L, 10.25mm OD)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5891,7 +5891,7 @@ GameObject:
   - component: {fileID: 5846834090560932624}
   - component: {fileID: 7614147320682061395}
   - component: {fileID: 3407937951964458573}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SDS MK5 Turret Assembly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5979,7 +5979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4333063399138737980}
   - component: {fileID: 3243705134842127057}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6033,7 +6033,7 @@ GameObject:
   - component: {fileID: 5655863226063622533}
   - component: {fileID: 6106660112179372889}
   - component: {fileID: 1877392725219210062}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kraken X60 Brushless Motor-Mirrored
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6127,7 +6127,7 @@ GameObject:
   - component: {fileID: 1571377024069946254}
   - component: {fileID: 369273694648650862}
   - component: {fileID: 7293497042581492110}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 33.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6212,7 +6212,7 @@ GameObject:
   - component: {fileID: 3073430859267707283}
   - component: {fileID: 8058695183044580002}
   - component: {fileID: 6415799258527522724}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).041
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6298,7 +6298,7 @@ GameObject:
   - component: {fileID: 2813882053298366459}
   - component: {fileID: 6288828630020574513}
   - component: {fileID: 3291481227154184709}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Minimal.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6391,7 +6391,7 @@ GameObject:
   - component: {fileID: 4754789144107339204}
   - component: {fileID: 3236172237947386087}
   - component: {fileID: 7830347949906097517}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shaft tubes.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6476,7 +6476,7 @@ GameObject:
   - component: {fileID: 996221416641295966}
   - component: {fileID: 6088361989599614148}
   - component: {fileID: 2430647562874937019}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MAXSpline Grommet (REV-21-3640).010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6561,7 +6561,7 @@ GameObject:
   - component: {fileID: 989953862525863199}
   - component: {fileID: 5269037792074787114}
   - component: {fileID: 8990897248630230134}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: '#10 Aluminum Spacer (2" L, 0.375" OD)'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6645,7 +6645,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2458704547199843777}
   - component: {fileID: 5472441345641768630}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6698,7 +6698,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5821070582171946225}
   - component: {fileID: 3308253085322444950}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6752,7 +6752,7 @@ GameObject:
   - component: {fileID: 455149954533729605}
   - component: {fileID: 3131507434885720137}
   - component: {fileID: 7790350456416182307}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 24T HTD Pulley.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6837,7 +6837,7 @@ GameObject:
   - component: {fileID: 276087288171750435}
   - component: {fileID: 2410382461827166556}
   - component: {fileID: 5714623481958449276}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 4.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6922,7 +6922,7 @@ GameObject:
   - component: {fileID: 2926342393368727436}
   - component: {fileID: 4094085132138545367}
   - component: {fileID: 8675156515770046169}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 18t Aluminum Pulley (HTD 5mm, 9mm Wide, 1/2" Hex Bore)-Mirrored
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7007,7 +7007,7 @@ GameObject:
   - component: {fileID: 2901080552709160073}
   - component: {fileID: 1063975822405685880}
   - component: {fileID: 7435015425475084124}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Frente
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7092,7 +7092,7 @@ GameObject:
   - component: {fileID: 8045059492853048060}
   - component: {fileID: 6786867849424302212}
   - component: {fileID: 7569703248057647820}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 10.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7177,7 +7177,7 @@ GameObject:
   - component: {fileID: 3441875826826090264}
   - component: {fileID: 5278190473724984178}
   - component: {fileID: 7548625931912633307}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SDS MK5n Top Assembly (A)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7268,7 +7268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 133071796419473692}
   - component: {fileID: 1787003668432221952}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7324,7 +7324,7 @@ GameObject:
   - component: {fileID: 4931438338506294947}
   - component: {fileID: 4102031892186245986}
   - component: {fileID: 3953518962973697065}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7410,7 +7410,7 @@ GameObject:
   - component: {fileID: 7119980821766205991}
   - component: {fileID: 2538945320215287856}
   - component: {fileID: 3145502983357481915}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 18t Aluminum Pulley (HTD 5mm, 9mm Wide, 1/2" Hex Bore)-Mirrored.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7494,7 +7494,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3078919765094833003}
   - component: {fileID: 7832543333942485389}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7547,7 +7547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4718911101275620429}
   - component: {fileID: 4832723430281328636}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RollerGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7663,7 +7663,7 @@ GameObject:
   - component: {fileID: 4004032915986918948}
   - component: {fileID: 8999513765928812902}
   - component: {fileID: 7439469074051181858}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 40t Pocketed Steel Spur Gear (20 DP, 1/2" Hex Bore)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7748,7 +7748,7 @@ GameObject:
   - component: {fileID: 2852684144745881783}
   - component: {fileID: 4321257416832643310}
   - component: {fileID: 8782165367514797118}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.062" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7832,7 +7832,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7777306283916745818}
   - component: {fileID: 872784476078586411}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7886,7 +7886,7 @@ GameObject:
   - component: {fileID: 8085188599393135130}
   - component: {fileID: 7588893286703780626}
   - component: {fileID: 2886276946426831127}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MAXSpline Grommet (REV-21-3640).006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7971,7 +7971,7 @@ GameObject:
   - component: {fileID: 946857777339855219}
   - component: {fileID: 920246946818070418}
   - component: {fileID: 6942889291723136919}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 7.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8055,7 +8055,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5621547598762639266}
   - component: {fileID: 5129388975846094991}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8108,7 +8108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3251891737536281405}
   - component: {fileID: 5253136244935559324}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Roller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8142,18 +8142,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 2.8
-  length: 24.5
+  radius: 3
+  length: 26.5
   useBeltMode: 0
   beltLength: 10
-  maxSquish: 2.9
-  coreFriction: 0
+  maxSquish: 3
+  coreFriction: 1
   coreBounce: 0
   rpm: 800
   compressionStiffness: 1100
   compressionDamping: 50
-  scrubForces: 15
-  motorSlipResponse: 1
+  scrubForces: 100
+  motorSlipResponse: 0.5
   frictionCoupledToNormal: 0
   frictionCoefficient: 3
   oppositeReaction: 1
@@ -8171,8 +8171,8 @@ MonoBehaviour:
   playbackSpeed: 1
   pitchMultiplier: 0.0005
   movementAudioPitchRange: {x: 0.8, y: 0.95}
-  volumeMultiplier: 0.75
-  movementAudioVolumeRange: {x: 0.1, y: 0.5}
+  volumeMultiplier: 0.002
+  movementAudioVolumeRange: {x: 0.03, y: 0.21}
   audioPitchSmoothSpeed: 8
   audioVolumeSmoothSpeed: 8
   audioResponseExponent: 0.75
@@ -8191,7 +8191,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5268859917251165945}
   - component: {fileID: 8191193378736561847}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8246,7 +8246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5385807523368610721}
   - component: {fileID: 4326114216688488093}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8300,7 +8300,7 @@ GameObject:
   - component: {fileID: 8031565551225785353}
   - component: {fileID: 5153547395402313738}
   - component: {fileID: 5276827574384524052}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8386,7 +8386,7 @@ GameObject:
   - component: {fileID: 6268718643813691409}
   - component: {fileID: 1342097611129755524}
   - component: {fileID: 6489640503541563721}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8471,7 +8471,7 @@ GameObject:
   - component: {fileID: 7946994217483669649}
   - component: {fileID: 1142489209007141989}
   - component: {fileID: 3533831254348788565}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 23.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8556,7 +8556,7 @@ GameObject:
   - component: {fileID: 2672873943256071171}
   - component: {fileID: 1375040570803472084}
   - component: {fileID: 4662748767519756116}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tube 2"x1"x18.5"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8640,7 +8640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6659835719388631916}
   - component: {fileID: 1678139811063218947}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8694,7 +8694,7 @@ GameObject:
   - component: {fileID: 8049069387633839300}
   - component: {fileID: 2025393586176926881}
   - component: {fileID: 3240774782202483609}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Heat Sink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8786,7 +8786,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9209003360784550525}
   - component: {fileID: 1511155038973899560}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8842,7 +8842,7 @@ GameObject:
   - component: {fileID: 2855715393013769416}
   - component: {fileID: 5509848381627442102}
   - component: {fileID: 3383189736783152397}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.09 in. Hex Spacer.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8927,7 +8927,7 @@ GameObject:
   - component: {fileID: 7092732401237522765}
   - component: {fileID: 6615851002482251612}
   - component: {fileID: 8740572872076178430}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MK5 Corner Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9012,7 +9012,7 @@ GameObject:
   - component: {fileID: 3688814943270498245}
   - component: {fileID: 6213247108681789296}
   - component: {fileID: 6239969542675985547}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tube 2"x1"x18.5".001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9095,7 +9095,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2910589414832694237}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9198,7 +9198,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5078241590092878167}
   - component: {fileID: 182269812712577614}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9252,7 +9252,7 @@ GameObject:
   - component: {fileID: 3716287669715100120}
   - component: {fileID: 3601046765074475926}
   - component: {fileID: 3082672932942106811}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 20T HTD Pulley.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9337,7 +9337,7 @@ GameObject:
   - component: {fileID: 1517057446072629366}
   - component: {fileID: 7000241955653410245}
   - component: {fileID: 1883163905994335598}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 24T HTD Pulley.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9422,7 +9422,7 @@ GameObject:
   - component: {fileID: 5163122529519191276}
   - component: {fileID: 5439372179337144535}
   - component: {fileID: 1469113526878591003}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tube 2"x1"x8"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9505,7 +9505,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4429250558385803413}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9545,7 +9545,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4149360481607182197}
   - component: {fileID: 861355591600812372}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Roller (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9629,7 +9629,7 @@ GameObject:
   - component: {fileID: 1757169323022640229}
   - component: {fileID: 8829505806784534552}
   - component: {fileID: 7115271935629018963}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 24T HTD Pulley
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9713,7 +9713,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3156959305992073044}
   - component: {fileID: 139749053668008868}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9767,7 +9767,7 @@ GameObject:
   - component: {fileID: 6670457831059113524}
   - component: {fileID: 859961848730643986}
   - component: {fileID: 5923934350702962217}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9852,7 +9852,7 @@ GameObject:
   - component: {fileID: 5184672938463049971}
   - component: {fileID: 466467144093478540}
   - component: {fileID: 6743765278118457484}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).036
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9937,7 +9937,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7586369753515188710}
   - component: {fileID: 5679227854662238032}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10025,7 +10025,7 @@ GameObject:
   - component: {fileID: 3252555359466212504}
   - component: {fileID: 1784149436421662087}
   - component: {fileID: 2958497126070279049}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10142,7 +10142,7 @@ GameObject:
   - component: {fileID: 8924434079504375685}
   - component: {fileID: 438471841581520894}
   - component: {fileID: 4499938367540684177}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.196" ID Custom Spacer (0.375" OD,1.567" L).005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10227,7 +10227,7 @@ GameObject:
   - component: {fileID: 5843703837638663698}
   - component: {fileID: 7567247406127414071}
   - component: {fileID: 4284284820488599123}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tube 2"x1"x25".001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10311,7 +10311,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4355059172443467797}
   - component: {fileID: 1555262998367706817}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Roller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10395,7 +10395,7 @@ GameObject:
   - component: {fileID: 7402110142722418943}
   - component: {fileID: 3850224460923037908}
   - component: {fileID: 4622878616064553826}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 12.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10480,7 +10480,7 @@ GameObject:
   - component: {fileID: 6361774927227195956}
   - component: {fileID: 5469480768762771654}
   - component: {fileID: 4668414090773020758}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.065" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10565,7 +10565,7 @@ GameObject:
   - component: {fileID: 1129988655871810787}
   - component: {fileID: 2332633517547632007}
   - component: {fileID: 3662996565700957989}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.688" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10650,7 +10650,7 @@ GameObject:
   - component: {fileID: 2836585668835398868}
   - component: {fileID: 6020102449365791619}
   - component: {fileID: 5819135517016994886}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10735,7 +10735,7 @@ GameObject:
   - component: {fileID: 4630365777866062859}
   - component: {fileID: 5287345364330401023}
   - component: {fileID: 7986661132573307579}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shaft tubes.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10820,7 +10820,7 @@ GameObject:
   - component: {fileID: 6636456344638679803}
   - component: {fileID: 7475948242868969513}
   - component: {fileID: 4205475503648689292}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).040
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10904,7 +10904,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 521980010247441444}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DynamicPhysics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10937,7 +10937,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1981150621546269291}
   - component: {fileID: 7430359687690478217}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10991,7 +10991,7 @@ GameObject:
   - component: {fileID: 5322813479782818146}
   - component: {fileID: 2609876331051631638}
   - component: {fileID: 2033783453932557377}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).053
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11076,7 +11076,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3276489377989059564}
   - component: {fileID: 2357435219505027900}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11132,7 +11132,7 @@ GameObject:
   - component: {fileID: 4574669625987358227}
   - component: {fileID: 1924530873313527394}
   - component: {fileID: 836000831924070849}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11218,7 +11218,7 @@ GameObject:
   - component: {fileID: 3951574297888822001}
   - component: {fileID: 3413640993313069074}
   - component: {fileID: 6108729259672352381}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Robot Battery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11307,7 +11307,7 @@ GameObject:
   - component: {fileID: 4237016873855394829}
   - component: {fileID: 3706630037748953098}
   - component: {fileID: 446534004480646535}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3/8" Rounded Hex (2" L, 10.25mm OD).003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11393,7 +11393,7 @@ GameObject:
   - component: {fileID: 3378066843092303561}
   - component: {fileID: 8033612665762186416}
   - component: {fileID: 1502535675499341938}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 40t Pocketed Aluminum Spur Gear (20 DP, 1/2" Hex Bore)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11478,7 +11478,7 @@ GameObject:
   - component: {fileID: 1035660312253222612}
   - component: {fileID: 8411579007631334555}
   - component: {fileID: 487444230833023021}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11563,7 +11563,7 @@ GameObject:
   - component: {fileID: 7281173117066647835}
   - component: {fileID: 7643732972104633667}
   - component: {fileID: 1739592683267343936}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11649,7 +11649,7 @@ GameObject:
   - component: {fileID: 5491523442356653617}
   - component: {fileID: 5261522919443647271}
   - component: {fileID: 905463644080065930}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).035
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11733,7 +11733,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1952314560414866798}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DynamicPhysics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11766,7 +11766,7 @@ GameObject:
   - component: {fileID: 857704412438101708}
   - component: {fileID: 5914928226238942595}
   - component: {fileID: 2207933372210628536}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/4" Round x 3/8" L Shoulder (#10-24 x 0.75" L, Standard Profile, Steel,
     Black Oxide)
   m_TagString: Untagged
@@ -11854,7 +11854,7 @@ GameObject:
   - component: {fileID: 7924282912691630211}
   - component: {fileID: 7215344638212868285}
   - component: {fileID: 6512963770478704419}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Roborio Mount Rev 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11960,7 +11960,7 @@ GameObject:
   - component: {fileID: 2883960350603881123}
   - component: {fileID: 1551086716564975916}
   - component: {fileID: 8086905899206749498}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12045,7 +12045,7 @@ GameObject:
   - component: {fileID: 2171325577440341042}
   - component: {fileID: 2070735435876913364}
   - component: {fileID: 7554298576563265624}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tube 1"x1"x17.75"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12130,7 +12130,7 @@ GameObject:
   - component: {fileID: 1573066781451365459}
   - component: {fileID: 4149955824987992924}
   - component: {fileID: 1142547967957147556}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shaft tubes.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12215,7 +12215,7 @@ GameObject:
   - component: {fileID: 9160592926373589652}
   - component: {fileID: 5180511688285787913}
   - component: {fileID: 1238839486026513530}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3/8" Rounded Hex (22.5" L, 10.25mm OD).002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12301,7 +12301,7 @@ GameObject:
   - component: {fileID: 7362483888357580151}
   - component: {fileID: 14847019369259753}
   - component: {fileID: 8763752373749899198}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Rounded Hex (22.437" L, 13.75mm OD)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12386,7 +12386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 956946386444696327}
   - component: {fileID: 2191607673403821383}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12439,7 +12439,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2062225739937006364}
   - component: {fileID: 3398165112610314976}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IntakePivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12497,7 +12497,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 979069744316014293}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12533,7 +12533,7 @@ GameObject:
   - component: {fileID: 7787591372703421611}
   - component: {fileID: 2043134408383556106}
   - component: {fileID: 6838698890838322075}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12619,7 +12619,7 @@ GameObject:
   - component: {fileID: 5066099859589373041}
   - component: {fileID: 5461720485001396141}
   - component: {fileID: 769797117611183399}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Robot Radio (VH-109)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12707,7 +12707,7 @@ GameObject:
   - component: {fileID: 1674364018767692644}
   - component: {fileID: 7504370155879196824}
   - component: {fileID: 6833844731038308209}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SDS MK5 Turret Assembly.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12796,7 +12796,7 @@ GameObject:
   - component: {fileID: 1037930604268693435}
   - component: {fileID: 8559118056083083277}
   - component: {fileID: 9034285539361594700}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).047
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13086,7 +13086,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8201571328981595726}
   - component: {fileID: 5794808151944421212}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13140,7 +13140,7 @@ GameObject:
   - component: {fileID: 1153194030395753690}
   - component: {fileID: 2367375568477778593}
   - component: {fileID: 2442317265755796740}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 8.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13225,7 +13225,7 @@ GameObject:
   - component: {fileID: 9015160265412888160}
   - component: {fileID: 1230719652782608050}
   - component: {fileID: 1211118369121201020}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 8.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13310,7 +13310,7 @@ GameObject:
   - component: {fileID: 3828503937582032984}
   - component: {fileID: 8644340704554695197}
   - component: {fileID: 7019747532883811288}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WCP-0247-001 Rev2.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13396,7 +13396,7 @@ GameObject:
   - component: {fileID: 2080061616178874618}
   - component: {fileID: 639583386615303993}
   - component: {fileID: 5517360755951963640}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shaft tubes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13479,7 +13479,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4486220585601348356}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DynamicPhysics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13512,7 +13512,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8159447601298270452}
   - component: {fileID: 5777240552612857720}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13566,7 +13566,7 @@ GameObject:
   - component: {fileID: 263791301396776205}
   - component: {fileID: 5854076394709187240}
   - component: {fileID: 3065359940743915097}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 48t Aluminum Sprocket (#25, SplineXL Bore)-Mirrored
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13651,7 +13651,7 @@ GameObject:
   - component: {fileID: 3619516317482480452}
   - component: {fileID: 7825532469597488905}
   - component: {fileID: 1318425832165307513}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.196" ID Custom Spacer (0.375" OD,1.313" L).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13736,7 +13736,7 @@ GameObject:
   - component: {fileID: 8838190017449189467}
   - component: {fileID: 3627979597910462514}
   - component: {fileID: 7135112924376022115}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.035
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13821,7 +13821,7 @@ GameObject:
   - component: {fileID: 6107237210421129086}
   - component: {fileID: 2806611394263385838}
   - component: {fileID: 4008914414695270142}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 3.004_Generic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13937,7 +13937,7 @@ GameObject:
   - component: {fileID: 6815833423848069212}
   - component: {fileID: 5133849752185309536}
   - component: {fileID: 5434136927646179904}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).050
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14022,7 +14022,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8390600973231543279}
   - component: {fileID: 6972304996435448271}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14076,7 +14076,7 @@ GameObject:
   - component: {fileID: 3775201572940079679}
   - component: {fileID: 2098749286873875170}
   - component: {fileID: 9162459802584847597}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14160,7 +14160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2012101969897653642}
   - component: {fileID: 8923986616239233246}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14213,7 +14213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7806602837645032064}
   - component: {fileID: 663592427503192204}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14267,7 +14267,7 @@ GameObject:
   - component: {fileID: 2576589385188943994}
   - component: {fileID: 3483987312437260455}
   - component: {fileID: 8917584555275287003}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Rounded Hex (2.059" L, 13.75mm OD).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14353,7 +14353,7 @@ GameObject:
   - component: {fileID: 4697095115520189195}
   - component: {fileID: 6800907316025525524}
   - component: {fileID: 3377681780499082147}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14439,8 +14439,7 @@ GameObject:
   - component: {fileID: 6659293195186429791}
   - component: {fileID: 6592605501741607054}
   - component: {fileID: 4161316329271426688}
-  - component: {fileID: 3689420055322078440}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Rounded Hex (25.132" L, 13.75mm OD).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14515,27 +14514,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3689420055322078440
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2475571568710246738}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0010291552, y: 0.00010285049, z: 0.0063835024}
-  m_Center: {x: 0.0013416506, y: 0.00084226637, z: 0.0031917505}
 --- !u!1 &2479378483926354056
 GameObject:
   m_ObjectHideFlags: 0
@@ -14547,7 +14525,7 @@ GameObject:
   - component: {fileID: 8868330101192104303}
   - component: {fileID: 1882707527912174274}
   - component: {fileID: 4164561803444279028}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tube 2"x1"x25.125"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14631,7 +14609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8395259986462116522}
   - component: {fileID: 1492851288179470515}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14685,7 +14663,7 @@ GameObject:
   - component: {fileID: 7079972559720118799}
   - component: {fileID: 984182988132691514}
   - component: {fileID: 9145513148173812360}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.25" ID Bearing (0.75" OD, 0.281" WD, Shielded).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14771,7 +14749,7 @@ GameObject:
   - component: {fileID: 2314129494456666914}
   - component: {fileID: 4645741796704458513}
   - component: {fileID: 7655112783819131573}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kraken X60 Brushless Motor.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14865,7 +14843,7 @@ GameObject:
   - component: {fileID: 706642156808175605}
   - component: {fileID: 2023966639584384599}
   - component: {fileID: 4859620259865373051}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesh13325_mesh.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14951,7 +14929,7 @@ GameObject:
   - component: {fileID: 7894299292595579043}
   - component: {fileID: 8748552716077188595}
   - component: {fileID: 7620631831765510437}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kraken X60 Brushless Motor.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15250,7 +15228,7 @@ GameObject:
   - component: {fileID: 3637377359275115749}
   - component: {fileID: 5942749598532177226}
   - component: {fileID: 5898577267328902278}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.09 in. Hex Spacer.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15335,7 +15313,7 @@ GameObject:
   - component: {fileID: 7009147524381934317}
   - component: {fileID: 6041242962378971407}
   - component: {fileID: 8526168083884855346}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.034
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15420,7 +15398,7 @@ GameObject:
   - component: {fileID: 6781245767719460399}
   - component: {fileID: 47824287845969729}
   - component: {fileID: 354399204936732912}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shaft tubes.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15505,7 +15483,7 @@ GameObject:
   - component: {fileID: 3229236291072530050}
   - component: {fileID: 6901614621688160441}
   - component: {fileID: 2455488640355119333}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15589,7 +15567,7 @@ GameObject:
   m_Component:
   - component: {fileID: 638260300052626393}
   - component: {fileID: 8982384096910625356}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15643,7 +15621,7 @@ GameObject:
   - component: {fileID: 1718004703762948190}
   - component: {fileID: 323805033824317012}
   - component: {fileID: 234449331097752626}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3/8" Rounded Hex (22.5" L, 10.25mm OD).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15729,7 +15707,7 @@ GameObject:
   - component: {fileID: 3373643796508948494}
   - component: {fileID: 347928513178132138}
   - component: {fileID: 1923050197066135276}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 85T HTD Belt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15813,7 +15791,7 @@ GameObject:
   m_Component:
   - component: {fileID: 904222594462682269}
   - component: {fileID: 8455409190044832272}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15867,7 +15845,7 @@ GameObject:
   - component: {fileID: 4965492452813737642}
   - component: {fileID: 4627871340630962877}
   - component: {fileID: 1846526224946196701}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 2.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15950,7 +15928,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7640893594950128875}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShooterAsm2 <2>
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15986,7 +15964,7 @@ GameObject:
   - component: {fileID: 2325831660479691166}
   - component: {fileID: 31410821656075184}
   - component: {fileID: 2918779152110861494}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 18t Aluminum Pulley (HTD 5mm, 9mm Wide, 1/2" Hex Bore)-Mirrored.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16071,7 +16049,7 @@ GameObject:
   - component: {fileID: 9073576490614507563}
   - component: {fileID: 2788206216168425757}
   - component: {fileID: 5801780819641999937}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 32_Generic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16156,7 +16134,7 @@ GameObject:
   - component: {fileID: 94979714937073566}
   - component: {fileID: 7791328775083910389}
   - component: {fileID: 7734286236905366389}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 10.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16241,7 +16219,7 @@ GameObject:
   - component: {fileID: 7424237174973785929}
   - component: {fileID: 2104598597163038821}
   - component: {fileID: 1679072287359546994}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: '#10 Aluminum Spacer (2" L, 0.375" OD).001'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16326,7 +16304,7 @@ GameObject:
   - component: {fileID: 1984725905397934490}
   - component: {fileID: 5475362127920846233}
   - component: {fileID: 4060136260178103758}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.062" L).006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16411,7 +16389,7 @@ GameObject:
   - component: {fileID: 2876269591842872308}
   - component: {fileID: 341570511233130184}
   - component: {fileID: 5135273382666675886}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 12T HTD Pulley.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16497,7 +16475,7 @@ GameObject:
   - component: {fileID: 167900866198943396}
   - component: {fileID: 8545458070381357070}
   - component: {fileID: 1613770136455167698}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.196" ID Custom Spacer (0.375" OD,0.875" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16582,7 +16560,7 @@ GameObject:
   - component: {fileID: 7546318085462882859}
   - component: {fileID: 5041660361795588932}
   - component: {fileID: 7184655424366412404}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3D-Print Adapter (1/2" Hex Bore, VEX/WCP Profile).002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16667,7 +16645,7 @@ GameObject:
   - component: {fileID: 7058236600274419145}
   - component: {fileID: 3592448410047843684}
   - component: {fileID: 4702723882758448920}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16752,7 +16730,7 @@ GameObject:
   - component: {fileID: 8463160793849096712}
   - component: {fileID: 5555359674479434598}
   - component: {fileID: 5978855739014098280}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Robot Signal Light (RSL) (Allen Bradley)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16838,7 +16816,7 @@ GameObject:
   - component: {fileID: 6446437760598417735}
   - component: {fileID: 8788063311655932919}
   - component: {fileID: 6182193415483209585}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3/8" Rounded Hex (22.5" L, 10.25mm OD)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16924,7 +16902,7 @@ GameObject:
   - component: {fileID: 3476766771856176760}
   - component: {fileID: 2946719892115662704}
   - component: {fileID: 3368133504168117043}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Rounded Hex (27.625" L, 13.75mm OD)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17010,7 +16988,7 @@ GameObject:
   - component: {fileID: 4913169500442354944}
   - component: {fileID: 309698953665342246}
   - component: {fileID: 6927549306415740684}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.062" L).002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17093,7 +17071,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3080697072555482258}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Uptake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17128,7 +17106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9188103628102757646}
   - component: {fileID: 554641080797934176}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17182,7 +17160,7 @@ GameObject:
   - component: {fileID: 8363738080658366056}
   - component: {fileID: 6193785270303258681}
   - component: {fileID: 724461011909154639}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17266,7 +17244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4332003669614184821}
   - component: {fileID: 3855730473015096217}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Roller (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17350,7 +17328,7 @@ GameObject:
   - component: {fileID: 4647181014424266856}
   - component: {fileID: 8077141222407188641}
   - component: {fileID: 830896236489362587}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MAXSpline Grommet (REV-21-3640).015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17433,7 +17411,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5134110722735536094}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DynamicPhysics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17467,7 +17445,7 @@ GameObject:
   - component: {fileID: 3466538194421563484}
   - component: {fileID: 8215434985396334947}
   - component: {fileID: 7483554735918059878}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TUBOS INFERIORES.007_Generic (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17552,7 +17530,7 @@ GameObject:
   - component: {fileID: 5258192570007772053}
   - component: {fileID: 6232494166463197935}
   - component: {fileID: 3400001364814056992}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17638,7 +17616,7 @@ GameObject:
   - component: {fileID: 135716853542849750}
   - component: {fileID: 7028048224194290712}
   - component: {fileID: 6962126004529050979}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 115T HTD Belt.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17723,7 +17701,7 @@ GameObject:
   - component: {fileID: 4252295347626733319}
   - component: {fileID: 3317509754614429725}
   - component: {fileID: 862951533315750800}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shaft tubes.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17808,7 +17786,7 @@ GameObject:
   - component: {fileID: 6270549247440063245}
   - component: {fileID: 1801429386989140137}
   - component: {fileID: 3126799595497079657}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: '#10 Aluminum Spacer (2" L, 0.375" OD).003'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17893,7 +17871,7 @@ GameObject:
   - component: {fileID: 6837101261844365476}
   - component: {fileID: 6781143293513277573}
   - component: {fileID: 3127533473701430747}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17978,7 +17956,7 @@ GameObject:
   - component: {fileID: 2222832087018613228}
   - component: {fileID: 1451748461708409500}
   - component: {fileID: 3235752886959782027}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 18t Aluminum Pulley (HTD 5mm, 9mm Wide, 1/2" Hex Bore)-Mirrored.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18063,7 +18041,7 @@ GameObject:
   - component: {fileID: 5256692430664838649}
   - component: {fileID: 3847648920578459965}
   - component: {fileID: 7823692035146947915}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 24T HTD Pulley.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18148,7 +18126,7 @@ GameObject:
   - component: {fileID: 9024003188986448630}
   - component: {fileID: 1060965590579841094}
   - component: {fileID: 8750251625451411103}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TUBOS INFERIORES.001_Generic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18233,7 +18211,7 @@ GameObject:
   - component: {fileID: 539576232264559518}
   - component: {fileID: 5049424744867261979}
   - component: {fileID: 3529577927436997612}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 9t Steel Spur Gear (20 DP, 10T Center Distance, SplineXS Bore)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18318,7 +18296,7 @@ GameObject:
   - component: {fileID: 4703195468612526825}
   - component: {fileID: 8384560063460819197}
   - component: {fileID: 4934314677755925365}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18403,7 +18381,7 @@ GameObject:
   - component: {fileID: 5084447417149558867}
   - component: {fileID: 9139999498527393296}
   - component: {fileID: 6692521642729375451}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kraken X44 Brushless Motor.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18496,7 +18474,7 @@ GameObject:
   - component: {fileID: 2118054870574278634}
   - component: {fileID: 7683213943526701014}
   - component: {fileID: 3037737750080696288}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18581,7 +18559,7 @@ GameObject:
   - component: {fileID: 4200326935545035067}
   - component: {fileID: 6439898504967469469}
   - component: {fileID: 828877095985970746}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18665,7 +18643,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3978177501199656097}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DynamicPhysics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18699,7 +18677,7 @@ GameObject:
   - component: {fileID: 1092770506065394163}
   - component: {fileID: 3208883626536294131}
   - component: {fileID: 7452637881697112101}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 80T HTD Belt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18784,7 +18762,7 @@ GameObject:
   - component: {fileID: 2841749871819394620}
   - component: {fileID: 1840483004047123299}
   - component: {fileID: 3386129250573745065}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18869,7 +18847,7 @@ GameObject:
   - component: {fileID: 7018405649136515386}
   - component: {fileID: 396029745628740954}
   - component: {fileID: 4817158225290545937}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Aluminum Tube Plug (2" x 1" x 1/8")
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18952,7 +18930,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1764172338876453436}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18986,7 +18964,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5799287078665153253}
   - component: {fileID: 348209736458253584}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Uptake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19038,7 +19016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 209149449115927594}
   - component: {fileID: 4915232251253038630}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19092,7 +19070,7 @@ GameObject:
   - component: {fileID: 7231114799878321989}
   - component: {fileID: 2308583934554737732}
   - component: {fileID: 425447024177044151}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).056
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19209,7 +19187,7 @@ GameObject:
   - component: {fileID: 1857921847224576476}
   - component: {fileID: 7242870324892508117}
   - component: {fileID: 44205574025196895}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Clamping Shaft Collar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19293,7 +19271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5474761824047543675}
   - component: {fileID: 914600306934688122}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19347,7 +19325,7 @@ GameObject:
   - component: {fileID: 5772998266560247258}
   - component: {fileID: 8973716121305330475}
   - component: {fileID: 1256900868588428523}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MAXSpline Grommet (REV-21-3640).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19431,7 +19409,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5121834981850498207}
   - component: {fileID: 3653215886555322705}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19485,7 +19463,7 @@ GameObject:
   - component: {fileID: 3767163857701349388}
   - component: {fileID: 6114795064958530323}
   - component: {fileID: 6011937395046911009}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19570,7 +19548,7 @@ GameObject:
   - component: {fileID: 4759548241488500593}
   - component: {fileID: 4974436769943822420}
   - component: {fileID: 8191959766629533571}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19655,7 +19633,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2260216037142116609}
   - component: {fileID: 536125295582772651}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19711,7 +19689,7 @@ GameObject:
   - component: {fileID: 3634325654020376040}
   - component: {fileID: 4718040963230265632}
   - component: {fileID: 4975648006751417170}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 26t Aluminum Spur Gear (20 DP, 1/2" Hex Bore)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19796,7 +19774,7 @@ GameObject:
   - component: {fileID: 5348680319876044586}
   - component: {fileID: 5571007952845173332}
   - component: {fileID: 8475832679504043733}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19881,7 +19859,7 @@ GameObject:
   - component: {fileID: 2826860588784237493}
   - component: {fileID: 213482076745413053}
   - component: {fileID: 704990904410905785}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.09 in. Hex Spacer.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19966,7 +19944,7 @@ GameObject:
   - component: {fileID: 6118950634454004988}
   - component: {fileID: 5398533890404190612}
   - component: {fileID: 7872053399759244869}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.69" L).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20051,7 +20029,7 @@ GameObject:
   - component: {fileID: 5220978691863473482}
   - component: {fileID: 4780167414665723820}
   - component: {fileID: 1411605282934714856}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tube 1"x1"x20.5"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20136,7 +20114,7 @@ GameObject:
   - component: {fileID: 8726725903361571556}
   - component: {fileID: 2079451806842875519}
   - component: {fileID: 5841084165065532632}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 4" Brass Flywheel (1/2" Triangle Bore).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20221,7 +20199,7 @@ GameObject:
   - component: {fileID: 5908678918924330756}
   - component: {fileID: 8318711799425063602}
   - component: {fileID: 3339492104625327583}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).038
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20306,7 +20284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4828645018437277042}
   - component: {fileID: 1844119367942214661}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20358,7 +20336,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1545745484811366133}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20395,7 +20373,7 @@ GameObject:
   m_Component:
   - component: {fileID: 524885793849611446}
   - component: {fileID: 8976882694154146725}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20449,7 +20427,7 @@ GameObject:
   - component: {fileID: 7860963647171075447}
   - component: {fileID: 947336242770905950}
   - component: {fileID: 5600254154297091758}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SDS MK5 Molded Wheel.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20535,7 +20513,7 @@ GameObject:
   - component: {fileID: 4674481147415547586}
   - component: {fileID: 4734291797130633388}
   - component: {fileID: 7788923442913161171}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/4" Round x 3/8" L Shoulder (#10-24 x 0.75" L, Standard Profile, Steel,
     Black Oxide).003
   m_TagString: Untagged
@@ -20622,7 +20600,7 @@ GameObject:
   - component: {fileID: 1527092001153323338}
   - component: {fileID: 7467930018101072077}
   - component: {fileID: 2853236655381351641}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3D-Print Adapter (1/2" Hex Bore, VEX/WCP Profile).003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20707,7 +20685,7 @@ GameObject:
   - component: {fileID: 1514849698114503672}
   - component: {fileID: 7891157585634455642}
   - component: {fileID: 2255841015614597198}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3D-Print Adapter (1/2" Hex Bore, VEX/WCP Profile).005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20793,7 +20771,7 @@ GameObject:
   - component: {fileID: 58591379395212062}
   - component: {fileID: 6884395074990454810}
   - component: {fileID: 8886986995991850849}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IntakePivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21027,7 +21005,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7342220411175061092}
   - component: {fileID: 4709152934511863984}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21079,7 +21057,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3009955978810367379}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21114,7 +21092,7 @@ GameObject:
   - component: {fileID: 4724038627278879452}
   - component: {fileID: 2466059562943933104}
   - component: {fileID: 5761502314347965795}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.135" L).002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21198,7 +21176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5937340697496242680}
   - component: {fileID: 8798142424047044857}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21252,7 +21230,7 @@ GameObject:
   - component: {fileID: 8350013311465839090}
   - component: {fileID: 2358637244226904833}
   - component: {fileID: 1958786601699077745}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 24T HTD Pulley.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21337,7 +21315,7 @@ GameObject:
   - component: {fileID: 8833411673723378417}
   - component: {fileID: 8977861583022227461}
   - component: {fileID: 2450046059254498882}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 18t Aluminum Pulley (HTD 5mm, 9mm Wide, 8mm SplineXS Bore)-Mirrored
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21422,7 +21400,7 @@ GameObject:
   - component: {fileID: 5252863339183730584}
   - component: {fileID: 2354629114508894701}
   - component: {fileID: 770973235710501930}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: '#10-32 x 0.375" L HeatSet Insert (Brass)'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21507,7 +21485,7 @@ GameObject:
   - component: {fileID: 6359494165552765550}
   - component: {fileID: 8377297834029482258}
   - component: {fileID: 506339363253272527}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 18t Aluminum Pulley (HTD 5mm, 9mm Wide, 1/2" Hex Bore)-Mirrored.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21591,7 +21569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6228778304351931592}
   - component: {fileID: 7343014629104710730}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21645,7 +21623,7 @@ GameObject:
   - component: {fileID: 5359045907303663705}
   - component: {fileID: 5043853685834107333}
   - component: {fileID: 6862045153799809553}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3D-Print Adapter (8mm SplineXS Bore)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21730,7 +21708,7 @@ GameObject:
   - component: {fileID: 7995302516750279175}
   - component: {fileID: 3033701562429052121}
   - component: {fileID: 1638775526892573367}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MAXSpline Grommet (REV-21-3640).004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21815,7 +21793,7 @@ GameObject:
   - component: {fileID: 7228422044136467969}
   - component: {fileID: 5685573216728260972}
   - component: {fileID: 8627934779266811752}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TUBOS INFERIORES.002_Generic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21899,7 +21877,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2996851239203495653}
   - component: {fileID: 2364934834830798393}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Roller (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21982,7 +21960,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4482499440573965250}
   - component: {fileID: 6341196044482230207}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22036,7 +22014,7 @@ GameObject:
   - component: {fileID: 6006170866049319191}
   - component: {fileID: 5499246822664685197}
   - component: {fileID: 8982972600969538998}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22122,7 +22100,7 @@ GameObject:
   - component: {fileID: 1257163586547037612}
   - component: {fileID: 4806079789447087862}
   - component: {fileID: 7032589360456924928}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Aluminum Tube Plug (2" x 1" x 1/8")-Mirrored
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22207,7 +22185,7 @@ GameObject:
   - component: {fileID: 2450984828174857148}
   - component: {fileID: 309473755576777825}
   - component: {fileID: 3474932290350036204}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.375" OD,0.153" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22291,7 +22269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5718852953127801964}
   - component: {fileID: 8217880086967723384}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22345,7 +22323,7 @@ GameObject:
   - component: {fileID: 6344331878536813366}
   - component: {fileID: 1995666564827129056}
   - component: {fileID: 1717202907541631737}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shaft tubes.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22430,7 +22408,7 @@ GameObject:
   - component: {fileID: 4971484210301033448}
   - component: {fileID: 7572510339475689887}
   - component: {fileID: 3655268557854838207}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kraken X60 Brushless Motor.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22524,7 +22502,7 @@ GameObject:
   - component: {fileID: 5842200113847441465}
   - component: {fileID: 7533589955127651901}
   - component: {fileID: 1836238685094196232}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shaft tubes.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22609,7 +22587,7 @@ GameObject:
   - component: {fileID: 107556743262226296}
   - component: {fileID: 2153040150223788499}
   - component: {fileID: 7840122416933244514}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.09 in. Hex Spacer.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22725,7 +22703,7 @@ GameObject:
   - component: {fileID: 5198487509885333980}
   - component: {fileID: 1375858473507374524}
   - component: {fileID: 5984987139681612080}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.25" ID Bearing (0.75" OD, 0.281" WD, Shielded)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22811,7 +22789,7 @@ GameObject:
   - component: {fileID: 9152864751209014884}
   - component: {fileID: 3327437901560490478}
   - component: {fileID: 4999958178197556435}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 3.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22895,7 +22873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4818367185858481321}
   - component: {fileID: 8350489410479505737}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22949,7 +22927,7 @@ GameObject:
   - component: {fileID: 8291970977616883914}
   - component: {fileID: 6155150040226256871}
   - component: {fileID: 4526423189168786118}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.388" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23034,7 +23012,7 @@ GameObject:
   - component: {fileID: 7095607692664077853}
   - component: {fileID: 4233331513868137226}
   - component: {fileID: 792910042569132432}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 2.006_Generic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23119,7 +23097,7 @@ GameObject:
   - component: {fileID: 1853171329816853694}
   - component: {fileID: 6263214701934663947}
   - component: {fileID: 7102995345848553405}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MAXSpline Grommet (REV-21-3640).002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23204,7 +23182,7 @@ GameObject:
   - component: {fileID: 6178139694810265957}
   - component: {fileID: 8608786975067309333}
   - component: {fileID: 1370967415560846604}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).054
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23290,7 +23268,7 @@ GameObject:
   - component: {fileID: 1917001263427028350}
   - component: {fileID: 4581996534471890629}
   - component: {fileID: 5205676730965342777}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WCP-0247-003 Rev2.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23375,7 +23353,7 @@ GameObject:
   - component: {fileID: 3609114417575915073}
   - component: {fileID: 1751676068715904336}
   - component: {fileID: 1765148726898111704}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 26t Aluminum Spur Gear (20 DP, 1/2" Hex Bore).003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23459,7 +23437,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2583078761155310810}
   - component: {fileID: 2576906975469341516}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23513,7 +23491,7 @@ GameObject:
   - component: {fileID: 1575207947638711202}
   - component: {fileID: 1227496673269973425}
   - component: {fileID: 8918388340226476862}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.335" ID Custom Spacer (0.5" OD,0.252" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23598,7 +23576,7 @@ GameObject:
   - component: {fileID: 2691632202993489733}
   - component: {fileID: 3462576221248100915}
   - component: {fileID: 3844672774359559891}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23683,7 +23661,7 @@ GameObject:
   - component: {fileID: 2577426748949706715}
   - component: {fileID: 8479172631668129273}
   - component: {fileID: 4171860261359615324}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Lite (25.25" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23769,7 +23747,7 @@ GameObject:
   - component: {fileID: 3519860646454567852}
   - component: {fileID: 8757910091638296762}
   - component: {fileID: 691694653554535057}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.196" ID Custom Spacer (0.375" OD,1.313" L).005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23854,7 +23832,7 @@ GameObject:
   - component: {fileID: 7062389704224923196}
   - component: {fileID: 1013759344709425360}
   - component: {fileID: 138519709566447940}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23939,7 +23917,7 @@ GameObject:
   - component: {fileID: 3300254439933345808}
   - component: {fileID: 1129062710329894028}
   - component: {fileID: 3102045126690542368}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shaft tubes.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24024,7 +24002,7 @@ GameObject:
   - component: {fileID: 9185310771079789009}
   - component: {fileID: 3869406331330636302}
   - component: {fileID: 3655923861591099928}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.09 in. Hex Spacer.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24109,7 +24087,7 @@ GameObject:
   - component: {fileID: 2916438744778362859}
   - component: {fileID: 3337950643543888024}
   - component: {fileID: 8247385005362092765}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 24T HTD Pulley.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24193,7 +24171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2144015392085780486}
   - component: {fileID: 7576260161811960518}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24247,7 +24225,7 @@ GameObject:
   - component: {fileID: 7268475863929554699}
   - component: {fileID: 1444578229753140909}
   - component: {fileID: 6955283235719350783}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.062" L).007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24330,7 +24308,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 582094962515580818}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indexer Clean <1>
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24366,7 +24344,7 @@ GameObject:
   - component: {fileID: 7986609673379455262}
   - component: {fileID: 925731635588978798}
   - component: {fileID: 6536461708374834201}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WCP-0247-002 Rev2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24451,7 +24429,7 @@ GameObject:
   - component: {fileID: 4369991899987313788}
   - component: {fileID: 6414327206139992950}
   - component: {fileID: 4155532654697275649}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesh13113_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24536,7 +24514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5239098744230186147}
   - component: {fileID: 7112348918366250585}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24590,7 +24568,7 @@ GameObject:
   - component: {fileID: 6553501963427222475}
   - component: {fileID: 3107180481296716053}
   - component: {fileID: 5043764692090216657}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MAXSpline Grommet (REV-21-3640).003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24674,7 +24652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6245720855779228632}
   - component: {fileID: 599371360546323259}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Roller (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24758,7 +24736,7 @@ GameObject:
   - component: {fileID: 3261957821932910054}
   - component: {fileID: 2862442290962308626}
   - component: {fileID: 7072706528576345106}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.335" ID Custom Spacer (0.5" OD,0.461" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24843,7 +24821,7 @@ GameObject:
   - component: {fileID: 6951513066731815084}
   - component: {fileID: 3592355300470211391}
   - component: {fileID: 2560308219828593492}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.062" L).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24928,7 +24906,7 @@ GameObject:
   - component: {fileID: 195684149119864797}
   - component: {fileID: 7882150344106625187}
   - component: {fileID: 3963039688734014626}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25013,7 +24991,7 @@ GameObject:
   - component: {fileID: 5174284038726173511}
   - component: {fileID: 889674644916405160}
   - component: {fileID: 2306706694231678935}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3/8" Rounded Hex (2" L, 10.25mm OD).002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25097,7 +25075,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4326940602369941919}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DynamicPhysics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25130,7 +25108,7 @@ GameObject:
   - component: {fileID: 4309599868571887167}
   - component: {fileID: 1010304169292851987}
   - component: {fileID: 108650005403508753}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WCP-0247-005 Rev1.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25215,7 +25193,7 @@ GameObject:
   - component: {fileID: 7407935387437225347}
   - component: {fileID: 2854954747758043088}
   - component: {fileID: 4625582274867243440}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54T HTD Belt.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25300,7 +25278,7 @@ GameObject:
   - component: {fileID: 2348491506139363285}
   - component: {fileID: 2697146844235572172}
   - component: {fileID: 5008024310711873748}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tube 1"x1"x17.75".001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25385,7 +25363,7 @@ GameObject:
   - component: {fileID: 8160171914311291267}
   - component: {fileID: 3181141426732317326}
   - component: {fileID: 2651683470463380071}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 4.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25470,7 +25448,7 @@ GameObject:
   - component: {fileID: 3037714818725247629}
   - component: {fileID: 5130835947589186215}
   - component: {fileID: 1825879218621393923}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kraken X60 Brushless Motor.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25564,7 +25542,7 @@ GameObject:
   - component: {fileID: 1039813528879683061}
   - component: {fileID: 8583422847084694484}
   - component: {fileID: 4626553620861325004}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.25" ID Bearing (0.75" OD, 0.281" WD, Shielded).003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25650,7 +25628,7 @@ GameObject:
   - component: {fileID: 4470574871924960622}
   - component: {fileID: 6185403642324139060}
   - component: {fileID: 1971840719156099468}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25735,7 +25713,7 @@ GameObject:
   - component: {fileID: 3440302804456557853}
   - component: {fileID: 1956286146332985839}
   - component: {fileID: 2498491425998899118}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54T HTD Belt.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25820,7 +25798,7 @@ GameObject:
   - component: {fileID: 8529303724470386331}
   - component: {fileID: 2491086064371504893}
   - component: {fileID: 5763605456356830705}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).052
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25905,7 +25883,7 @@ GameObject:
   m_Component:
   - component: {fileID: 824907276753858375}
   - component: {fileID: 1765740214923422876}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25959,7 +25937,7 @@ GameObject:
   - component: {fileID: 4697034882276308058}
   - component: {fileID: 670806667605798851}
   - component: {fileID: 7522872637637122287}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WCP Through Bore Encoder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26046,7 +26024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2922385371278643088}
   - component: {fileID: 1971800890357981969}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26100,7 +26078,7 @@ GameObject:
   - component: {fileID: 366381621809547007}
   - component: {fileID: 4106915228595481234}
   - component: {fileID: 3944807928203580632}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26185,7 +26163,7 @@ GameObject:
   - component: {fileID: 4862153402940849274}
   - component: {fileID: 2170457139846150133}
   - component: {fileID: 4099532040228859952}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MAXSpline Grommet (REV-21-3640).008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26270,7 +26248,7 @@ GameObject:
   - component: {fileID: 5348282985329338879}
   - component: {fileID: 4647436548514356354}
   - component: {fileID: 2374483036476603102}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.033
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26355,7 +26333,7 @@ GameObject:
   - component: {fileID: 1503517543642489219}
   - component: {fileID: 174261837717482797}
   - component: {fileID: 849795745987974739}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Clamping Shaft Collar (Heavy Duty, Black)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26440,7 +26418,7 @@ GameObject:
   - component: {fileID: 7937826926022074764}
   - component: {fileID: 8913055098492872050}
   - component: {fileID: 3587715269597416503}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3/8" Rounded Hex (2" L, 10.25mm OD).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26526,7 +26504,7 @@ GameObject:
   - component: {fileID: 1395606159867199554}
   - component: {fileID: 7200852975204474156}
   - component: {fileID: 5718686250297982902}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26611,7 +26589,7 @@ GameObject:
   - component: {fileID: 2461049556863305929}
   - component: {fileID: 2685504428614573222}
   - component: {fileID: 949025470716820485}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MAXSpline Grommet (REV-21-3640).013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26696,7 +26674,7 @@ GameObject:
   - component: {fileID: 6311062267576018040}
   - component: {fileID: 8441499796043898505}
   - component: {fileID: 9027404654605241606}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 2.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26781,7 +26759,7 @@ GameObject:
   - component: {fileID: 1074573029716128018}
   - component: {fileID: 3525590278759834251}
   - component: {fileID: 3297428694815273567}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26866,7 +26844,7 @@ GameObject:
   - component: {fileID: 5149040066018199112}
   - component: {fileID: 8509359454114979796}
   - component: {fileID: 3982605649726686460}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 36t Aluminum Spur Gear (20 DP, 1/2" Hex Bore)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26952,7 +26930,7 @@ GameObject:
   - component: {fileID: 8179466075488872569}
   - component: {fileID: 8054422214053174207}
   - component: {fileID: 4951764961331430189}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesh13325_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27058,7 +27036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7990417970876154442}
   - component: {fileID: 6711119031951210963}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Roller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27074,7 +27052,7 @@ Transform:
   m_GameObject: {fileID: 4707543035932707518}
   serializedVersion: 2
   m_LocalRotation: {x: 0.9542396, y: 0.00000029502795, z: 0.000000021073424, w: 0.29904312}
-  m_LocalPosition: {x: 0.022587419, y: 0.01601097, z: -0.20263144}
+  m_LocalPosition: {x: 0.0226, y: 0.01601097, z: -0.1865}
   m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27092,31 +27070,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 2
-  length: 21.125006
+  radius: 1.1
+  length: 24.5
   useBeltMode: 0
   beltLength: 10
-  maxSquish: 1.5
-  coreFriction: 1
+  maxSquish: 1.1
+  coreFriction: 0.8
   coreBounce: 0
-  rpm: -800
-  compressionStiffness: 10000
-  compressionDamping: 100
-  scrubForces: 0
+  rpm: 1600
+  compressionStiffness: 1000
+  compressionDamping: 50
+  scrubForces: 5
   motorSlipResponse: 1
   frictionCoupledToNormal: 0
   frictionCoefficient: 3
-  oppositeReaction: 1
+  oppositeReaction: 0
   ignoreLayers:
     serializedVersion: 2
-    m_Bits: 0
-  motor: 0
+    m_Bits: 64
+  motor: 1
   ignoreDefaultMaxRpm: 0
   models:
   - model: {fileID: 6220342140869405211}
     jointAxis: 1
     reversed: 0
-    multiplier: 1
+    multiplier: 0
   rollerSound: {fileID: 0}
   playbackSpeed: 1
   pitchMultiplier: 0.0005
@@ -27142,7 +27120,7 @@ GameObject:
   - component: {fileID: 8448670541582067291}
   - component: {fileID: 2220220100787001000}
   - component: {fileID: 803828836165953714}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.69" L).002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27227,7 +27205,7 @@ GameObject:
   - component: {fileID: 4731780666361795455}
   - component: {fileID: 3009675176410039587}
   - component: {fileID: 8326246026411982363}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3/8" Rounded Hex (22.5" L, 10.25mm OD).008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27313,7 +27291,7 @@ GameObject:
   - component: {fileID: 4888161821341510261}
   - component: {fileID: 2011065511448944932}
   - component: {fileID: 7983957687515450155}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3/8" Rounded Hex (1.434" L, 10.25mm OD).003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27399,7 +27377,7 @@ GameObject:
   - component: {fileID: 6118112289110272513}
   - component: {fileID: 1635076416815904082}
   - component: {fileID: 3021516632376940139}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 26t Aluminum Spur Gear (20 DP, 1/2" Hex Bore).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27484,7 +27462,7 @@ GameObject:
   - component: {fileID: 1318549740534836450}
   - component: {fileID: 1467306673442737587}
   - component: {fileID: 4951996590546663978}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27570,7 +27548,7 @@ GameObject:
   - component: {fileID: 236752774737086624}
   - component: {fileID: 3325546562063222283}
   - component: {fileID: 1141502476358239516}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 96 links #25 chain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27655,7 +27633,7 @@ GameObject:
   - component: {fileID: 4849464715348565936}
   - component: {fileID: 1070138805361833831}
   - component: {fileID: 4129224035952784081}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 115T HTD Belt.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27740,7 +27718,7 @@ GameObject:
   - component: {fileID: 5450833754232656921}
   - component: {fileID: 6604442160656802910}
   - component: {fileID: 2969645505212408724}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.196" ID Custom Spacer (0.375" OD,1.567" L).003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27825,7 +27803,7 @@ GameObject:
   - component: {fileID: 8653909904486754303}
   - component: {fileID: 8272054192708434921}
   - component: {fileID: 7247868091509870742}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 3.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27910,7 +27888,7 @@ GameObject:
   - component: {fileID: 3757402601648089725}
   - component: {fileID: 7043732230503898428}
   - component: {fileID: 3578841718074160676}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 18t Aluminum Pulley (HTD 5mm, 9mm Wide, 1/2" Hex Bore)-Mirrored.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27995,7 +27973,7 @@ GameObject:
   - component: {fileID: 104079861617243554}
   - component: {fileID: 769457471587034081}
   - component: {fileID: 3398480396724611876}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 115T HTD Belt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28079,7 +28057,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4539647224580471941}
   - component: {fileID: 9194449821471356804}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28132,7 +28110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7704677121141327097}
   - component: {fileID: 3408820405962997746}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28188,7 +28166,7 @@ GameObject:
   - component: {fileID: 4711430392480580335}
   - component: {fileID: 6511666492360056919}
   - component: {fileID: 6924080289764191424}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SDS MK5 Molded Wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28273,7 +28251,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6740666106701370555}
   - component: {fileID: 3626674050319545364}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28327,7 +28305,7 @@ GameObject:
   - component: {fileID: 3632852378034062112}
   - component: {fileID: 6063533551391857420}
   - component: {fileID: 3181704024533091005}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 120A Main Breaker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28416,7 +28394,7 @@ GameObject:
   - component: {fileID: 2699102535182965289}
   - component: {fileID: 4972215530664397885}
   - component: {fileID: 1393343751375722875}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Simplified PDH
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28525,7 +28503,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7306398625618400841}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28577,7 +28555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6165488731653421936}
   - component: {fileID: 1213010806320966612}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28631,7 +28609,7 @@ GameObject:
   - component: {fileID: 7747396547707492790}
   - component: {fileID: 7285947719450815424}
   - component: {fileID: 8627371029812779995}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MAXSpline Grommet (REV-21-3640)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28716,7 +28694,7 @@ GameObject:
   - component: {fileID: 2500505840876547098}
   - component: {fileID: 676237322611283665}
   - component: {fileID: 6136357089342366402}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3/8" Rounded Hex (22.5" L, 10.25mm OD).003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28833,7 +28811,7 @@ GameObject:
   - component: {fileID: 3212836713798466613}
   - component: {fileID: 5570590772196787520}
   - component: {fileID: 8336751792925113607}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WCP-0247-001 Rev2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28919,7 +28897,7 @@ GameObject:
   - component: {fileID: 3683041271836807448}
   - component: {fileID: 8357329518281194939}
   - component: {fileID: 928119792984955586}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29004,7 +28982,7 @@ GameObject:
   - component: {fileID: 2353618945780319169}
   - component: {fileID: 7448315671709706692}
   - component: {fileID: 2186458193206845375}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MAXSpline Grommet (REV-21-3640).011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29089,7 +29067,7 @@ GameObject:
   - component: {fileID: 4541695850184743643}
   - component: {fileID: 1707924788133903905}
   - component: {fileID: 3210486950516165542}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.09 in. Hex Spacer.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29173,7 +29151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2005044272830273266}
   - component: {fileID: 3293906953137730173}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29261,7 +29239,7 @@ GameObject:
   - component: {fileID: 7228817641224385303}
   - component: {fileID: 5541189415361598341}
   - component: {fileID: 8677196030264669526}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 70t Aluminum Spur Gear (20 DP, 1/2" Hex Bore)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29346,7 +29324,7 @@ GameObject:
   - component: {fileID: 2306954800303309172}
   - component: {fileID: 4539606930933886226}
   - component: {fileID: 3381626784240747992}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/4" Round x 3/8" L Shoulder (#10-24 x 0.75" L, Standard Profile, Steel,
     Black Oxide).002
   m_TagString: Untagged
@@ -29432,7 +29410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1522943381665405400}
   - component: {fileID: 1182020825091065663}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29486,7 +29464,7 @@ GameObject:
   - component: {fileID: 6574565946127460626}
   - component: {fileID: 1237691340623058520}
   - component: {fileID: 6051863305734963731}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29571,7 +29549,7 @@ GameObject:
   - component: {fileID: 6639496850527238727}
   - component: {fileID: 5022553296292924020}
   - component: {fileID: 1550942592337165346}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 8.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29656,7 +29634,7 @@ GameObject:
   - component: {fileID: 3489552199031623824}
   - component: {fileID: 9097801812744725785}
   - component: {fileID: 4517704255316224323}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TUBOS INFERIORES.007_Generic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29741,7 +29719,7 @@ GameObject:
   - component: {fileID: 2287906749710290840}
   - component: {fileID: 1749384370627034400}
   - component: {fileID: 11230749147584043}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 27.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29825,7 +29803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1208018342015670706}
   - component: {fileID: 2322242760376117893}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29881,7 +29859,7 @@ GameObject:
   - component: {fileID: 9118378769300043258}
   - component: {fileID: 700372681748616055}
   - component: {fileID: 4918927397969781898}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.335" ID Custom Spacer (0.5" OD,0.252" L).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29966,7 +29944,7 @@ GameObject:
   - component: {fileID: 6171402419349178810}
   - component: {fileID: 8068811927468907043}
   - component: {fileID: 7741474901045602319}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).031
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30051,7 +30029,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6186532141169338920}
   - component: {fileID: 2407028046899547751}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30105,7 +30083,7 @@ GameObject:
   - component: {fileID: 653904236269762102}
   - component: {fileID: 6612639877138305442}
   - component: {fileID: 5529002388457326819}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.187" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30188,7 +30166,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6237282261099325741}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DynamicPhysics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30222,7 +30200,7 @@ GameObject:
   - component: {fileID: 2660998369016148522}
   - component: {fileID: 6756444739919410852}
   - component: {fileID: 3514988225581672287}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WCP-0247-004 Rev1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30307,7 +30285,7 @@ GameObject:
   - component: {fileID: 8552650054224883212}
   - component: {fileID: 682545016364154000}
   - component: {fileID: 5927190785805183487}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30392,7 +30370,7 @@ GameObject:
   - component: {fileID: 7269999590412330265}
   - component: {fileID: 7962641621116985029}
   - component: {fileID: 7396936525511297888}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 24.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30476,7 +30454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3572470846129090152}
   - component: {fileID: 6074090705478039669}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30530,7 +30508,7 @@ GameObject:
   - component: {fileID: 964221389065785561}
   - component: {fileID: 1399785043867600209}
   - component: {fileID: 8292564550423008066}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 12T HTD Pulley
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30615,7 +30593,7 @@ GameObject:
   - component: {fileID: 2108339823604619372}
   - component: {fileID: 4831249640557398820}
   - component: {fileID: 5692652027304100259}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).059
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30701,7 +30679,7 @@ GameObject:
   - component: {fileID: 4671545381634718542}
   - component: {fileID: 8946297891074035507}
   - component: {fileID: 5929868426183861153}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3/8" Rounded Hex (22.5" L, 10.25mm OD).004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30787,7 +30765,7 @@ GameObject:
   - component: {fileID: 1963943627170098677}
   - component: {fileID: 2052162693105400589}
   - component: {fileID: 2811606618593868845}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Clamping Shaft Collar (Heavy Duty, Black).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30871,7 +30849,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2099658983555591600}
   - component: {fileID: 5063649846824311923}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30924,7 +30902,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3973889211958862496}
   - component: {fileID: 7085134535445695439}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30978,7 +30956,7 @@ GameObject:
   - component: {fileID: 944521208291952240}
   - component: {fileID: 8923647416153294299}
   - component: {fileID: 1181697719042583892}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tube 1"x1"x9"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31063,7 +31041,7 @@ GameObject:
   - component: {fileID: 1332378854529653408}
   - component: {fileID: 4787573756356212160}
   - component: {fileID: 6010871481236901212}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 24T HTD Pulley.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31148,7 +31126,7 @@ GameObject:
   - component: {fileID: 5362541923034168686}
   - component: {fileID: 6271366602196932972}
   - component: {fileID: 1807660974042751928}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.132" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31233,7 +31211,7 @@ GameObject:
   - component: {fileID: 7552282373271902764}
   - component: {fileID: 884415224387009813}
   - component: {fileID: 6774296516771419918}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 26t Aluminum Spur Gear (20 DP, 1/2" Hex Bore).002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31318,7 +31296,7 @@ GameObject:
   - component: {fileID: 1810830391431094781}
   - component: {fileID: 1313618870754166782}
   - component: {fileID: 5008916344853556454}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 18T HTD Pulley
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31403,7 +31381,7 @@ GameObject:
   - component: {fileID: 3102820554322058377}
   - component: {fileID: 8789045022688614011}
   - component: {fileID: 6555191797094212643}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3/8" Rounded Hex (1.434" L, 10.25mm OD).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31489,7 +31467,7 @@ GameObject:
   - component: {fileID: 9141238158865438106}
   - component: {fileID: 4931357288262317596}
   - component: {fileID: 6966333809511806457}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31574,7 +31552,7 @@ GameObject:
   - component: {fileID: 6124525826900655821}
   - component: {fileID: 6062799605665817861}
   - component: {fileID: 8789870776962358109}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 85T HTD Belt.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31658,7 +31636,7 @@ GameObject:
   m_Component:
   - component: {fileID: 562098324220460055}
   - component: {fileID: 5392810024748049729}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31712,7 +31690,7 @@ GameObject:
   - component: {fileID: 2088280269616461150}
   - component: {fileID: 4239629462416915303}
   - component: {fileID: 8073708069748182756}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 2.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31797,7 +31775,7 @@ GameObject:
   - component: {fileID: 1884652640374912777}
   - component: {fileID: 3556267082558634454}
   - component: {fileID: 8592125993377574923}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.196" ID Custom Spacer (0.375" OD,1.313" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31882,7 +31860,7 @@ GameObject:
   - component: {fileID: 3749136781963146557}
   - component: {fileID: 1315945229936183789}
   - component: {fileID: 8589327776337641822}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31967,7 +31945,7 @@ GameObject:
   - component: {fileID: 8971374650976952587}
   - component: {fileID: 4243533903154912509}
   - component: {fileID: 3333464478032570321}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).034
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32053,7 +32031,7 @@ GameObject:
   - component: {fileID: 8424087792859732168}
   - component: {fileID: 5547387717644343366}
   - component: {fileID: 6811033353176876118}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.09 in. Hex Spacer.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32138,7 +32116,7 @@ GameObject:
   - component: {fileID: 8917710802898514537}
   - component: {fileID: 4961522031921416259}
   - component: {fileID: 1292570014960589697}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shaft tubes.016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32223,7 +32201,7 @@ GameObject:
   - component: {fileID: 8276320212480535631}
   - component: {fileID: 7812355311979482068}
   - component: {fileID: 1452750980461065874}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.135" L).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32308,7 +32286,7 @@ GameObject:
   - component: {fileID: 2850856765876719152}
   - component: {fileID: 357792077392814217}
   - component: {fileID: 8686556318422929893}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shaft tubes.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32393,7 +32371,7 @@ GameObject:
   - component: {fileID: 6335819205349360341}
   - component: {fileID: 8119559119019005679}
   - component: {fileID: 4839245747811578440}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3/8" Rounded Hex (2" L, 10.25mm OD).005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32479,7 +32457,7 @@ GameObject:
   - component: {fileID: 1262979184884831122}
   - component: {fileID: 3340660534136961287}
   - component: {fileID: 6123759078056397317}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 47T HTD Pulley.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32564,7 +32542,7 @@ GameObject:
   - component: {fileID: 4729950209218096981}
   - component: {fileID: 6833664374619831001}
   - component: {fileID: 2710027478574842470}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kraken X60 Brushless Motor.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32658,7 +32636,7 @@ GameObject:
   - component: {fileID: 1495540052293477184}
   - component: {fileID: 4693805546854525684}
   - component: {fileID: 4081237788718978760}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kraken X60 Brushless Motor.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32752,7 +32730,7 @@ GameObject:
   - component: {fileID: 7503621730247754877}
   - component: {fileID: 5675116314817990544}
   - component: {fileID: 3221737308782217759}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32838,7 +32816,7 @@ GameObject:
   - component: {fileID: 5703027301604584735}
   - component: {fileID: 4218134978099494177}
   - component: {fileID: 7001716246017577683}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Lite (24.5" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32924,7 +32902,7 @@ GameObject:
   - component: {fileID: 1504430304354803690}
   - component: {fileID: 7256700028759903994}
   - component: {fileID: 5537411325569283453}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33009,7 +32987,7 @@ GameObject:
   - component: {fileID: 7982853103054307142}
   - component: {fileID: 5156940141250939006}
   - component: {fileID: 3297375547395406842}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 10t Steel Spur Gear (10 DP, 1/2" Hex Bore).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33094,7 +33072,7 @@ GameObject:
   - component: {fileID: 2082303013206593212}
   - component: {fileID: 2798762588799253269}
   - component: {fileID: 3469390478691645333}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.335" ID Custom Spacer (0.5" OD,0.531" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33179,7 +33157,7 @@ GameObject:
   - component: {fileID: 5297505697592005198}
   - component: {fileID: 397529340569327154}
   - component: {fileID: 8242038338181868002}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33265,7 +33243,7 @@ GameObject:
   - component: {fileID: 6058586694927306643}
   - component: {fileID: 4035449554023097584}
   - component: {fileID: 2145555285588692459}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33351,7 +33329,7 @@ GameObject:
   - component: {fileID: 1686653612002009465}
   - component: {fileID: 5151830775122878558}
   - component: {fileID: 974997905755768194}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Rounded Hex (2.059" L, 13.75mm OD).002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33437,7 +33415,7 @@ GameObject:
   - component: {fileID: 7600720189509895822}
   - component: {fileID: 1811967126154287012}
   - component: {fileID: 9076149593563186647}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MAXSpline Grommet (REV-21-3640).012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33520,7 +33498,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1128449541265982488}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33578,7 +33556,7 @@ GameObject:
   - component: {fileID: 8553991076016470017}
   - component: {fileID: 7048059505277233296}
   - component: {fileID: 3632826073695719457}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33663,7 +33641,7 @@ GameObject:
   - component: {fileID: 6533523329633546784}
   - component: {fileID: 7102032196132167402}
   - component: {fileID: 2577934432309138013}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.196" ID Custom Spacer (0.375" OD,1.567" L).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33748,7 +33726,7 @@ GameObject:
   - component: {fileID: 248669615380022929}
   - component: {fileID: 4996370519989160714}
   - component: {fileID: 453187079940055425}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 24T HTD Pulley.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33833,7 +33811,7 @@ GameObject:
   - component: {fileID: 1112277073795834520}
   - component: {fileID: 7253161384863775005}
   - component: {fileID: 1742817606674362789}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 115T HTD Belt.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33918,7 +33896,7 @@ GameObject:
   - component: {fileID: 4751796889392358279}
   - component: {fileID: 7060594930984238933}
   - component: {fileID: 372594634562562289}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).045
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34004,7 +33982,7 @@ GameObject:
   - component: {fileID: 878975122012196670}
   - component: {fileID: 652455412806357334}
   - component: {fileID: 2879275618732039330}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34089,7 +34067,7 @@ GameObject:
   - component: {fileID: 8016066314156777089}
   - component: {fileID: 7131448368695168807}
   - component: {fileID: 5148834019854902587}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TUBOS INFERIORES.004_Generic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34174,7 +34152,7 @@ GameObject:
   - component: {fileID: 8282009716752398085}
   - component: {fileID: 1290424505763591996}
   - component: {fileID: 5606409626985993410}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54T HTD Belt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34259,7 +34237,7 @@ GameObject:
   - component: {fileID: 5938023466294501496}
   - component: {fileID: 670288250853778463}
   - component: {fileID: 6743647044613169773}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.058" L).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34344,7 +34322,7 @@ GameObject:
   - component: {fileID: 7207585368959287954}
   - component: {fileID: 5533106227043327131}
   - component: {fileID: 6510835709526898273}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34428,7 +34406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4112854213673623356}
   - component: {fileID: 4031100010137197328}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34481,7 +34459,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7119981030519267964}
   - component: {fileID: 1366790171274322438}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34535,7 +34513,7 @@ GameObject:
   - component: {fileID: 1885409555905200588}
   - component: {fileID: 2754179668839976500}
   - component: {fileID: 1624158945398155096}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34620,7 +34598,7 @@ GameObject:
   - component: {fileID: 3495203792734209604}
   - component: {fileID: 6003219538574171223}
   - component: {fileID: 1330013223867118742}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TUBOS INFERIORES_Generic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34705,7 +34683,7 @@ GameObject:
   - component: {fileID: 8604226225070904295}
   - component: {fileID: 4843928787578754147}
   - component: {fileID: 5628728097611219603}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 11.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34790,7 +34768,7 @@ GameObject:
   - component: {fileID: 8488526501769633355}
   - component: {fileID: 3811327226643916060}
   - component: {fileID: 2861379966513902982}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).033
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34876,7 +34854,7 @@ GameObject:
   - component: {fileID: 7600220402829409997}
   - component: {fileID: 6483440047295957427}
   - component: {fileID: 8035777264353849139}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TUBOS INFERIORES.003_Generic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34961,7 +34939,7 @@ GameObject:
   - component: {fileID: 3161380378754827160}
   - component: {fileID: 8100750400191459235}
   - component: {fileID: 108861689273550850}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Simplified MPM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35048,7 +35026,7 @@ GameObject:
   - component: {fileID: 4119146515023818886}
   - component: {fileID: 2360221922664616434}
   - component: {fileID: 8818170683145596869}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 25.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35133,7 +35111,7 @@ GameObject:
   - component: {fileID: 998494245466857111}
   - component: {fileID: 1253885657618281525}
   - component: {fileID: 205268353397844368}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).049
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35218,7 +35196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4685295973666997602}
   - component: {fileID: 948432566059083269}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Roller (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35301,7 +35279,7 @@ GameObject:
   m_Component:
   - component: {fileID: 555102034561906712}
   - component: {fileID: 9187624541688809988}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35355,7 +35333,7 @@ GameObject:
   - component: {fileID: 1554907809605253330}
   - component: {fileID: 5608642304324713416}
   - component: {fileID: 7570442162121692784}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SDS MK5 Turret Assembly.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35444,7 +35422,7 @@ GameObject:
   - component: {fileID: 9135705463571482389}
   - component: {fileID: 4665159430399330000}
   - component: {fileID: 3667186535044134988}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3D-Print Adapter (1/2" Hex Bore, VEX/WCP Profile).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35529,7 +35507,7 @@ GameObject:
   - component: {fileID: 2273444893413046858}
   - component: {fileID: 873215122339848511}
   - component: {fileID: 6856073062324803168}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Rounded Hex (26.375" L, 13.75mm OD)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35613,7 +35591,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6515664361365171983}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ChassisAsm <1>
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35648,7 +35626,7 @@ GameObject:
   - component: {fileID: 7763676609481976464}
   - component: {fileID: 6193262119025336962}
   - component: {fileID: 7364450259309138946}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 2.007_Generic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35799,7 +35777,7 @@ GameObject:
   - component: {fileID: 4369870693472539154}
   - component: {fileID: 6674340822957084458}
   - component: {fileID: 6162184348445553107}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 18t Aluminum Pulley (HTD 5mm, 9mm Wide, 1/2" Hex Bore)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35884,7 +35862,7 @@ GameObject:
   - component: {fileID: 8744067688323253491}
   - component: {fileID: 1930590585131759268}
   - component: {fileID: 2409703224383990400}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1-Mirrored
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35969,7 +35947,7 @@ GameObject:
   - component: {fileID: 8627728162866062761}
   - component: {fileID: 4065213775309466711}
   - component: {fileID: 9181041800308883281}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.187" L).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36054,7 +36032,7 @@ GameObject:
   - component: {fileID: 4955183131203693300}
   - component: {fileID: 2819598943898815285}
   - component: {fileID: 1735046795073958837}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.09 in. Hex Spacer.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36138,7 +36116,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7670548705225506250}
   - component: {fileID: 4087140207400116273}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HoodPivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36191,7 +36169,7 @@ GameObject:
   - component: {fileID: 3311658104457547348}
   - component: {fileID: 2866775926443881111}
   - component: {fileID: 7502310141857823589}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Rounded Hex (1.434" L, 13.75mm OD)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36276,7 +36254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8611137654163701354}
   - component: {fileID: 6542421945291571098}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36330,7 +36308,7 @@ GameObject:
   - component: {fileID: 1699928314517990312}
   - component: {fileID: 4365477267844107572}
   - component: {fileID: 4574812625991393821}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesh16573_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36419,7 +36397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5514996982870083264}
   - component: {fileID: 1518878692777334501}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36473,7 +36451,7 @@ GameObject:
   - component: {fileID: 6150542626695041448}
   - component: {fileID: 8925374725263546731}
   - component: {fileID: 7829095920251488111}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3D-Print Adapter (1/2" Hex Bore, VEX/WCP Profile)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36557,7 +36535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7367034183627358516}
   - component: {fileID: 3337122894476772677}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36613,7 +36591,7 @@ GameObject:
   - component: {fileID: 6145833906784225259}
   - component: {fileID: 4668738244981696694}
   - component: {fileID: 996186798441788600}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tube 1"x1"x9".001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36698,7 +36676,7 @@ GameObject:
   - component: {fileID: 286092390186594914}
   - component: {fileID: 6095896790809524200}
   - component: {fileID: 3928750088962957803}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36783,7 +36761,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6330871571866091130}
   - component: {fileID: 5340623847568676721}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36837,7 +36815,7 @@ GameObject:
   - component: {fileID: 4928407644898438885}
   - component: {fileID: 8242045947990398648}
   - component: {fileID: 8181908174991546284}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36922,7 +36900,7 @@ GameObject:
   - component: {fileID: 4395909877009261767}
   - component: {fileID: 6872688657509789981}
   - component: {fileID: 9202251678789586029}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 5-Mirrored
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37007,7 +36985,7 @@ GameObject:
   - component: {fileID: 818681374493440271}
   - component: {fileID: 356766620246642320}
   - component: {fileID: 7682554690749979215}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.09 in. Hex Spacer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37092,7 +37070,7 @@ GameObject:
   - component: {fileID: 4452247926877033203}
   - component: {fileID: 8361990898601095793}
   - component: {fileID: 1496865868861660251}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 3.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37177,7 +37155,7 @@ GameObject:
   - component: {fileID: 3211026255375549780}
   - component: {fileID: 5534936835432709896}
   - component: {fileID: 107134964241642568}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37262,7 +37240,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5917478671780092426}
   - component: {fileID: 7354602164622955557}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37318,7 +37296,7 @@ GameObject:
   - component: {fileID: 9175701500290527681}
   - component: {fileID: 7635705292164256371}
   - component: {fileID: 4660964515951094978}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SDS MK5n Top Assembly (A).003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37409,7 +37387,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3386220839234597658}
   - component: {fileID: 5841849292680778137}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37465,7 +37443,7 @@ GameObject:
   - component: {fileID: 5753772742882533536}
   - component: {fileID: 8427401707424902971}
   - component: {fileID: 5134043932690191852}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shaft tubes.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37550,7 +37528,7 @@ GameObject:
   - component: {fileID: 1083945879725985366}
   - component: {fileID: 4824762754969883021}
   - component: {fileID: 810509712677586159}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 16t Steel Spur Gear (20 DP, SplineXS Bore)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37634,7 +37612,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2010755656846010737}
   - component: {fileID: 5953847255474159435}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37686,7 +37664,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6116168403904097181}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37874,7 +37852,7 @@ GameObject:
   - component: {fileID: 1564786271529058529}
   - component: {fileID: 6313730425067735846}
   - component: {fileID: 635964830194698638}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37960,7 +37938,7 @@ GameObject:
   - component: {fileID: 2520609423110341669}
   - component: {fileID: 8472440431774410515}
   - component: {fileID: 3371390599427507702}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38046,7 +38024,7 @@ GameObject:
   - component: {fileID: 5149824602640556305}
   - component: {fileID: 4910602653041743419}
   - component: {fileID: 7939173734805036138}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.567" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38129,7 +38107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7004357390654311575}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38171,7 +38149,7 @@ GameObject:
   - component: {fileID: 900348331590478762}
   - component: {fileID: 2057920799436047920}
   - component: {fileID: 6924944600177819230}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38257,7 +38235,7 @@ GameObject:
   - component: {fileID: 126627722922419497}
   - component: {fileID: 1638616256267387075}
   - component: {fileID: 3545100025531262316}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Soporte de la caja.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38342,7 +38320,7 @@ GameObject:
   - component: {fileID: 4176615735297805211}
   - component: {fileID: 5346807378695330940}
   - component: {fileID: 1196884397620914180}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38428,7 +38406,7 @@ GameObject:
   - component: {fileID: 7497607281565882600}
   - component: {fileID: 5899442452843714632}
   - component: {fileID: 5215122513333940144}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).029
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38514,7 +38492,7 @@ GameObject:
   - component: {fileID: 7174866298115421370}
   - component: {fileID: 8122323481723948313}
   - component: {fileID: 5857150465258954285}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 10.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38598,7 +38576,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3668942585420482511}
   - component: {fileID: 5756388913653188986}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Roller (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38682,7 +38660,7 @@ GameObject:
   - component: {fileID: 8202793027840439366}
   - component: {fileID: 4732852466904295025}
   - component: {fileID: 4424850341176687099}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Rounded Hex (2.563" L, 13.75mm OD)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38768,7 +38746,7 @@ GameObject:
   - component: {fileID: 225534561509521804}
   - component: {fileID: 4495354292676422080}
   - component: {fileID: 5732069638804650613}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 18t Aluminum Pulley (HTD 5mm, 9mm Wide, 1/2" Hex Bore)-Mirrored.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38853,7 +38831,7 @@ GameObject:
   - component: {fileID: 2773890334604314309}
   - component: {fileID: 5345550127066246773}
   - component: {fileID: 5578342211704880925}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kraken X60 Back Cap (WCP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38938,7 +38916,7 @@ GameObject:
   - component: {fileID: 8248120602885559485}
   - component: {fileID: 1810822016337856923}
   - component: {fileID: 323951277139345887}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39024,7 +39002,7 @@ GameObject:
   - component: {fileID: 3230123788251528912}
   - component: {fileID: 6003049075110041536}
   - component: {fileID: 1064263309156578067}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 26T HTD Pulley.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39109,7 +39087,7 @@ GameObject:
   - component: {fileID: 7943817540412675034}
   - component: {fileID: 619070818066904807}
   - component: {fileID: 2125874082923932901}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Churro (24.75" L, 6061 Aluminum)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39194,7 +39172,7 @@ GameObject:
   - component: {fileID: 7753920389060637589}
   - component: {fileID: 2251886353446691582}
   - component: {fileID: 4931233430420426761}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MK5 Corner Block.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39279,7 +39257,7 @@ GameObject:
   - component: {fileID: 4806822051599943237}
   - component: {fileID: 846609120278302823}
   - component: {fileID: 5005195901305877864}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.029
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39364,7 +39342,7 @@ GameObject:
   - component: {fileID: 8235237451110865622}
   - component: {fileID: 7677023483925476028}
   - component: {fileID: 6894396908383504024}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 16t Aluminum Sprocket (#25, 1/2" Hex Bore, Double Hub)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39449,7 +39427,7 @@ GameObject:
   - component: {fileID: 5751076204013545241}
   - component: {fileID: 6090800620914501316}
   - component: {fileID: 3327909830600748370}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39534,7 +39512,7 @@ GameObject:
   - component: {fileID: 632635931124562621}
   - component: {fileID: 1181093543893408480}
   - component: {fileID: 3744667585152220365}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Rounded Hex (25.132" L, 13.75mm OD)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39620,7 +39598,7 @@ GameObject:
   - component: {fileID: 4885189474575137225}
   - component: {fileID: 1897952022394815114}
   - component: {fileID: 5505734414881274634}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.058" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39703,7 +39681,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 319899624581833112}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DynamicPhysics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39736,7 +39714,7 @@ GameObject:
   - component: {fileID: 7382123324403899917}
   - component: {fileID: 4366385059511524698}
   - component: {fileID: 4410234745618891100}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 18t Aluminum Pulley (HTD 5mm, 9mm Wide, 8mm SplineXS Bore)-Mirrored.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39821,7 +39799,7 @@ GameObject:
   - component: {fileID: 8182128942717236133}
   - component: {fileID: 6346769799049282648}
   - component: {fileID: 7262718638431532099}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39906,7 +39884,7 @@ GameObject:
   - component: {fileID: 7191880671771185328}
   - component: {fileID: 821734016730559389}
   - component: {fileID: 7686671074288515756}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 11t Steel Spur Gear (20 DP, 12T Center Distance, SplineXS Bore)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39991,7 +39969,7 @@ GameObject:
   - component: {fileID: 7897730714946599564}
   - component: {fileID: 2390287462139108203}
   - component: {fileID: 6375093769620571361}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40077,7 +40055,7 @@ GameObject:
   - component: {fileID: 7924498926609836492}
   - component: {fileID: 3872356107696987202}
   - component: {fileID: 8319201264679861502}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.196" ID Custom Spacer (0.375" OD,1.313" L).002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40163,7 +40141,7 @@ GameObject:
   - component: {fileID: 4637064262487225970}
   - component: {fileID: 5573780012807263034}
   - component: {fileID: 4975408046921578754}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40269,7 +40247,7 @@ GameObject:
   - component: {fileID: 2317927344716165508}
   - component: {fileID: 2673123357461808479}
   - component: {fileID: 6102776691652848526}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40354,7 +40332,7 @@ GameObject:
   - component: {fileID: 4855910721773376690}
   - component: {fileID: 8486056017028426555}
   - component: {fileID: 1081896337449385857}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 17T HTD Pulley
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40439,7 +40417,7 @@ GameObject:
   - component: {fileID: 2413151010915737951}
   - component: {fileID: 2439570549081468905}
   - component: {fileID: 5626209600243018029}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40524,7 +40502,7 @@ GameObject:
   - component: {fileID: 1910570881687171333}
   - component: {fileID: 2220680650421292858}
   - component: {fileID: 1393042599899767494}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.062" L).003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40610,7 +40588,7 @@ GameObject:
   - component: {fileID: 3725562913494208703}
   - component: {fileID: 2168555804968263075}
   - component: {fileID: 7921075186712056145}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).032
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40696,7 +40674,7 @@ GameObject:
   - component: {fileID: 5870925633817119166}
   - component: {fileID: 5845067677835337775}
   - component: {fileID: 1903934796466659754}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 16t Aluminum Sprocket (#25, 1/2" Hex Bore, Double Hub)-Mirrored
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40781,7 +40759,7 @@ GameObject:
   - component: {fileID: 5684174982898824996}
   - component: {fileID: 6273503630491493620}
   - component: {fileID: 8139486743817241308}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).048
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40867,7 +40845,7 @@ GameObject:
   - component: {fileID: 9148306612305882461}
   - component: {fileID: 7888920506581559805}
   - component: {fileID: 29632481977957502}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SDS MK5 Molded Wheel.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40953,7 +40931,7 @@ GameObject:
   - component: {fileID: 2949459366474054723}
   - component: {fileID: 185448810247720911}
   - component: {fileID: 7583574671838241344}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).044
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41039,7 +41017,7 @@ GameObject:
   - component: {fileID: 1259996117352133815}
   - component: {fileID: 6140000182618263510}
   - component: {fileID: 5022693551023227769}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.196" ID Custom Spacer (0.375" OD,0.875" L).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41124,7 +41102,7 @@ GameObject:
   - component: {fileID: 932740925567907120}
   - component: {fileID: 8821343134517962692}
   - component: {fileID: 1703120838270051912}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tube 2"x1"x18.5".002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41209,7 +41187,7 @@ GameObject:
   - component: {fileID: 3274500286500844136}
   - component: {fileID: 6098533151183327344}
   - component: {fileID: 2892142851794989548}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 96 links #25 chain.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41294,7 +41272,7 @@ GameObject:
   - component: {fileID: 3536962911149768731}
   - component: {fileID: 6368987447182598711}
   - component: {fileID: 8625000296405515587}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 3.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41378,7 +41356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1477255852544466304}
   - component: {fileID: 6663109122866177562}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41431,7 +41409,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5377263584434045346}
   - component: {fileID: 337707508900693323}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41485,7 +41463,7 @@ GameObject:
   - component: {fileID: 344997098561907405}
   - component: {fileID: 3827461637369432375}
   - component: {fileID: 2036181719603747367}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kraken X60 Brushless Motor-Mirrored.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41578,7 +41556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2894682777125518870}
   - component: {fileID: 6719001317497668722}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41631,7 +41609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7485574916403285089}
   - component: {fileID: 8700928582029696924}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41685,7 +41663,7 @@ GameObject:
   - component: {fileID: 7023889184317807510}
   - component: {fileID: 6920974140702909717}
   - component: {fileID: 8061438697346185261}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3/8" Rounded Hex (1.434" L, 10.25mm OD).002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41769,7 +41747,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8160672788069492080}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Assembly 4 <1>
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41805,7 +41783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5265359304164831192}
   - component: {fileID: 1321006113845683082}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41861,7 +41839,7 @@ GameObject:
   - component: {fileID: 3245769451206291305}
   - component: {fileID: 2579416509995679747}
   - component: {fileID: 2550219866958437120}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.196" ID Custom Spacer (0.375" OD,1.567" L).004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41946,7 +41924,7 @@ GameObject:
   - component: {fileID: 239344068263137965}
   - component: {fileID: 1370556423479703845}
   - component: {fileID: 7681310154455393136}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.09 in. Hex Spacer.016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42031,7 +42009,7 @@ GameObject:
   - component: {fileID: 7227571617680960492}
   - component: {fileID: 9223032639326703006}
   - component: {fileID: 6404847541336381127}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.09 in. Hex Spacer.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42116,7 +42094,7 @@ GameObject:
   - component: {fileID: 5542399153203778783}
   - component: {fileID: 8190811769079539773}
   - component: {fileID: 6605100578193639015}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 26T HTD Pulley.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42201,7 +42179,7 @@ GameObject:
   - component: {fileID: 2094466173108883256}
   - component: {fileID: 5943897752002930717}
   - component: {fileID: 8726299554751749543}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 2.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42286,7 +42264,7 @@ GameObject:
   - component: {fileID: 1618776218611281648}
   - component: {fileID: 7518649785572131669}
   - component: {fileID: 224182605015201689}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).043
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42372,7 +42350,7 @@ GameObject:
   - component: {fileID: 7900367274901784668}
   - component: {fileID: 9149899726100891353}
   - component: {fileID: 7499215986300670658}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TUBOS INFERIORES.008_Generic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42456,7 +42434,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7113073270034801789}
   - component: {fileID: 1242812072481833299}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42510,7 +42488,7 @@ GameObject:
   - component: {fileID: 1096788491397250241}
   - component: {fileID: 6298089620874476053}
   - component: {fileID: 5074081085445941633}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42594,7 +42572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7868277434018358691}
   - component: {fileID: 118585940442235658}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42650,7 +42628,7 @@ GameObject:
   - component: {fileID: 547028467426840067}
   - component: {fileID: 8142888858325190077}
   - component: {fileID: 8536049240722668969}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3/8" Rounded Hex (2" L, 10.25mm OD).004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42735,7 +42713,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8152355773066652391}
   - component: {fileID: 1404360730963610734}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Roller (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42817,7 +42795,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5891561401130282811}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42888,7 +42866,7 @@ GameObject:
   - component: {fileID: 8504805848058823440}
   - component: {fileID: 3630666774712959760}
   - component: {fileID: 7742921412037708952}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MAXSpline Grommet (REV-21-3640).009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42973,7 +42951,7 @@ GameObject:
   - component: {fileID: 4356930676955270707}
   - component: {fileID: 1665890075995398914}
   - component: {fileID: 1275673298952696696}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.5" OD,0.153" L).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43057,7 +43035,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4117088122361608118}
   - component: {fileID: 733521997888038938}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43113,7 +43091,7 @@ GameObject:
   - component: {fileID: 623901802947270562}
   - component: {fileID: 6895664809035286046}
   - component: {fileID: 1693176417851075534}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 24T HTD Pulley.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43198,7 +43176,7 @@ GameObject:
   - component: {fileID: 8100996017273564709}
   - component: {fileID: 6448273632845360026}
   - component: {fileID: 2392830215597424152}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 52t Pocketed Aluminum Spur Gear (20 DP, 1/2" Hex Bore).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43283,7 +43261,7 @@ GameObject:
   - component: {fileID: 1154042222704307900}
   - component: {fileID: 3191310128006277302}
   - component: {fileID: 7684609951307463276}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43368,7 +43346,7 @@ GameObject:
   - component: {fileID: 5356806172714887508}
   - component: {fileID: 3839426531147775244}
   - component: {fileID: 2567517739983885447}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.375" OD,0.153" L).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43453,7 +43431,7 @@ GameObject:
   - component: {fileID: 7681891430987265131}
   - component: {fileID: 6221052665956106990}
   - component: {fileID: 1733103222817925361}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 7.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43538,7 +43516,7 @@ GameObject:
   - component: {fileID: 6118173319437311652}
   - component: {fileID: 5104216972150933816}
   - component: {fileID: 1837849152839334960}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43625,7 +43603,7 @@ GameObject:
   - component: {fileID: 6413915972708993303}
   - component: {fileID: 711812673911869787}
   - component: {fileID: 1388582712456271274}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 2.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43731,7 +43709,7 @@ GameObject:
   - component: {fileID: 2535560161482762402}
   - component: {fileID: 8982970700477166779}
   - component: {fileID: 418947179604938268}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kraken X44 Brushless Motor.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43823,7 +43801,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6295879724724460064}
   - component: {fileID: 2527122254276728623}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43877,7 +43855,7 @@ GameObject:
   - component: {fileID: 5674587746513038163}
   - component: {fileID: 8514262561562290155}
   - component: {fileID: 1718690598830272519}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.5" OD,0.125" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43962,7 +43940,7 @@ GameObject:
   - component: {fileID: 5625464967124538441}
   - component: {fileID: 436956436867842854}
   - component: {fileID: 8509686676745596471}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.196" ID Custom Spacer (0.375" OD,0.875" L).002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44046,7 +44024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1662210356484857624}
   - component: {fileID: 9221648160018779061}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Assembly 4 <1>
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44098,7 +44076,7 @@ GameObject:
   - component: {fileID: 5698015528057093310}
   - component: {fileID: 1838223140660138487}
   - component: {fileID: 5792490713382992995}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TUBOS INFERIORES.005_Generic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44183,7 +44161,7 @@ GameObject:
   - component: {fileID: 6371151367465254421}
   - component: {fileID: 8589358602392056380}
   - component: {fileID: 3248739849462317073}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tube 2"x1"x5.25".001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44268,7 +44246,7 @@ GameObject:
   - component: {fileID: 5740822198539128364}
   - component: {fileID: 6977949799952057868}
   - component: {fileID: 4752479631856456699}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tube 2"x1"x2.5".001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44353,7 +44331,7 @@ GameObject:
   - component: {fileID: 3440008030877708714}
   - component: {fileID: 6480205061189330890}
   - component: {fileID: 3000423432303203852}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SDS MK5 L Plate.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44436,7 +44414,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1509178216061235478}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44473,7 +44451,7 @@ GameObject:
   - component: {fileID: 4597423494882487120}
   - component: {fileID: 4131668499705499310}
   - component: {fileID: 8823851490179841106}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MAXSpline Grommet (REV-21-3640).005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44558,7 +44536,7 @@ GameObject:
   - component: {fileID: 2190766380456674235}
   - component: {fileID: 8970473858488455172}
   - component: {fileID: 1218963444412968442}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Rounded Hex (23.062" L, 13.75mm OD)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44644,7 +44622,7 @@ GameObject:
   - component: {fileID: 374130069907794212}
   - component: {fileID: 6275704494463819314}
   - component: {fileID: 2309387535754520171}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Rounded Hex (1.434" L, 13.75mm OD).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44730,7 +44708,7 @@ GameObject:
   - component: {fileID: 4283530135977618056}
   - component: {fileID: 4263362559057532897}
   - component: {fileID: 7224951845371217684}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 20t Aluminum Spur Gear (20 DP, 1/2" Hex Bore)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44815,7 +44793,7 @@ GameObject:
   - component: {fileID: 7232876405933655141}
   - component: {fileID: 7314622570987419101}
   - component: {fileID: 1662628432821252804}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kraken X60 Brushless Motor-Mirrored.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44908,7 +44886,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5700883045240090948}
   - component: {fileID: 8139368905961788836}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44964,7 +44942,7 @@ GameObject:
   - component: {fileID: 6772990209808149715}
   - component: {fileID: 8669085332750361701}
   - component: {fileID: 4811733407417435300}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.031
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45048,7 +45026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4530177752964262807}
   - component: {fileID: 8648885757938308144}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45102,7 +45080,7 @@ GameObject:
   - component: {fileID: 6093397731014888032}
   - component: {fileID: 3652602115778400895}
   - component: {fileID: 5665244445308342777}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WCP-0247-003 Rev2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45187,7 +45165,7 @@ GameObject:
   - component: {fileID: 3620147346602871326}
   - component: {fileID: 8361951111305361084}
   - component: {fileID: 7582022725228421576}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45271,7 +45249,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3435367232649851785}
   - component: {fileID: 4652434409477330207}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45325,7 +45303,7 @@ GameObject:
   - component: {fileID: 6375982093691066962}
   - component: {fileID: 2587123740065439256}
   - component: {fileID: 2604894729971985496}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.09 in. Hex Spacer.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45410,7 +45388,7 @@ GameObject:
   - component: {fileID: 3497789761256947597}
   - component: {fileID: 2900096488431785992}
   - component: {fileID: 6889079071932375331}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).046
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45495,7 +45473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 504702664286399492}
   - component: {fileID: 3913408593770956772}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45548,7 +45526,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6252698445371292165}
   - component: {fileID: 3835942872209809224}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ShooterAsm2 <2> (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45601,7 +45579,7 @@ GameObject:
   - component: {fileID: 122197352851559842}
   - component: {fileID: 8251645052032783645}
   - component: {fileID: 5372356564424050307}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 36t Aluminum Spur Gear (20 DP, 1/2" Hex Bore).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45686,7 +45664,7 @@ GameObject:
   - component: {fileID: 4276114269471925743}
   - component: {fileID: 8590875223776030107}
   - component: {fileID: 1678196960916299246}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 52t Pocketed Aluminum Spur Gear (20 DP, 1/2" Hex Bore)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45771,7 +45749,7 @@ GameObject:
   - component: {fileID: 9216463893537648311}
   - component: {fileID: 3439317590372479977}
   - component: {fileID: 6588531675334341525}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3/8" Rounded Hex (22.5" L, 10.25mm OD).006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45857,7 +45835,7 @@ GameObject:
   - component: {fileID: 3417872454351483783}
   - component: {fileID: 8854266292498398703}
   - component: {fileID: 3261045539465063675}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 2.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45942,7 +45920,7 @@ GameObject:
   - component: {fileID: 221372489027361020}
   - component: {fileID: 1721736172071668057}
   - component: {fileID: 5697485470691455387}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WCP-0247-002 Rev2.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46026,7 +46004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2266886392834514868}
   - component: {fileID: 252828495380954411}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46080,7 +46058,7 @@ GameObject:
   - component: {fileID: 428112646718402412}
   - component: {fileID: 5619855622193767470}
   - component: {fileID: 8821931948544688983}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.062" L).004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46165,7 +46143,7 @@ GameObject:
   - component: {fileID: 8492938108285884474}
   - component: {fileID: 4288903844894066358}
   - component: {fileID: 1384146495906333630}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.25" ID Bearing (0.75" OD, 0.281" WD, Shielded).002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46251,7 +46229,7 @@ GameObject:
   - component: {fileID: 2770157083988400993}
   - component: {fileID: 8561688007652616195}
   - component: {fileID: 4239368179361596427}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Rounded Hex (2.059" L, 13.75mm OD)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46337,7 +46315,7 @@ GameObject:
   - component: {fileID: 3026585016609029004}
   - component: {fileID: 4428898187641053641}
   - component: {fileID: 269658220205033254}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WCP-0247-005 Rev1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46422,7 +46400,7 @@ GameObject:
   - component: {fileID: 2931807956474892587}
   - component: {fileID: 7811386510507736825}
   - component: {fileID: 7936670434569195430}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.5" OD,0.153" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46506,7 +46484,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7175226042905605375}
   - component: {fileID: 1153193434682607979}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46560,7 +46538,7 @@ GameObject:
   - component: {fileID: 7843885164391739392}
   - component: {fileID: 258824445455945411}
   - component: {fileID: 8849036564655191475}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 3.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46644,7 +46622,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5064061802946870974}
   - component: {fileID: 3225674361429239598}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46698,7 +46676,7 @@ GameObject:
   - component: {fileID: 6386769602529188417}
   - component: {fileID: 2599454023903779467}
   - component: {fileID: 1972857286569981005}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tube 2"x1"x5.25"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46781,7 +46759,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3491762162051832655}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46850,7 +46828,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1555651662702993419}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47002,7 +46980,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8744733834526755565}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47124,7 +47102,7 @@ GameObject:
   - component: {fileID: 1187633040636556201}
   - component: {fileID: 7936334706929998410}
   - component: {fileID: 7509661666386224143}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47230,7 +47208,7 @@ GameObject:
   - component: {fileID: 7239106643870771445}
   - component: {fileID: 3114720937528380669}
   - component: {fileID: 5250560695521331926}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shaft tubes.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47315,7 +47293,7 @@ GameObject:
   - component: {fileID: 4204027399328802239}
   - component: {fileID: 8235226779490982748}
   - component: {fileID: 1943309622610900745}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.196" ID Custom Spacer (0.375" OD,1.313" L).003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47400,7 +47378,7 @@ GameObject:
   - component: {fileID: 5935369377677417180}
   - component: {fileID: 3659280257205469930}
   - component: {fileID: 8359478124208023412}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).055
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47486,7 +47464,7 @@ GameObject:
   - component: {fileID: 4269148104407923551}
   - component: {fileID: 3260614626817672346}
   - component: {fileID: 7975750167438181913}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 2.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47571,7 +47549,7 @@ GameObject:
   - component: {fileID: 2588171885645915781}
   - component: {fileID: 3446970331374849229}
   - component: {fileID: 8342206997259202870}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MAXSpline Grommet (REV-21-3640).014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47656,7 +47634,7 @@ GameObject:
   - component: {fileID: 1954422729739214428}
   - component: {fileID: 9189419495711756805}
   - component: {fileID: 1837795964996184123}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Minimal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47748,7 +47726,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6807201332308976363}
   - component: {fileID: 4012122058604330674}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47802,7 +47780,7 @@ GameObject:
   - component: {fileID: 1264188427917106251}
   - component: {fileID: 6830547514424464955}
   - component: {fileID: 8823195873683010830}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.877" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47887,7 +47865,7 @@ GameObject:
   - component: {fileID: 2372919408274149273}
   - component: {fileID: 7796977448447239535}
   - component: {fileID: 2190280771741534382}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.09 in. Hex Spacer.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47971,7 +47949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4469007771272794456}
   - component: {fileID: 7354437663384797970}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48025,7 +48003,7 @@ GameObject:
   - component: {fileID: 8914007479920322640}
   - component: {fileID: 5685696264320942250}
   - component: {fileID: 7051531348290939889}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shaft tubes.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48110,7 +48088,7 @@ GameObject:
   - component: {fileID: 2475909984747142266}
   - component: {fileID: 8989570375866146212}
   - component: {fileID: 2790446770763949370}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kraken X44 Brushless Motor.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48202,7 +48180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6692680758654664684}
   - component: {fileID: 4808848982066942386}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48256,7 +48234,7 @@ GameObject:
   - component: {fileID: 2084788952482101464}
   - component: {fileID: 6294106272414814155}
   - component: {fileID: 6615495195195127302}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.09 in. Hex Spacer.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48339,7 +48317,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7989267338552972797}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Assembly 2 <1>
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48374,7 +48352,7 @@ GameObject:
   - component: {fileID: 6834540506650983389}
   - component: {fileID: 4357456304205726926}
   - component: {fileID: 1290620028197185863}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kraken X60 Brushless Motor.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48467,7 +48445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2632680419244201505}
   - component: {fileID: 8745969574121305712}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48522,7 +48500,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4478982172596934027}
   - component: {fileID: 7120448200751349632}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48578,7 +48556,7 @@ GameObject:
   - component: {fileID: 3563994132363061540}
   - component: {fileID: 7784780101159569728}
   - component: {fileID: 2247910775301955757}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 8.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48663,7 +48641,7 @@ GameObject:
   - component: {fileID: 8795537381633589445}
   - component: {fileID: 4756779914305741320}
   - component: {fileID: 3326674573726001572}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 2.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48748,7 +48726,7 @@ GameObject:
   - component: {fileID: 5951756134856508248}
   - component: {fileID: 1732013816203190178}
   - component: {fileID: 8880892077170851543}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 17-Mirrored
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48833,7 +48811,7 @@ GameObject:
   - component: {fileID: 6507860928163706997}
   - component: {fileID: 4459414228574081207}
   - component: {fileID: 2573660632673317784}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.09 in. Hex Spacer.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48918,7 +48896,7 @@ GameObject:
   - component: {fileID: 1242165519745625721}
   - component: {fileID: 3339934151843217899}
   - component: {fileID: 9016512827850251253}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SDS MK5n Top Assembly (A).001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49010,7 +48988,7 @@ GameObject:
   - component: {fileID: 2232920500071865474}
   - component: {fileID: 8471484138628042854}
   - component: {fileID: 7707217215685855341}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kraken X44 Brushless Motor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49103,7 +49081,7 @@ GameObject:
   - component: {fileID: 2069303204475105575}
   - component: {fileID: 4911980739417259273}
   - component: {fileID: 7199397739642721600}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 33.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49188,7 +49166,7 @@ GameObject:
   - component: {fileID: 3968916631498612392}
   - component: {fileID: 3114913188140997548}
   - component: {fileID: 1862631826186201396}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesh12087_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49276,7 +49254,7 @@ GameObject:
   - component: {fileID: 2079984393792768058}
   - component: {fileID: 1822383791925977993}
   - component: {fileID: 2801374841125612686}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kraken X44 Brushless Motor.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49369,7 +49347,7 @@ GameObject:
   - component: {fileID: 2775189714283783367}
   - component: {fileID: 8947253448160674249}
   - component: {fileID: 3233210723495556071}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesh12087_mesh.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49457,7 +49435,7 @@ GameObject:
   - component: {fileID: 5870358730380657901}
   - component: {fileID: 5126446496696087745}
   - component: {fileID: 4868994484449789605}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Churro (22.5" L, 6061 Aluminum)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49542,7 +49520,7 @@ GameObject:
   - component: {fileID: 1491693555610679894}
   - component: {fileID: 7474504376365684047}
   - component: {fileID: 8962618714770310963}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 8.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49627,7 +49605,7 @@ GameObject:
   - component: {fileID: 8244994124351607250}
   - component: {fileID: 4998223354189351199}
   - component: {fileID: 9178896684130400517}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.192" ID x 0.5" OD x 0.375" Spacer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49711,7 +49689,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4972954678267262801}
   - component: {fileID: 5814756415988131331}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49767,7 +49745,7 @@ GameObject:
   - component: {fileID: 7621913227552125310}
   - component: {fileID: 8093713359460556399}
   - component: {fileID: 8787705225239493874}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49852,7 +49830,7 @@ GameObject:
   - component: {fileID: 1529578365706885671}
   - component: {fileID: 7204026661205065082}
   - component: {fileID: 7139988237130192925}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.196" ID Custom Spacer (0.375" OD,1.313" L).004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49937,7 +49915,7 @@ GameObject:
   - component: {fileID: 5419488215479786518}
   - component: {fileID: 6742299559548185958}
   - component: {fileID: 7877502455218135584}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Soporte de la caja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50021,7 +49999,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5673830012891067325}
   - component: {fileID: 3056602949190754569}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50075,7 +50053,7 @@ GameObject:
   - component: {fileID: 9065620619888579002}
   - component: {fileID: 2620309250885715325}
   - component: {fileID: 8437431135951007347}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TUBOS INFERIORES.006_Generic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50160,7 +50138,7 @@ GameObject:
   - component: {fileID: 1286201720016023618}
   - component: {fileID: 5463313709181302241}
   - component: {fileID: 7770042862882686228}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tube 2"x1"x25"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50244,7 +50222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5014240827681909293}
   - component: {fileID: 891681599323312637}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50300,7 +50278,7 @@ GameObject:
   - component: {fileID: 8559074726392743822}
   - component: {fileID: 1112742332459340366}
   - component: {fileID: 946372331336842573}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.502" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50384,7 +50362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4259225206140318415}
   - component: {fileID: 3098161389626882661}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50438,7 +50416,7 @@ GameObject:
   - component: {fileID: 1207155923107491203}
   - component: {fileID: 5678556256500152434}
   - component: {fileID: 3913497372103234263}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3D-Print Adapter (1/2" Hex Bore, VEX/WCP Profile).004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50523,7 +50501,7 @@ GameObject:
   - component: {fileID: 4571168150914473456}
   - component: {fileID: 4841688496782351779}
   - component: {fileID: 3712486223685228942}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).037
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50609,7 +50587,7 @@ GameObject:
   - component: {fileID: 6058902492567917490}
   - component: {fileID: 7614206820881444306}
   - component: {fileID: 4477580155687441288}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 28.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50694,7 +50672,7 @@ GameObject:
   - component: {fileID: 7648514035632765847}
   - component: {fileID: 8814175282835539956}
   - component: {fileID: 5153165822541915090}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.09 in. Hex Spacer.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50779,7 +50757,7 @@ GameObject:
   - component: {fileID: 8111142346441889262}
   - component: {fileID: 1237464754370568346}
   - component: {fileID: 7910739624194164765}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 20T HTD Pulley
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50864,7 +50842,7 @@ GameObject:
   - component: {fileID: 1421045064546567687}
   - component: {fileID: 1952741010597783803}
   - component: {fileID: 111489563308965236}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).058
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50949,7 +50927,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5518573485033793761}
   - component: {fileID: 1387402784988720450}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Roller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51064,7 +51042,7 @@ GameObject:
   - component: {fileID: 812779352555012203}
   - component: {fileID: 3349192933985382912}
   - component: {fileID: 4183787132073586231}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51149,7 +51127,7 @@ GameObject:
   - component: {fileID: 3525157385307870972}
   - component: {fileID: 5370278571814747329}
   - component: {fileID: 3738984420375714961}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).039
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51235,7 +51213,7 @@ GameObject:
   - component: {fileID: 849863833893881553}
   - component: {fileID: 588335877847377831}
   - component: {fileID: 5673076051926487892}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 1.020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51320,7 +51298,7 @@ GameObject:
   - component: {fileID: 8526452782546419797}
   - component: {fileID: 1770751731981048036}
   - component: {fileID: 6791585382269528922}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3/8" Rounded Hex (22.5" L, 10.25mm OD).007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51406,7 +51384,7 @@ GameObject:
   - component: {fileID: 917471292978001736}
   - component: {fileID: 7832029814351119287}
   - component: {fileID: 8647021259036743266}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SDS MK5 L Plate.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51491,7 +51469,7 @@ GameObject:
   - component: {fileID: 6315962524017168303}
   - component: {fileID: 2597807732670211024}
   - component: {fileID: 2856754744621894199}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 23T HTD Pulley
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51576,7 +51554,7 @@ GameObject:
   - component: {fileID: 2815572619883978328}
   - component: {fileID: 5667494725583969952}
   - component: {fileID: 5205282848147624351}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51661,7 +51639,7 @@ GameObject:
   - component: {fileID: 2472454930326417366}
   - component: {fileID: 8322921061108700519}
   - component: {fileID: 3372806753152357081}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 20T HTD Pulley.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51746,7 +51724,7 @@ GameObject:
   - component: {fileID: 8946763702022349134}
   - component: {fileID: 1727199594305529678}
   - component: {fileID: 3213401984617457598}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3/8" Rounded Hex (2" L, 10.25mm OD)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51832,7 +51810,7 @@ GameObject:
   - component: {fileID: 8152945313012765926}
   - component: {fileID: 5291118770355258913}
   - component: {fileID: 1532839435846341554}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Simplified RPM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51920,7 +51898,7 @@ GameObject:
   - component: {fileID: 4520982832225748768}
   - component: {fileID: 1131387516533050458}
   - component: {fileID: 40206059546826717}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52004,7 +51982,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9043865754256718541}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52057,7 +52035,7 @@ GameObject:
   - component: {fileID: 8221960641488115453}
   - component: {fileID: 1738562278588579185}
   - component: {fileID: 5148002852556507110}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3/8" Rounded Hex (22.5" L, 10.25mm OD).005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52142,7 +52120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4383631470207762048}
   - component: {fileID: 2464149359556150657}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52196,7 +52174,7 @@ GameObject:
   - component: {fileID: 617454176946340131}
   - component: {fileID: 9136795369276474214}
   - component: {fileID: 8074683290148112815}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.196" ID Custom Spacer (0.375" OD,1.567" L).002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52281,7 +52259,7 @@ GameObject:
   - component: {fileID: 1994780897707223368}
   - component: {fileID: 4006919461365847720}
   - component: {fileID: 8194363553752556818}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/4" Round x 3/8" L Shoulder (#10-24 x 0.75" L, Standard Profile, Steel,
     Black Oxide).001
   m_TagString: Untagged
@@ -52368,7 +52346,7 @@ GameObject:
   - component: {fileID: 6310355646114754016}
   - component: {fileID: 7891675689019778513}
   - component: {fileID: 2358172156915049836}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shaft tubes.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52451,7 +52429,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3943250311633108161}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DynamicPhysics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52485,7 +52463,7 @@ GameObject:
   - component: {fileID: 3914442948012889777}
   - component: {fileID: 8108210637483459360}
   - component: {fileID: 7360755437653746180}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SDS MK5n Top Assembly (A).002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52577,7 +52555,7 @@ GameObject:
   - component: {fileID: 6159763484154605239}
   - component: {fileID: 1857617131987174687}
   - component: {fileID: 1171145852778085393}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Bearing (1.125" OD, 0.313" WD, Shielded, Flanged).020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52661,7 +52639,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3474837047931234288}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52711,7 +52689,7 @@ GameObject:
   - component: {fileID: 6150789886999715598}
   - component: {fileID: 2780172459979015617}
   - component: {fileID: 4256959427730475083}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1/2" Hex Bore Custom Spacer (0.75" OD,0.135" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52796,7 +52774,7 @@ GameObject:
   - component: {fileID: 1365360404617307302}
   - component: {fileID: 4368594504254382761}
   - component: {fileID: 3723425094240669077}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 8.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52880,7 +52858,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7098925611998174051}
   - component: {fileID: 2338437429900817877}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52934,7 +52912,7 @@ GameObject:
   - component: {fileID: 6704220285441760636}
   - component: {fileID: 6070142403818562694}
   - component: {fileID: 410918930549798037}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.335" ID Custom Spacer (0.5" OD,0.158" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53019,7 +52997,7 @@ GameObject:
   - component: {fileID: 5976882849074994937}
   - component: {fileID: 1432723431918546269}
   - component: {fileID: 5013304719342067574}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 0.196" ID Custom Spacer (0.375" OD,1.567" L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53104,7 +53082,7 @@ GameObject:
   - component: {fileID: 1339409529016717586}
   - component: {fileID: 8791701011002074086}
   - component: {fileID: 5429509937355586863}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shaft tubes.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53189,7 +53167,7 @@ GameObject:
   - component: {fileID: 956818222611281992}
   - component: {fileID: 1332143927025564822}
   - component: {fileID: 6127061423877950963}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 3/8" Rounded Hex (1.434" L, 10.25mm OD)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53314,7 +53292,7 @@ GameObject:
   - component: {fileID: 8352967479818214834}
   - component: {fileID: 6817762046515047955}
   - component: {fileID: 4572254710256777982}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Part 7_Generic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53399,7 +53377,7 @@ GameObject:
   - component: {fileID: 6228854518887258889}
   - component: {fileID: 236244955903324709}
   - component: {fileID: 3087473638807839847}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Kraken X60 Brushless Motor-Mirrored.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53493,7 +53471,7 @@ GameObject:
   - component: {fileID: 3511657987957448900}
   - component: {fileID: 8571538843267852254}
   - component: {fileID: 8282412557366158229}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mesh15305_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53631,6 +53609,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fuel (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2886892246794840118, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799559867610471125, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6012232807988892030, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720452708424523423, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8806949534750341150, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -53710,6 +53713,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fuel (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886892246794840118, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799559867610471125, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6012232807988892030, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720452708424523423, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8806949534750341150, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -53791,6 +53819,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fuel
       objectReference: {fileID: 0}
+    - target: {fileID: 2886892246794840118, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799559867610471125, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6012232807988892030, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720452708424523423, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8806949534750341150, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -53870,6 +53923,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fuel (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886892246794840118, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799559867610471125, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6012232807988892030, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720452708424523423, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8806949534750341150, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -54351,7 +54429,6 @@ MonoBehaviour:
   - {fileID: 3931207690681316585}
   - {fileID: 908111025585916391}
   - {fileID: 6520217330336105515}
-  hopperJoint: {fileID: 4166452710300486556}
   intakePivot: {fileID: 8886986995991850849}
   hoodPivot: {fileID: 5491205900443835547}
   shooterRollers: {fileID: 3835942872209809224}
@@ -54359,12 +54436,6 @@ MonoBehaviour:
   floorRollers: {fileID: 4832723430281328636}
   uptakeRollers: {fileID: 348209736458253584}
   intakeRollers: {fileID: 3398165112610314976}
-  hopperPidConstants:
-    kP: 5
-    kI: 0
-    kD: 0.25
-    Max: 5
-    Isaturation: 0.75
   intakePidConstants:
     kP: 5
     kI: 0
@@ -54445,9 +54516,6 @@ MonoBehaviour:
     Distance: 0
     Output: 0
     transformOverride: {fileID: 0}
-  hopperAxis: 2
-  hopperExtendedInches: -12
-  hopperLockPositionMeters: -0.299
   intakeDeployedAngle: 136
   intakeStowAngle: 0
   intakeRpm: 2500
@@ -54545,6 +54613,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fuel (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2886892246794840118, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799559867610471125, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6012232807988892030, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720452708424523423, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8806949534750341150, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -54624,6 +54717,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fuel (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886892246794840118, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799559867610471125, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6012232807988892030, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720452708424523423, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8806949534750341150, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -54705,6 +54823,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fuel (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2886892246794840118, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799559867610471125, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6012232807988892030, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720452708424523423, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8806949534750341150, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -54784,6 +54927,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fuel (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886892246794840118, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5799559867610471125, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6012232807988892030, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720452708424523423, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8806949534750341150, guid: 96adc4350dc09d942b6bf56af73710ca,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
