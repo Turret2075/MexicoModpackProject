@@ -66,6 +66,10 @@ public class VOLTEC : RebuiltRobotBase
     [SerializeField, Min(0f)] private float hoodAngleLockTolerance = 0.1f;
     [Tooltip("How long all shot readiness checks must remain true before feeding.")]
     [SerializeField, Min(0f)] private float feedReadyDebounceTime = 0.06f;
+    [Tooltip("Reverse speed on the uptake when feeding stops, to back fuel off the flywheel. 0 disables.")]
+    [SerializeField, Min(0f)] private float uptakeBackoffRpm = 15f;
+    [Tooltip("Reverse speed on the floor when feeding stops. 0 disables.")]
+    [SerializeField, Min(0f)] private float floorBackoffRpm = 40f;
     [Tooltip("Hood only travels from 0 to 40 degrees.")]
     [SerializeField] private Vector2 hoodAngleLimits = new(0f, 40f);
     [SerializeField] private float manualShotRpm = 2000f;
@@ -89,6 +93,7 @@ public class VOLTEC : RebuiltRobotBase
     private float intakeBringupDelayTimer;
     private bool shooterReadyLatched;
     private float feedReadyTimer;
+    private bool feedLatched;
     private bool _hopperLocked;
     private bool _wantsShooting;
     private RebuiltAutoAimController aim;
@@ -277,17 +282,29 @@ public class VOLTEC : RebuiltRobotBase
         SetFeedRollers(FeedReady());
     }
 
-    // Feed runs continuously once the shot is ready (aligned, at speed, hood at angle) past the debounce.
+    // Once the shot is ready (aligned, at speed, hood at angle) for the debounce time, the feed latches on
+    // and stays on until the shooter is stopped. Without the latch, any brief dip in flywheel speed or hood
+    // angle stops the feed and the fuel stutters.
     private bool FeedReady()
     {
+        if (feedLatched)
+        {
+            return true;
+        }
+
         if (!CanRunFeed())
         {
             feedReadyTimer = 0f;
             return false;
         }
 
-        feedReadyTimer = Mathf.Min(feedReadyTimer + Time.fixedDeltaTime, feedReadyDebounceTime);
-        return feedReadyTimer >= feedReadyDebounceTime;
+        feedReadyTimer += Time.fixedDeltaTime;
+        if (feedReadyTimer >= feedReadyDebounceTime)
+        {
+            feedLatched = true;
+        }
+
+        return feedLatched;
     }
 
     private void SetFeedRollers(bool feeding)
@@ -304,13 +321,14 @@ public class VOLTEC : RebuiltRobotBase
         }
         else
         {
-            uptakeRollers.SetRpm(0f);
-            floorRollers.SetRpm(0f);
+            uptakeRollers.SetRpm(-uptakeBackoffRpm);
+            floorRollers.SetRpm(-floorBackoffRpm);
         }
     }
 
     private void StopShooter()
     {
+        feedLatched = false;
         feedReadyTimer = 0f;
         shooterRollers.SetRpm(0f);
         hoodRollers.SetRpm(0f);
