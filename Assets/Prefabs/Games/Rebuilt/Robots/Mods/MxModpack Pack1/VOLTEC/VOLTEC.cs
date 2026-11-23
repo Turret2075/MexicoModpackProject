@@ -80,6 +80,7 @@ public class VOLTEC : RebuiltRobotBase
     private float targetIntakeAngle;
     private float targetHoodAngle;
     private bool intakeDeployed;
+    private bool hoodLocked;
     private float feedReadyTimer;
     private bool feedLatched;
     private bool _wantsShooting;
@@ -140,7 +141,7 @@ public class VOLTEC : RebuiltRobotBase
 
         if (RobotSpecial2)
         {
-            intakeRollers.SetRpm(-intakeRpm);
+            intakeRollers.SetRpm(-(intakeRpm/2f));
         }
     }
 
@@ -235,7 +236,7 @@ public class VOLTEC : RebuiltRobotBase
     {
         if (RobotSpecial2)
         {
-            uptakeRollers.SetRpm(-uptakeRpm);
+            uptakeRollers.SetRpm(-uptakeRpm / 2f);
             floorRollers.SetRpm(-floorRpm);
         }
         else if (feeding)
@@ -340,13 +341,17 @@ public class VOLTEC : RebuiltRobotBase
         intakePivot.SetTargetAngle(targetIntakeAngle).withAxis(JointAxis.X).useCustomStartingOffset(0);
         hoodPivot.SetTargetAngle(targetHoodAngle).withAxis(JointAxis.X);
 
-        if (HoodAtLockAngle())
+        // Lock/free only on transitions. Calling lockAllAxis every frame re-homes the rigidbody each time.
+        bool atLock = HoodAtLockAngle();
+        if (atLock && !hoodLocked)
         {
             hoodPivot.lockAllAxis();
+            hoodLocked = true;
         }
-        else
+        else if (!atLock && hoodLocked)
         {
             hoodPivot.freeAngularAxis(JointAxis.X);
+            hoodLocked = false;
         }
     }
 

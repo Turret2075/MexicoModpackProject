@@ -3314,7 +3314,7 @@ MonoBehaviour:
     jointAxis: 1
     reversed: 0
     multiplier: 1
-  rollerSound: {fileID: 0}
+  rollerSound: {fileID: 8300000, guid: bad13d7e08522374d8b53b84d9873a54, type: 3}
   playbackSpeed: 1
   pitchMultiplier: 0.0005
   movementAudioPitchRange: {x: 0.95, y: 1.1}
@@ -8213,6 +8213,85 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.006858, y: 0.00264795, z: 0.00006000558}
   m_Center: {x: 0.003429, y: -0.003914775, z: -0.0030317814}
+--- !u!1 &1321990796312202141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1833135775765290350}
+  - component: {fileID: 4917382241825619105}
+  m_Layer: 6
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1833135775765290350
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321990796312202141}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0604, y: -0.0681, z: 0.1431}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2438903095154741334}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4917382241825619105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321990796312202141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0.85
+  length: 23.1
+  useBeltMode: 0
+  beltLength: 10
+  maxSquish: 0.5
+  coreFriction: 1
+  coreBounce: 0
+  rpm: 800
+  compressionStiffness: 500
+  compressionDamping: 50
+  scrubForces: 100
+  motorSlipResponse: 1
+  frictionCoupledToNormal: 0
+  frictionCoefficient: 3
+  oppositeReaction: 1
+  ignoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  motor: 0
+  ignoreDefaultMaxRpm: 0
+  models: []
+  rollerSound: {fileID: 0}
+  playbackSpeed: 1
+  pitchMultiplier: 0.0005
+  movementAudioPitchRange: {x: 0.95, y: 1.1}
+  volumeMultiplier: 0.0005
+  movementAudioVolumeRange: {x: 0.1, y: 0.25}
+  audioPitchSmoothSpeed: 8
+  audioVolumeSmoothSpeed: 8
+  audioResponseExponent: 0.75
+  negativeRangeAudio: 0
+  atRangeTollerance: 0.02
+  trajectoryTracer: 0
+  realRpm: 0
+  TargetRpm: 0
 --- !u!1 &1335037720239402662
 GameObject:
   m_ObjectHideFlags: 0
@@ -9033,6 +9112,90 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1464841108609469496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2652172568694822793}
+  - component: {fileID: 8484776512507070091}
+  m_Layer: 6
+  m_Name: GameObject (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2652172568694822793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464841108609469496}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000013909066, y: -0.000000014901158, z: -1.1250061e-15,
+    w: 1}
+  m_LocalPosition: {x: -0.060399957, y: 0.107094646, z: 0.1869}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2438903095154741334}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8484776512507070091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464841108609469496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 1.42
+  length: 23.1
+  useBeltMode: 0
+  beltLength: 10
+  maxSquish: 1.5
+  coreFriction: 0.219
+  coreBounce: 0
+  rpm: 800
+  compressionStiffness: 500
+  compressionDamping: 50
+  scrubForces: 0
+  motorSlipResponse: 1
+  frictionCoupledToNormal: 0
+  frictionCoefficient: 3
+  oppositeReaction: 1
+  ignoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  motor: 0
+  ignoreDefaultMaxRpm: 0
+  models:
+  - model: {fileID: 4081961703322615302}
+    jointAxis: 1
+    reversed: 0
+    multiplier: 1
+  rollerSound: {fileID: 0}
+  playbackSpeed: 1
+  pitchMultiplier: 0.0005
+  movementAudioPitchRange: {x: 0.95, y: 1.1}
+  volumeMultiplier: 0.0005
+  movementAudioVolumeRange: {x: 0.1, y: 0.25}
+  audioPitchSmoothSpeed: 8
+  audioVolumeSmoothSpeed: 8
+  audioResponseExponent: 0.75
+  negativeRangeAudio: 0
+  atRangeTollerance: 0.02
+  trajectoryTracer: 0
+  realRpm: 0
+  TargetRpm: 0
 --- !u!1 &1473883903555456714
 GameObject:
   m_ObjectHideFlags: 0
@@ -10333,89 +10496,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &1817525837339978142
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4355059172443467797}
-  - component: {fileID: 1555262998367706817}
-  m_Layer: 6
-  m_Name: Roller
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4355059172443467797
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817525837339978142}
-  serializedVersion: 2
-  m_LocalRotation: {x: -3.2927228e-10, y: -0.0034906534, z: -0.999994, w: -0.0000000842937}
-  m_LocalPosition: {x: 0.012, y: 0.045, z: -0.017}
-  m_LocalScale: {x: 0.9999995, y: 0.9999994, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5799287078665153253}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1555262998367706817
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817525837339978142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 2.325
-  length: 19.999994
-  useBeltMode: 0
-  beltLength: 10
-  maxSquish: 3
-  coreFriction: 1
-  coreBounce: 0
-  rpm: -800
-  compressionStiffness: 500
-  compressionDamping: 50
-  scrubForces: 0
-  motorSlipResponse: 1
-  frictionCoupledToNormal: 0
-  frictionCoefficient: 3
-  oppositeReaction: 1
-  ignoreLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  motor: 0
-  ignoreDefaultMaxRpm: 0
-  models:
-  - model: {fileID: 4081961703322615302}
-    jointAxis: 1
-    reversed: 0
-    multiplier: 1
-  rollerSound: {fileID: 0}
-  playbackSpeed: 1
-  pitchMultiplier: 0.0005
-  movementAudioPitchRange: {x: 0.95, y: 1.1}
-  volumeMultiplier: 0.0005
-  movementAudioVolumeRange: {x: 0.1, y: 0.25}
-  audioPitchSmoothSpeed: 8
-  audioVolumeSmoothSpeed: 8
-  audioResponseExponent: 0.75
-  negativeRangeAudio: 0
-  atRangeTollerance: 0.02
-  trajectoryTracer: 0
-  realRpm: 0
-  TargetRpm: 0
 --- !u!1 &1824243167882197703
 GameObject:
   m_ObjectHideFlags: 0
@@ -11584,6 +11664,85 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1957436742778024362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3293689639388652531}
+  - component: {fileID: 8536391508544384028}
+  m_Layer: 6
+  m_Name: GameObject (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3293689639388652531
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957436742778024362}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0604, y: -0.0125, z: 0.3455}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2438903095154741334}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8536391508544384028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957436742778024362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0.85
+  length: 23.1
+  useBeltMode: 0
+  beltLength: 10
+  maxSquish: 0.5
+  coreFriction: 1
+  coreBounce: 0
+  rpm: 800
+  compressionStiffness: 500
+  compressionDamping: 50
+  scrubForces: 100
+  motorSlipResponse: 1
+  frictionCoupledToNormal: 0
+  frictionCoefficient: 3
+  oppositeReaction: 1
+  ignoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  motor: 0
+  ignoreDefaultMaxRpm: 0
+  models: []
+  rollerSound: {fileID: 0}
+  playbackSpeed: 1
+  pitchMultiplier: 0.0005
+  movementAudioPitchRange: {x: 0.95, y: 1.1}
+  volumeMultiplier: 0.0005
+  movementAudioVolumeRange: {x: 0.1, y: 0.25}
+  audioPitchSmoothSpeed: 8
+  audioVolumeSmoothSpeed: 8
+  audioResponseExponent: 0.75
+  negativeRangeAudio: 0
+  atRangeTollerance: 0.02
+  trajectoryTracer: 0
+  realRpm: 0
+  TargetRpm: 0
 --- !u!1 &1966594454905780042
 GameObject:
   m_ObjectHideFlags: 0
@@ -13021,7 +13180,7 @@ MonoBehaviour:
   brakeModeMultiplyer: 1
   ignoreDisabledMode: 1
   lockJointOnDisable: 0
-  movementAudioClip: {fileID: 0}
+  movementAudioClip: {fileID: 8300000, guid: 2a793e95cb27e3145a890e449b9de836, type: 3}
   audioErrorThreshold: 3
   audioErrorDeltaThreshold: 25
   movementAudioPitchRange: {x: 0.95, y: 1.1}
@@ -15946,13 +16105,13 @@ MonoBehaviour:
     GenRoller: {fileID: 0}
     PvffController: {fileID: 0}
     Flywheel: {fileID: 0}
-    Multiplier: 1
+    Multiplier: 2.5
     flipped: 0
   - IntRoller: {fileID: 2072835933234577161}
     GenRoller: {fileID: 0}
     PvffController: {fileID: 0}
     Flywheel: {fileID: 0}
-    Multiplier: 1
+    Multiplier: 2.5
     flipped: 0
 --- !u!1 &2698651328635384458
 GameObject:
@@ -17127,8 +17286,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4429250558385803413}
+  - {fileID: 2438903095154741334}
   - {fileID: 7004357390654311575}
-  - {fileID: 3943250311633108161}
   m_Father: {fileID: 3365616391077884565}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2932959978876309119
@@ -18957,7 +19116,7 @@ Transform:
   - {fileID: 7175226042905605375}
   m_Father: {fileID: 8160672788069492080}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3277906918556266348
+--- !u!1 &3277124565741764275
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18965,50 +19124,77 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5799287078665153253}
-  - component: {fileID: 348209736458253584}
+  - component: {fileID: 2519161903226856157}
+  - component: {fileID: 2121592101617587773}
   m_Layer: 6
-  m_Name: Uptake
+  m_Name: GameObject (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5799287078665153253
+--- !u!4 &2519161903226856157
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3277906918556266348}
+  m_GameObject: {fileID: 3277124565741764275}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0604, y: -0.0464, z: 0.3044}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4355059172443467797}
-  m_Father: {fileID: 3943250311633108161}
+  m_Children: []
+  m_Father: {fileID: 2438903095154741334}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &348209736458253584
+--- !u!114 &2121592101617587773
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3277906918556266348}
+  m_GameObject: {fileID: 3277124565741764275}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1f241b615b547e394941950c1369b44, type: 3}
+  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rollers:
-  - IntRoller: {fileID: 1555262998367706817}
-    GenRoller: {fileID: 0}
-    PvffController: {fileID: 0}
-    Flywheel: {fileID: 0}
-    Multiplier: 1
-    flipped: 0
+  radius: 0.85
+  length: 23.1
+  useBeltMode: 0
+  beltLength: 10
+  maxSquish: 0.5
+  coreFriction: 1
+  coreBounce: 0
+  rpm: 800
+  compressionStiffness: 500
+  compressionDamping: 50
+  scrubForces: 100
+  motorSlipResponse: 1
+  frictionCoupledToNormal: 0
+  frictionCoefficient: 3
+  oppositeReaction: 1
+  ignoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  motor: 0
+  ignoreDefaultMaxRpm: 0
+  models: []
+  rollerSound: {fileID: 0}
+  playbackSpeed: 1
+  pitchMultiplier: 0.0005
+  movementAudioPitchRange: {x: 0.95, y: 1.1}
+  volumeMultiplier: 0.0005
+  movementAudioVolumeRange: {x: 0.1, y: 0.25}
+  audioPitchSmoothSpeed: 8
+  audioVolumeSmoothSpeed: 8
+  audioResponseExponent: 0.75
+  negativeRangeAudio: 0
+  atRangeTollerance: 0.02
+  trajectoryTracer: 0
+  realRpm: 0
+  TargetRpm: 0
 --- !u!1 &3289388268996309554
 GameObject:
   m_ObjectHideFlags: 0
@@ -37658,8 +37844,8 @@ MonoBehaviour:
   netHeight: 1.6
   restLengthScale: 1
   subSteps: 10
-  stretchCompliance: 0.0005
-  shearCompliance: 0.008
+  stretchCompliance: 0.0008
+  shearCompliance: 0.012
   bendCompliance: 0.0035
   damping: 0.01
   visualSmoothingIntensity: 0.5
@@ -37928,6 +38114,85 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &6547162227634908856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1222741922200066879}
+  - component: {fileID: 9213023550107168822}
+  m_Layer: 6
+  m_Name: GameObject (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1222741922200066879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6547162227634908856}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0604, y: -0.0737, z: 0.1985}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2438903095154741334}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9213023550107168822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6547162227634908856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0.85
+  length: 23.1
+  useBeltMode: 0
+  beltLength: 10
+  maxSquish: 0.5
+  coreFriction: 1
+  coreBounce: 0
+  rpm: 800
+  compressionStiffness: 500
+  compressionDamping: 50
+  scrubForces: 100
+  motorSlipResponse: 1
+  frictionCoupledToNormal: 0
+  frictionCoefficient: 3
+  oppositeReaction: 1
+  ignoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  motor: 0
+  ignoreDefaultMaxRpm: 0
+  models: []
+  rollerSound: {fileID: 0}
+  playbackSpeed: 1
+  pitchMultiplier: 0.0005
+  movementAudioPitchRange: {x: 0.95, y: 1.1}
+  volumeMultiplier: 0.0005
+  movementAudioVolumeRange: {x: 0.1, y: 0.25}
+  audioPitchSmoothSpeed: 8
+  audioVolumeSmoothSpeed: 8
+  audioResponseExponent: 0.75
+  negativeRangeAudio: 0
+  atRangeTollerance: 0.02
+  trajectoryTracer: 0
+  realRpm: 0
+  TargetRpm: 0
 --- !u!1 &6564729198940096622
 GameObject:
   m_ObjectHideFlags: 0
@@ -40387,6 +40652,114 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &7007984600351495072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2438903095154741334}
+  - component: {fileID: 2269970029156997941}
+  m_Layer: 6
+  m_Name: Indexing Physics (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2438903095154741334
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7007984600351495072}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.056983046, y: -0.07844213, z: -0.24723674}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1833135775765290350}
+  - {fileID: 2923747045555924149}
+  - {fileID: 2519161903226856157}
+  - {fileID: 3293689639388652531}
+  - {fileID: 3624842566108782402}
+  - {fileID: 1280277174162002506}
+  - {fileID: 2652172568694822793}
+  - {fileID: 1147634276846666659}
+  - {fileID: 1222741922200066879}
+  m_Father: {fileID: 3080697072555482258}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2269970029156997941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7007984600351495072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1f241b615b547e394941950c1369b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rollers:
+  - IntRoller: {fileID: 4917382241825619105}
+    GenRoller: {fileID: 0}
+    PvffController: {fileID: 0}
+    Flywheel: {fileID: 0}
+    Multiplier: 1
+    flipped: 0
+  - IntRoller: {fileID: 1007360794221572148}
+    GenRoller: {fileID: 0}
+    PvffController: {fileID: 0}
+    Flywheel: {fileID: 0}
+    Multiplier: 1
+    flipped: 0
+  - IntRoller: {fileID: 8536391508544384028}
+    GenRoller: {fileID: 0}
+    PvffController: {fileID: 0}
+    Flywheel: {fileID: 0}
+    Multiplier: 1
+    flipped: 0
+  - IntRoller: {fileID: 4692320714341389544}
+    GenRoller: {fileID: 0}
+    PvffController: {fileID: 0}
+    Flywheel: {fileID: 0}
+    Multiplier: 1
+    flipped: 0
+  - IntRoller: {fileID: 8538585275768002208}
+    GenRoller: {fileID: 0}
+    PvffController: {fileID: 0}
+    Flywheel: {fileID: 0}
+    Multiplier: 1
+    flipped: 0
+  - IntRoller: {fileID: 8484776512507070091}
+    GenRoller: {fileID: 0}
+    PvffController: {fileID: 0}
+    Flywheel: {fileID: 0}
+    Multiplier: 1.7
+    flipped: 1
+  - IntRoller: {fileID: 3365852024190865138}
+    GenRoller: {fileID: 0}
+    PvffController: {fileID: 0}
+    Flywheel: {fileID: 0}
+    Multiplier: 2
+    flipped: 1
+  - IntRoller: {fileID: 9213023550107168822}
+    GenRoller: {fileID: 0}
+    PvffController: {fileID: 0}
+    Flywheel: {fileID: 0}
+    Multiplier: 2
+    flipped: 1
+  - IntRoller: {fileID: 2121592101617587773}
+    GenRoller: {fileID: 0}
+    PvffController: {fileID: 0}
+    Flywheel: {fileID: 0}
+    Multiplier: 1
+    flipped: 1
 --- !u!1 &7013013851202815662
 GameObject:
   m_ObjectHideFlags: 0
@@ -41033,7 +41406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 2.8
+  radius: 3
   length: 24
   useBeltMode: 0
   beltLength: 10
@@ -42019,6 +42392,85 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &7255925706879557927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1280277174162002506}
+  - component: {fileID: 8538585275768002208}
+  m_Layer: 6
+  m_Name: GameObject (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1280277174162002506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7255925706879557927}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0604, y: 0.1668, z: 0.3638}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2438903095154741334}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8538585275768002208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7255925706879557927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 1
+  length: 23.1
+  useBeltMode: 0
+  beltLength: 10
+  maxSquish: 1
+  coreFriction: 0
+  coreBounce: 0
+  rpm: 800
+  compressionStiffness: 500
+  compressionDamping: 50
+  scrubForces: 8
+  motorSlipResponse: 1
+  frictionCoupledToNormal: 0
+  frictionCoefficient: 3
+  oppositeReaction: 1
+  ignoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  motor: 0
+  ignoreDefaultMaxRpm: 0
+  models: []
+  rollerSound: {fileID: 8300000, guid: 9378423fe1c50f0419b9380e03b4ef96, type: 3}
+  playbackSpeed: 1
+  pitchMultiplier: 0.0005
+  movementAudioPitchRange: {x: 0.925, y: 1.05}
+  volumeMultiplier: 0.0001
+  movementAudioVolumeRange: {x: 0.1, y: 0.3}
+  audioPitchSmoothSpeed: 8
+  audioVolumeSmoothSpeed: 8
+  audioResponseExponent: 0.75
+  negativeRangeAudio: 0
+  atRangeTollerance: 0.02
+  trajectoryTracer: 0
+  realRpm: 0
+  TargetRpm: 0
 --- !u!1 &7271816687851414471
 GameObject:
   m_ObjectHideFlags: 0
@@ -43696,6 +44148,85 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &7630069557133157417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2923747045555924149}
+  - component: {fileID: 1007360794221572148}
+  m_Layer: 6
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2923747045555924149
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7630069557133157417}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0604, y: -0.0679, z: 0.256}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2438903095154741334}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1007360794221572148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7630069557133157417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0.85
+  length: 23.1
+  useBeltMode: 0
+  beltLength: 10
+  maxSquish: 0.5
+  coreFriction: 1
+  coreBounce: 0
+  rpm: 800
+  compressionStiffness: 500
+  compressionDamping: 50
+  scrubForces: 100
+  motorSlipResponse: 1
+  frictionCoupledToNormal: 0
+  frictionCoefficient: 3
+  oppositeReaction: 1
+  ignoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  motor: 0
+  ignoreDefaultMaxRpm: 0
+  models: []
+  rollerSound: {fileID: 0}
+  playbackSpeed: 1
+  pitchMultiplier: 0.0005
+  movementAudioPitchRange: {x: 0.95, y: 1.1}
+  volumeMultiplier: 0.0005
+  movementAudioVolumeRange: {x: 0.1, y: 0.25}
+  audioPitchSmoothSpeed: 8
+  audioVolumeSmoothSpeed: 8
+  audioResponseExponent: 0.75
+  negativeRangeAudio: 0
+  atRangeTollerance: 0.02
+  trajectoryTracer: 0
+  realRpm: 0
+  TargetRpm: 0
 --- !u!1 &7631607358748684169
 GameObject:
   m_ObjectHideFlags: 0
@@ -44426,6 +44957,85 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &7749753424532679572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3624842566108782402}
+  - component: {fileID: 4692320714341389544}
+  m_Layer: 6
+  m_Name: GameObject (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3624842566108782402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7749753424532679572}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0604, y: 0.0769, z: 0.3776}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2438903095154741334}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4692320714341389544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7749753424532679572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0.85
+  length: 23.1
+  useBeltMode: 0
+  beltLength: 10
+  maxSquish: 0.5
+  coreFriction: 1
+  coreBounce: 0
+  rpm: 800
+  compressionStiffness: 500
+  compressionDamping: 50
+  scrubForces: 2
+  motorSlipResponse: 1
+  frictionCoupledToNormal: 0
+  frictionCoefficient: 3
+  oppositeReaction: 1
+  ignoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  motor: 0
+  ignoreDefaultMaxRpm: 0
+  models: []
+  rollerSound: {fileID: 0}
+  playbackSpeed: 1
+  pitchMultiplier: 0.0005
+  movementAudioPitchRange: {x: 0.95, y: 1.1}
+  volumeMultiplier: 0.0005
+  movementAudioVolumeRange: {x: 0.1, y: 0.25}
+  audioPitchSmoothSpeed: 8
+  audioVolumeSmoothSpeed: 8
+  audioResponseExponent: 0.75
+  negativeRangeAudio: 0
+  atRangeTollerance: 0.02
+  trajectoryTracer: 0
+  realRpm: 0
+  TargetRpm: 0
 --- !u!1 &7777619572111165056
 GameObject:
   m_ObjectHideFlags: 0
@@ -52619,6 +53229,86 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &9066030155633457416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1147634276846666659}
+  - component: {fileID: 3365852024190865138}
+  m_Layer: 6
+  m_Name: GameObject (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1147634276846666659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9066030155633457416}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000013909066, y: -0.000000014901158, z: -1.1250061e-15,
+    w: 1}
+  m_LocalPosition: {x: -0.0604, y: 0.128, z: 0.1609}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2438903095154741334}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3365852024190865138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9066030155633457416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d77fda6c744f14aa8a835839b87a13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 1
+  length: 23.1
+  useBeltMode: 0
+  beltLength: 10
+  maxSquish: 0.4
+  coreFriction: 0.219
+  coreBounce: 0
+  rpm: 800
+  compressionStiffness: 500
+  compressionDamping: 50
+  scrubForces: 0
+  motorSlipResponse: 1
+  frictionCoupledToNormal: 0
+  frictionCoefficient: 3
+  oppositeReaction: 1
+  ignoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  motor: 4
+  ignoreDefaultMaxRpm: 0
+  models: []
+  rollerSound: {fileID: 0}
+  playbackSpeed: 1
+  pitchMultiplier: 0.0005
+  movementAudioPitchRange: {x: 0.95, y: 1.1}
+  volumeMultiplier: 0.0005
+  movementAudioVolumeRange: {x: 0.1, y: 0.25}
+  audioPitchSmoothSpeed: 8
+  audioVolumeSmoothSpeed: 8
+  audioResponseExponent: 0.75
+  negativeRangeAudio: 0
+  atRangeTollerance: 0.02
+  trajectoryTracer: 0
+  realRpm: 0
+  TargetRpm: 0
 --- !u!1 &9080157290597575440
 GameObject:
   m_ObjectHideFlags: 0
@@ -52704,38 +53394,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &9083432515918156830
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3943250311633108161}
-  m_Layer: 6
-  m_Name: DynamicPhysics
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3943250311633108161
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9083432515918156830}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5799287078665153253}
-  m_Father: {fileID: 3080697072555482258}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9084121952503238585
 GameObject:
   m_ObjectHideFlags: 0
@@ -54641,6 +55299,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 3805103507877375562}
+    - targetCorrespondingSourceObject: {fileID: 3907796793276222132, guid: fac5411432a8c96498487f1fffc06c74,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 135727963191828648}
   m_SourcePrefab: {fileID: 100100000, guid: fac5411432a8c96498487f1fffc06c74, type: 3}
 --- !u!1 &540124270321849509 stripped
 GameObject:
@@ -54718,7 +55380,7 @@ MonoBehaviour:
   shooterRollers: {fileID: 2404980860569181656}
   hoodRollers: {fileID: 1410722430789203532}
   floorRollers: {fileID: 4832723430281328636}
-  uptakeRollers: {fileID: 348209736458253584}
+  uptakeRollers: {fileID: 2269970029156997941}
   intakeRollers: {fileID: 3398165112610314976}
   intakePidConstants:
     kP: 5
@@ -54762,9 +55424,9 @@ MonoBehaviour:
     - distance: 3
       value: 13
     - distance: 3.5
-      value: 14.3
+      value: 14.2
     - distance: 4
-      value: 15.67
+      value: 15.6
     - distance: 5
       value: 22
     - distance: 5.5
@@ -54798,11 +55460,11 @@ MonoBehaviour:
   intakeStowAngle: 0
   intakeRpm: 3750
   intakeShootingRpm: 800
-  uptakeRpm: 1000
-  floorRpm: -1750
+  uptakeRpm: 3800
+  floorRpm: -3600
   aimTolerance: 2
   hoodAngleTolerance: 0.5
-  hoodAngleLockTolerance: 0.1
+  hoodAngleLockTolerance: 0
   feedReadyDebounceTime: 0.06
   uptakeBackoffRpm: 0
   floorBackoffRpm: 0
@@ -54821,6 +55483,27 @@ MonoBehaviour:
     shootingDriveMultiplier: 0.12
   aimErrorDebug: 0
   alignedToShootDebug: 0
+--- !u!114 &135727963191828648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8241696595717299824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e635f78f9228bd74aaac8232cdd1feb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ledPrefab: {fileID: 0}
+  emissionIntensity: 5
+  strips: []
+  currentLEDState: 0
+  currentTimer: 0
+  currentGameState: 0
+  currentRobotState: 0
+  hasRobotbase: 0
+  currentColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!54 &9173974965173173060 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 4254681986852745088, guid: fac5411432a8c96498487f1fffc06c74,
