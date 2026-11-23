@@ -26,7 +26,6 @@ public class VOLTEC : RebuiltRobotBase
 
     [Header("PIDS")]
     [SerializeField] private PidConstants intakePidConstants;
-    [SerializeField] private PidConstants intakeBringupPid;
     [SerializeField] private PidConstants hoodPidConstants;
     [SerializeField] private PidConstants hoodShootingPidConstants;
 
@@ -39,15 +38,13 @@ public class VOLTEC : RebuiltRobotBase
     [SerializeField] private RebuiltInterpolation passZoneHoodInterpolation;
 
     [Header("Intake Values")]
-    [Tooltip("Intake pivot X angle when deployed. X = 0 is down.")]
-    [SerializeField] private float intakeDeployedAngle = 0f;
-    [Tooltip("Intake pivot X angle when retracted. Tune on the prefab.")]
-    [SerializeField] private float intakeStowAngle = 90f;
+    [Tooltip("Intake pivot X angle when deployed (down). Stow = 0.")]
+    [SerializeField] private float intakeDeployedAngle = 136f;
+    [Tooltip("Intake pivot X angle when retracted (stowed).")]
+    [SerializeField] private float intakeStowAngle = 0f;
     [SerializeField] private float intakeRpm = 2000f;
-
-    [Header("Intake Bringup (pivots while shooting)")]
-    [SerializeField] private float intakeBringupAngle = -40f;
-    [SerializeField, Min(0f)] private float intakeBringupDelay = 0.15f;
+    [Tooltip("Intake roller speed while shooting.")]
+    [SerializeField] private float intakeShootingRpm = 1500f;
 
     [Header("Shooter Values")]
     [SerializeField] private float uptakeRpm = 2000f;
@@ -83,8 +80,6 @@ public class VOLTEC : RebuiltRobotBase
     private float targetIntakeAngle;
     private float targetHoodAngle;
     private bool intakeDeployed;
-    private float intakeBringupDelayTimer;
-    private bool shooterReadyLatched;
     private float feedReadyTimer;
     private bool feedLatched;
     private bool _wantsShooting;
@@ -120,7 +115,7 @@ public class VOLTEC : RebuiltRobotBase
 
     private void UpdatePids()
     {
-        intakePivot.UpdatePid(IsIntakeBringupActive() ? intakeBringupPid : intakePidConstants);
+        intakePivot.UpdatePid(intakePidConstants);
         hoodPivot.UpdatePid(WantsToShoot() && HoodAtAngle() ? hoodShootingPidConstants : hoodPidConstants);
     }
 
@@ -134,58 +129,19 @@ public class VOLTEC : RebuiltRobotBase
 
         if (!intakeDeployed)
         {
-            ResetBringup();
             targetIntakeAngle = intakeStowAngle;
             intakeRollers.SetRpm(0f);
         }
-        else if (WantsToShoot())
-        {
-            UpdateShotBringup();
-            intakeRollers.SetRpm(intakeRpm);
-        }
         else
         {
-            ResetBringup();
             targetIntakeAngle = intakeDeployedAngle;
-            intakeRollers.SetRpm(IntakeAction ? intakeRpm : intakeRpm / 5f);
+            intakeRollers.SetRpm(WantsToShoot() ? intakeShootingRpm : (IntakeAction ? intakeRpm : intakeRpm / 5f));
         }
 
         if (RobotSpecial2)
         {
             intakeRollers.SetRpm(-intakeRpm);
         }
-    }
-
-    private void UpdateShotBringup()
-    {
-        if (shooterRollers.AtSpeed() && (ManualShoot || hoodRollers.AtSpeed()))
-        {
-            shooterReadyLatched = true;
-        }
-
-        if (shooterReadyLatched && !IntakeAction)
-        {
-            intakeBringupDelayTimer += Time.fixedDeltaTime;
-        }
-        else if (IntakeAction)
-        {
-            intakeBringupDelayTimer = 0f;
-        }
-
-        targetIntakeAngle = intakeBringupDelayTimer >= intakeBringupDelay
-            ? intakeBringupAngle
-            : intakeDeployedAngle;
-    }
-
-    private void ResetBringup()
-    {
-        intakeBringupDelayTimer = 0f;
-        shooterReadyLatched = false;
-    }
-
-    private bool IsIntakeBringupActive()
-    {
-        return WantsToShoot() && intakeDeployed && intakeBringupDelayTimer >= intakeBringupDelay;
     }
 
     private void HandleAutoAim()
