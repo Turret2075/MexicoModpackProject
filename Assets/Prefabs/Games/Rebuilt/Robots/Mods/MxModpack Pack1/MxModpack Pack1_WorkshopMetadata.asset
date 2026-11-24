@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modpack: {fileID: 11400000, guid: 31c5c75a3d3814c43b5f8eec6fefe198, type: 2}
   title: MxModpack Pack1
-  description: First modpack of the MexicoModpackProject, ft. 6647 VOLTEC
+  description: First modpack of the MexicoModpackProject. Ft. 6647 Voltec & 4400
+    Cerbotics
   previewImage: {fileID: 2800000, guid: 3272c3ee15e59574ab3e53ebddfad750, type: 3}
   tags:
   - Mexico
