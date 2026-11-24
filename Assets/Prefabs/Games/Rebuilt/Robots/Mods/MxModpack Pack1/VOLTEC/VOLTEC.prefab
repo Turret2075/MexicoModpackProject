@@ -55299,10 +55299,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 3805103507877375562}
-    - targetCorrespondingSourceObject: {fileID: 3907796793276222132, guid: fac5411432a8c96498487f1fffc06c74,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 135727963191828648}
   m_SourcePrefab: {fileID: 100100000, guid: fac5411432a8c96498487f1fffc06c74, type: 3}
 --- !u!1 &540124270321849509 stripped
 GameObject:
@@ -55364,7 +55360,7 @@ MonoBehaviour:
   useVanity: 0
   gamePieceCollisionIgnoreExclusions: []
   BumperCollider: {fileID: 0}
-  OpenChuteOnStart: 0
+  OpenChuteOnStart: 1
   OpenDistance: 1.2
   preloads:
   - {fileID: 355530931801231892}
@@ -55483,27 +55479,6 @@ MonoBehaviour:
     shootingDriveMultiplier: 0.12
   aimErrorDebug: 0
   alignedToShootDebug: 0
---- !u!114 &135727963191828648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8241696595717299824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e635f78f9228bd74aaac8232cdd1feb6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ledPrefab: {fileID: 0}
-  emissionIntensity: 5
-  strips: []
-  currentLEDState: 0
-  currentTimer: 0
-  currentGameState: 0
-  currentRobotState: 0
-  hasRobotbase: 0
-  currentColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!54 &9173974965173173060 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 4254681986852745088, guid: fac5411432a8c96498487f1fffc06c74,

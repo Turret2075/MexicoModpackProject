@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1409438a6844eea96767966da7413b, type: 3}
+  m_Name: Tecdroid
+  m_EditorClassIdentifier: 
+  teamNumber: 3354
+  teamName: Tecdroid
+  robotImage: {fileID: 0}
+  mainRobot:
+    displayName: Tecdroid
+    robotPrefab: {fileID: 4040060385164484686, guid: 86d56cf680acae547bccaf4a00fb73af,
+      type: 3}
+    mainMenuPrefab: {fileID: 7502940478676977815, guid: 0d3fd7b88cd805e45bbd24630bd88aeb,
+      type: 3}
+    spawnSelectionPrefab: {fileID: 891357413966212477, guid: a7cf66d2921c9dc4ca03aca8ac94d440,
+      type: 3}
+    preloadGamePiece: {fileID: 0}
+    tutorialCards:
+    - {fileID: 2456871196093972685, guid: 961f6460fe466d8419c824632e3e827f, type: 3}
+    - {fileID: 6731787848212593254, guid: d9480180224787d4d876b6edf348825c, type: 3}
+    - {fileID: 2802424864832241047, guid: 80676fda6dc2caf43a244766ba16a8ca, type: 3}
+  alternateRobots:
+  - displayName: ChesyReplica
+    robotPrefab: {fileID: 4595588402737323329, guid: a39f3d8eac35f184b9b0e4acec530ff1,
+      type: 3}
+    mainMenuPrefab: {fileID: 9125665557773026323, guid: 71485445a16bdf04ea9825c6efbee99c,
+      type: 3}
+    spawnSelectionPrefab: {fileID: 1226632900849708915, guid: 792a795c41658784c901640c0ef65869,
+      type: 3}
+    preloadGamePiece: {fileID: 0}
+    tutorialCards:
+    - {fileID: 1370387689664443098, guid: 2e1838285c6a4154d8310d42b3ad4e82, type: 3}
+    - {fileID: 9020927318722081906, guid: a23c6838014b27642ba4bd697a37f974, type: 3}
+    - {fileID: 1127645961398150331, guid: 1fc9e83e7723b4347b16f16a9b62bada, type: 3}

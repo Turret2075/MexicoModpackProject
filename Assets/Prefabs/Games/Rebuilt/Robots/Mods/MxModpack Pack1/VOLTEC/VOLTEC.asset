@@ -16,7 +16,7 @@ MonoBehaviour:
   teamName: VOLTEC
   robotImage: {fileID: 21300000, guid: 50b02fe1e30c9a44ead974ae8af19813, type: 3}
   mainRobot:
-    displayName: VOLTEC
+    displayName: Rollout
     robotPrefab: {fileID: 8241696595717299824, guid: ab5418473b2f92d429e6bd490b22217c,
       type: 3}
     mainMenuPrefab: {fileID: 8242021361597439089, guid: f33aab6176da20a47999788ea1553583,

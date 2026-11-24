@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1409438a6844eea96767966da7413b, type: 3}
+  m_Name: Cerbotics
+  m_EditorClassIdentifier: 
+  teamNumber: 4400
+  teamName: Cerbotics
+  robotImage: {fileID: 0}
+  mainRobot:
+    displayName: Cerbotics
+    robotPrefab: {fileID: 5722134704440577871, guid: c0e50c2df6a43034791ce9977aff949a,
+      type: 3}
+    mainMenuPrefab: {fileID: 2267155842635111127, guid: c8fc5739da04c6845adc2896454974ed,
+      type: 3}
+    spawnSelectionPrefab: {fileID: 6690763105483931236, guid: 0a606a3a892a2aa4fb49821f08000ad8,
+      type: 3}
+    preloadGamePiece: {fileID: 0}
+    tutorialCards:
+    - {fileID: 3344777753831231258, guid: 0c15572eedb3b4649b1959231f75e50d, type: 3}
+    - {fileID: 7944436630827080351, guid: 0d348214097b9c94780cc807e624ec6c, type: 3}
+    - {fileID: 7040145299430551519, guid: 10f50c2de2d4c934e93cc4d3b8d90a12, type: 3}
+  alternateRobots: []
