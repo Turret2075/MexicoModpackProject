@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aff2b59de2c4a0c96d6b848990b46af, type: 3}
+  m_Name: VOLTEC
+  m_EditorClassIdentifier: 
+  teamNumber: 6647
+  teamName: VOLTEC
+  robotImage: {fileID: 0}
+  mainRobot:
+    displayName: VOLTEC
+    robotPrefab: {fileID: 7090742937928004600, guid: 6a37463b64a9db149a68a1aaa8357965,
+      type: 3}
+    mainMenuPrefab: {fileID: 7438977072249023725, guid: d2e590df6a30f6f4693d3bfde73393d6,
+      type: 3}
+    spawnSelectionPrefab: {fileID: 3140895026828846714, guid: 5c280e85cf5fea34790b1b0c51f95e66,
+      type: 3}
+    preloadGamePiece: {fileID: 0}
+    tutorialCards:
+    - {fileID: 2742889143335664178, guid: 70ae88e6d596fb5429c9ae28ccbc437a, type: 3}
+    - {fileID: 8261733520863326805, guid: 5133a39f652f84c499004fa1000bf2be, type: 3}
+    - {fileID: 722630138710867171, guid: 1c949c072a62d92498b044c7e40f770b, type: 3}
+  alternateRobots:
+  - displayName: Kamikaze
+    robotPrefab: {fileID: 1789837398130132314, guid: 6089ab6c64c6e84478b90db5ab3211bc,
+      type: 3}
+    mainMenuPrefab: {fileID: 6516682491646659290, guid: 9c8268245e60b44469127be2c1cf6d99,
+      type: 3}
+    spawnSelectionPrefab: {fileID: 2935762758505949228, guid: 67f4c3302467c004cafd971a351bd7ba,
+      type: 3}
+    preloadGamePiece: {fileID: 0}
+    tutorialCards:
+    - {fileID: 2985401182972238616, guid: 790d833cce8a9a54c9fee195e168352c, type: 3}
+    - {fileID: 6781797760143546935, guid: d6a2fc47b28213848b3b610d705ba6fe, type: 3}
+    - {fileID: 5797169557046693196, guid: af5ae75f411d7c04ca2d354cc6ac4c5d, type: 3}
+    autoClimbs: 0
+  autoClimbs: 0

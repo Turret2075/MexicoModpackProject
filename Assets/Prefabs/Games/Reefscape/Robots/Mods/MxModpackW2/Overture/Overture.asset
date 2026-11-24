@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aff2b59de2c4a0c96d6b848990b46af, type: 3}
+  m_Name: Overture
+  m_EditorClassIdentifier: 
+  teamNumber: 7421
+  teamName: Overture
+  robotImage: {fileID: 0}
+  mainRobot:
+    displayName: Overture
+    robotPrefab: {fileID: 434989868121798921, guid: 7eb099c73cda8294fab6fd19350fdd18,
+      type: 3}
+    mainMenuPrefab: {fileID: 3509956610603480993, guid: c2933470ba9a9c143a31fbc55ef8fe25,
+      type: 3}
+    spawnSelectionPrefab: {fileID: 8604478764955588666, guid: e1be6b6bad2e3e94f9271c87a8a3fa75,
+      type: 3}
+    preloadGamePiece: {fileID: 0}
+    tutorialCards:
+    - {fileID: 2999383771973219699, guid: 0143118e83da7d34690f89d97a25203c, type: 3}
+    - {fileID: 346075674939475364, guid: 0f16f368d01e9a4478cbe40af503d178, type: 3}
+    - {fileID: 4516927286319937530, guid: 133d9cc11e4a7554ab96a643de20d15d, type: 3}
+  alternateRobots:
+  - displayName: Daytona (Alt)
+    robotPrefab: {fileID: 930941881933122107, guid: 7e46c0d1393ef114ebbf8eb3903047e8,
+      type: 3}
+    mainMenuPrefab: {fileID: 1544884067955180713, guid: 09e8bf9ac1f19a74eae56df6080e4dce,
+      type: 3}
+    spawnSelectionPrefab: {fileID: 5619971609229811649, guid: 5c4cc68c1ffc0ec42b8db8cfadf57ec4,
+      type: 3}
+    preloadGamePiece: {fileID: 0}
+    tutorialCards:
+    - {fileID: 7596396129460891749, guid: 080449327d966244695b3f9ac60064d9, type: 3}
+    - {fileID: 6440871634457013146, guid: 577b2a6d8ff033f41b1f1b181aef0296, type: 3}
+    - {fileID: 7575724530105472175, guid: 4f00b93e3519a9b45a1fb5cce001a291, type: 3}
+    autoClimbs: 0
+  - displayName: Daytona 2.0
+    robotPrefab: {fileID: 2137211423249624278, guid: 5db8d644809e65f4497ab4842f02db85,
+      type: 3}
+    mainMenuPrefab: {fileID: 9207731725592130941, guid: 9261a4aced66c774da7d7d477392f8c3,
+      type: 3}
+    spawnSelectionPrefab: {fileID: 1879240374902554262, guid: b3337a711f2e0ca4c8ec8051e8e85442,
+      type: 3}
+    preloadGamePiece: {fileID: 0}
+    tutorialCards:
+    - {fileID: 5522146569647516329, guid: 696b3248d538a6e4a8fe0d1d054db78e, type: 3}
+    - {fileID: 6380030425279514389, guid: c4dbe99fbef6e5044a9a2f63a6319327, type: 3}
+    - {fileID: 324267257813883471, guid: a3360d7146be1554fa7651bc3bfa79de, type: 3}
+    autoClimbs: 0
+  autoClimbs: 0
