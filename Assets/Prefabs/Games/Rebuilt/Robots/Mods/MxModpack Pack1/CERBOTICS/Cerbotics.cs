@@ -37,7 +37,11 @@ public class Cerbotics : RebuiltRobotBase
     [SerializeField] private JointAxis intakeAxis = JointAxis.X;
     [Tooltip("Lintake travel in meters when deployed.")]
     [SerializeField] private float intakeExtension;
+    [Tooltip("Lintake travel in meters when not shooting and intake is not held. Partial retraction.")]
+    [SerializeField] private float intakeIdleExtension = 0.1f;
     [SerializeField] private float intakeRpm = 2000f;
+    [Tooltip("Intake roller speed while shooting with the intake button not held. Overrides intakeRpm.")]
+    [SerializeField] private float intakingRpm = 1500f;
 
     [Header("Intake Retract After Shot")]
     [Tooltip("Seconds of feeding before the Lintake retracts. It stays retracted until the intake button is released.")]
@@ -60,11 +64,14 @@ public class Cerbotics : RebuiltRobotBase
 
     [Header("Shoot On The Move")]
     [SerializeField] private SOTMSettings sotmSettings;
+    [Tooltip("Drive speed multiplier while shooting. 1 = no slowdown.")]
+    [SerializeField, Range(0f, 1f)] private float shootingDriveMultiplier = 0.8f;
 
     private float targetHoodAngle;
     private float targetIntakeExtension;
-    private bool intakeDeployed;
-    private bool intakeRetractedAfterShot;
+    private bool intakeOut;
+    private bool retractedAfterShot;
+    private bool intakeUsed;
     private float shotTimer;
     private bool feedLatched;
     private float feedReadyTimer;
@@ -83,8 +90,9 @@ public class Cerbotics : RebuiltRobotBase
 
         targetHoodAngle = 0f;
         targetIntakeExtension = 0f;
-        intakeDeployed = false;
-        intakeRetractedAfterShot = false;
+        intakeOut = false;
+        retractedAfterShot = false;
+        intakeUsed = false;
         shotTimer = 0f;
         feedLatched = false;
         feedReadyTimer = 0f;
@@ -112,14 +120,28 @@ public class Cerbotics : RebuiltRobotBase
     {
         UpdateIntakeRetractAfterShot();
 
-        intakeDeployed = IntakeAction && !intakeRetractedAfterShot;
-        targetIntakeExtension = intakeDeployed ? intakeExtension : 0f;
+        if (intakeOut)
+        {
+            targetIntakeExtension = intakeExtension;
+        }
+        else if (retractedAfterShot || !intakeUsed)
+        {
+            targetIntakeExtension = 0f;
+        }
+        else
+        {
+            targetIntakeExtension = intakeIdleExtension;
+        }
 
         if (RobotSpecial2)
         {
             intakeRollers.SetRpm(-(intakeRpm / 2f));
         }
-        else if (intakeDeployed)
+        else if (IsShooting() && !IntakeAction)
+        {
+            intakeRollers.SetRpm(intakingRpm);
+        }
+        else if (IntakeAction)
         {
             intakeRollers.SetRpm(intakeRpm);
         }
@@ -129,33 +151,35 @@ public class Cerbotics : RebuiltRobotBase
         }
     }
 
-    // Shot, wait, retract. Once feeding has run for retractAfterShotDelay, the Lintake pulls in and stays in
-    // until the intake button is released.
+    // Intake held: Lintake goes out.
+    // Shooting with intake not held: it stays out until feeding has run for retractAfterShotDelay, then pulls all
+    // the way in for as long as shooting continues.
+    // Not shooting and intake not held: it rests partially retracted at intakeIdleExtension.
     private void UpdateIntakeRetractAfterShot()
     {
-        if (!IntakeAction)
-        {
-            intakeRetractedAfterShot = false;
-            shotTimer = 0f;
-            return;
-        }
+        bool intakePressed = IntakeAction;
 
-        if (intakeRetractedAfterShot)
+        if (intakePressed)
         {
-            return;
-        }
-
-        if (!WantsToShoot())
-        {
+            intakeOut = true;
+            intakeUsed = true;
+            retractedAfterShot = false;
             shotTimer = 0f;
         }
-        else if (feedLatched)
+        else if (IsShooting())
         {
             shotTimer += Time.fixedDeltaTime;
             if (shotTimer >= retractAfterShotDelay)
             {
-                intakeRetractedAfterShot = true;
+                intakeOut = false;
+                retractedAfterShot = true;
             }
+        }
+        else
+        {
+            intakeOut = false;
+            retractedAfterShot = false;
+            shotTimer = 0f;
         }
     }
 
@@ -319,7 +343,12 @@ public class Cerbotics : RebuiltRobotBase
 
     private void UpdateDriveSpeed()
     {
-        DriveController.SetDriveMp(WantsToShoot() ? sotmSettings.shootingDriveMultiplier : 1f);
+        if (DriveController == null)
+        {
+            return;
+        }
+
+        DriveController.SetDriveMp(WantsToShoot() ? shootingDriveMultiplier : 1f);
     }
 
     private bool WantsToShoot()
@@ -330,6 +359,12 @@ public class Cerbotics : RebuiltRobotBase
     private bool IsPassShot()
     {
         return AutoPass || (OuttakeAction && !InAllianceZone());
+    }
+
+    // Shooting means the shoot input is held and the feed has latched on.
+    private bool IsShooting()
+    {
+        return WantsToShoot() && feedLatched;
     }
 
     private bool CanRunFeed()
