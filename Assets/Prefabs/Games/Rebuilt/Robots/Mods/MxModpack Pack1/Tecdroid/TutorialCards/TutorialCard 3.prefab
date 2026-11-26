@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &5053592671156300895
+--- !u!1001 &4443324618270665646
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: 1967486601383204409, guid: 4f6390b7332e92b43aee0cf7f4734f72,
         type: 3}
       propertyPath: m_Name
-      value: TutorialCard 2
+      value: TutorialCard 3
       objectReference: {fileID: 0}
     - target: {fileID: 4956299056046692928, guid: 4f6390b7332e92b43aee0cf7f4734f72,
         type: 3}
@@ -21,8 +21,14 @@ PrefabInstance:
     - target: {fileID: 6000603204863370303, guid: 4f6390b7332e92b43aee0cf7f4734f72,
         type: 3}
       propertyPath: m_text
-      value: Tecdroid tutorial tip 2
+      value: BE CAREFUL WITH THE KICKER BAR, DO NOT RAM THE KICKER BAR INTO ANYTHING
       objectReference: {fileID: 0}
+    - target: {fileID: 6718568964111546190, guid: 4f6390b7332e92b43aee0cf7f4734f72,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d48bad4ce2fea5c45b1da854b50a8825,
+        type: 3}
     - target: {fileID: 7647712989278884331, guid: 4f6390b7332e92b43aee0cf7f4734f72,
         type: 3}
       propertyPath: m_Pivot.x

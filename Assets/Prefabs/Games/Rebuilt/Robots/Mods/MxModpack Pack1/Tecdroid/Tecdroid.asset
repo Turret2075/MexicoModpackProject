@@ -28,16 +28,4 @@ MonoBehaviour:
     - {fileID: 2456871196093972685, guid: 961f6460fe466d8419c824632e3e827f, type: 3}
     - {fileID: 6731787848212593254, guid: d9480180224787d4d876b6edf348825c, type: 3}
     - {fileID: 2802424864832241047, guid: 80676fda6dc2caf43a244766ba16a8ca, type: 3}
-  alternateRobots:
-  - displayName: ChesyReplica
-    robotPrefab: {fileID: 4595588402737323329, guid: a39f3d8eac35f184b9b0e4acec530ff1,
-      type: 3}
-    mainMenuPrefab: {fileID: 9125665557773026323, guid: 71485445a16bdf04ea9825c6efbee99c,
-      type: 3}
-    spawnSelectionPrefab: {fileID: 1226632900849708915, guid: 792a795c41658784c901640c0ef65869,
-      type: 3}
-    preloadGamePiece: {fileID: 0}
-    tutorialCards:
-    - {fileID: 1370387689664443098, guid: 2e1838285c6a4154d8310d42b3ad4e82, type: 3}
-    - {fileID: 9020927318722081906, guid: a23c6838014b27642ba4bd697a37f974, type: 3}
-    - {fileID: 1127645961398150331, guid: 1fc9e83e7723b4347b16f16a9b62bada, type: 3}
+  alternateRobots: []

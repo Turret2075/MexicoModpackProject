@@ -39,6 +39,7 @@ public class Cerbotics : RebuiltRobotBase
     [SerializeField] private float intakeExtension;
     [Tooltip("Lintake travel in meters when not shooting and intake is not held. Partial retraction.")]
     [SerializeField] private float intakeIdleExtension = 0.1f;
+    [SerializeField] private float intakeRetractExtension = -0.05f;
     [SerializeField] private float intakeRpm = 2000f;
     [Tooltip("Intake roller speed while shooting with the intake button not held. Overrides intakeRpm.")]
     [SerializeField] private float intakingRpm = 1500f;
@@ -126,7 +127,7 @@ public class Cerbotics : RebuiltRobotBase
         }
         else if (retractedAfterShot || !intakeUsed)
         {
-            targetIntakeExtension = 0f;
+            targetIntakeExtension = intakeRetractExtension;
         }
         else
         {
